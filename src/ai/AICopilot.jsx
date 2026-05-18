@@ -73,90 +73,31 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
     setLoading(true);
 
     const key = localStorage.getItem(LS_KEY) || apiKey;
-    if (!key) {
-      setMessages(prev => [...prev, { role: 'assistant', content: '⚙️ Please set your Anthropic API key using the 🔑 button in the chat header.' }]);
-      setLoading(false);
-      setShowKeySetup(true);
-      return;
-    }
 
     try {
-      // Step 1: Ask LLM to determine if it's a SQL query or a chat message
-      const detectPrompt = `You are the Agentic-Next AI Copilot.
-Current page context: ${context}
-Determine if the user's message is a data query that requires executing SQL against the database, or a general analytical question.
-Available SQL tables: 'customers', 'transactions', 'churn', 'nba'.
-If it requires SQL, respond ONLY with a JSON object: {"isSql": true, "sql": "VALID SQL QUERY STRING HERE"}
-If it DOES NOT require SQL, respond ONLY with a JSON object: {"isSql": false, "reply": "Your helpful response here based on the live metrics provided."}
-
-Live metrics:
-- Customers: ${data?.kpis?.totalCustomers ?? 200}
-- Loan Book: ₹${data?.kpis?.totalLoanBook ?? 'N/A'}Cr
-- Fraud Rate: ${data?.kpis?.fraudAlertPct ?? 'N/A'}%
-
-User message: ${msg}`;
-
-      const res = await fetch('https://api.anthropic.com/v1/messages', {
+      const res = await fetch('/api/chat', {
         method: 'POST',
-        headers: {
-          'x-api-key': key,
-          'anthropic-version': '2023-06-01',
-          'content-type': 'application/json',
-          'anthropic-dangerous-direct-browser-access': 'true',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          model: CLAUDE_MODEL,
-          max_tokens: 800,
-          messages: [{ role: 'user', content: detectPrompt }],
+          message: msg,
+          context: context,
+          kpis: data?.kpis || {},
+          apiKey: key,
         }),
       });
 
-      if (res.status === 401) {
-        setMessages(prev => [...prev, { role: 'assistant', content: '🔑 Invalid API key (401).' }]);
-        setShowKeySetup(true);
-        setLoading(false);
-        return;
-      }
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
       const json = await res.json();
-      let replyText = json.content?.[0]?.text || '{}';
       
-      // Clean potential markdown formatting
-      replyText = replyText.replace(/```json/gi, '').replace(/```/g, '').trim();
-      let parsed;
-      try {
-        parsed = JSON.parse(replyText);
-      } catch (e) {
-        // Fallback if parsing fails
-        parsed = { isSql: false, reply: replyText };
+      const assistantMsg = { role: 'assistant', content: json.reply || 'No response.' };
+      if (json.isSql && json.sqlData) {
+        assistantMsg.sqlData = json.sqlData;
       }
-
-      if (parsed.isSql && parsed.sql) {
-        // Execute SQL locally
-        import('../sql-engine/index.js').then(({ generateAndExecuteSQL }) => {
-           // We bypass the LLM generation step since we already got the SQL
-           import('alasql').then(({ default: alasql }) => {
-              if (data.customerProfiles) alasql.tables.customers = { data: data.customerProfiles };
-              if (data.recentTxns) alasql.tables.transactions = { data: data.recentTxns };
-              if (data.churnCandidates) alasql.tables.churn = { data: data.churnCandidates };
-              if (data.nbaRows) alasql.tables.nba = { data: data.nbaRows };
-
-              try {
-                const results = alasql(parsed.sql);
-                setMessages(prev => [...prev, { role: 'assistant', content: `SQL Query Executed:\n\`${parsed.sql}\``, sqlData: results }]);
-              } catch (sqlErr) {
-                setMessages(prev => [...prev, { role: 'assistant', content: `⚠️ SQL Execution Error: ${sqlErr.message}\nQuery: ${parsed.sql}` }]);
-              }
-              setLoading(false);
-           });
-        });
-        return;
-      } else {
-        setMessages(prev => [...prev, { role: 'assistant', content: parsed.reply || 'No response.' }]);
-      }
+      
+      setMessages(prev => [...prev, assistantMsg]);
     } catch (err) {
-      setMessages(prev => [...prev, { role: 'assistant', content: `⚠️ ${err.message}` }]);
+      setMessages(prev => [...prev, { role: 'assistant', content: `⚠️ Backend Error: ${err.message}` }]);
     }
     setLoading(false);
   }, [input, messages, context, data, apiKey]);
