@@ -1,0 +1,139 @@
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  text-align: left;
+  border: none;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ============================================================
+   RESPONSIVE GRID SYSTEM
+   These classes are added to grid containers in App.jsx.
+   !important overrides the inline gridTemplateColumns values.
+   ============================================================ */
+
+/*
+  Breakpoints:
+    xl  : ≥ 1280px  (desktop / large screens)
+    lg  : ≥ 1024px  (laptop / standard desktop)
+    md  : ≥ 768px   (tablet landscape)
+    sm  : ≥ 480px   (large phones / tablet portrait)
+    xs  : < 480px   (small phones)
+*/
+
+/* ── 6-column hero KPI row ── */
+.rg-6 { display: grid !important; grid-template-columns: repeat(6, 1fr) !important; }
+
+/* ── 4-column KPI / segment rows ── */
+.rg-4 { display: grid !important; grid-template-columns: repeat(4, 1fr) !important; }
+
+/* ── 3-column module cards / status rows ── */
+.rg-3 { display: grid !important; grid-template-columns: repeat(3, 1fr) !important; }
+
+/* ── 5-column product row ── */
+.rg-5 { display: grid !important; grid-template-columns: repeat(5, 1fr) !important; }
+
+/* ── 2-column panel pairs (1fr 1fr or asymmetric) ── */
+.rg-2       { display: grid !important; grid-template-columns: 1fr 1fr !important; }
+.rg-2-asym  { display: grid !important; grid-template-columns: 1.4fr 1fr !important; }
+
+/* ── 4-column module cards (MainDashboard) ── */
+.rg-modules { display: grid !important; grid-template-columns: repeat(4, 1fr) !important; }
+
+/* ────────────────────────────────────────────
+   LAPTOP  (< 1280px)
+──────────────────────────────────────────── */
+@media (max-width: 1279px) {
+  .rg-6       { grid-template-columns: repeat(3, 1fr) !important; }
+  .rg-modules { grid-template-columns: repeat(3, 1fr) !important; }
+}
+
+/* ────────────────────────────────────────────
+   TABLET LANDSCAPE  (< 1024px)
+──────────────────────────────────────────── */
+@media (max-width: 1023px) {
+  .rg-6       { grid-template-columns: repeat(3, 1fr) !important; }
+  .rg-4       { grid-template-columns: repeat(2, 1fr) !important; }
+  .rg-5       { grid-template-columns: repeat(3, 1fr) !important; }
+  .rg-3       { grid-template-columns: repeat(2, 1fr) !important; }
+  .rg-modules { grid-template-columns: repeat(2, 1fr) !important; }
+}
+
+/* ────────────────────────────────────────────
+   TABLET PORTRAIT  (< 768px)
+──────────────────────────────────────────── */
+@media (max-width: 767px) {
+  .rg-6       { grid-template-columns: repeat(2, 1fr) !important; }
+  .rg-4       { grid-template-columns: repeat(2, 1fr) !important; }
+  .rg-5       { grid-template-columns: repeat(2, 1fr) !important; }
+  .rg-3       { grid-template-columns: 1fr !important; }
+  .rg-2       { grid-template-columns: 1fr !important; }
+  .rg-2-asym  { grid-template-columns: 1fr !important; }
+  .rg-modules { grid-template-columns: repeat(2, 1fr) !important; }
+
+  /* Navbar helpers */
+  .nav-status { display: none !important; }
+  .nav-padding { padding-left: 16px !important; padding-right: 16px !important; }
+  .content-padding { padding: 16px !important; }
+}
+
+/* ────────────────────────────────────────────
+   LARGE PHONE  (< 480px)
+──────────────────────────────────────────── */
+@media (max-width: 479px) {
+  .rg-6       { grid-template-columns: 1fr !important; }
+  .rg-4       { grid-template-columns: 1fr !important; }
+  .rg-5       { grid-template-columns: repeat(2, 1fr) !important; }
+  .rg-3       { grid-template-columns: 1fr !important; }
+  .rg-2       { grid-template-columns: 1fr !important; }
+  .rg-2-asym  { grid-template-columns: 1fr !important; }
+  .rg-modules { grid-template-columns: 1fr !important; }
+}
+
+/* ────────────────────────────────────────────
+   GLOBAL LAYOUT FIXES
+──────────────────────────────────────────── */
+@media (max-width: 767px) {
+  /* Prevent horizontal scroll */
+  body, #root { overflow-x: hidden; }
+
+  /* Shrink large value fonts on KPI cards slightly */
+  .kpi-value { font-size: 18px !important; }
+
+  /* Make copilot full-width on mobile */
+  .copilot-panel { width: 100% !important; left: 0 !important; }
+
+  /* Scale down dashboard title */
+  .dashboard-title { font-size: 20px !important; }
+
+  /* Reduce page padding */
+  .page-content {
+    padding: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  /* Navbar */
+  .navbar { padding: 0 16px !important; }
+}

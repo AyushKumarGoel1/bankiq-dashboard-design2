@@ -1,0 +1,201 @@
+Demographic_ID,Customer_ID,Account_Number,Customer_Name,Gender,Date_of_Birth,Age,Marital_Status,Education_Level,Occupation,Annual_Income_INR,Residential_City,Residential_State,Nationality,Customer_Segment,Risk_Profile,Has_Active_Loan,Total_Loan_Exposure_INR,Preferred_Channel,KYC_Status,Region_Type
+DEM32904,CUST00001,214832269481,Gokul Tella,Female,2002-08-22,24,Divorced,Diploma,Farmer,2459785.29,Mumbai,Telangana,Indian,Retail,High,Yes,151899.25,Mobile Banking,Verified,Urban
+DEM44526,CUST00002,988022315787,Samar Wali,Male,1986-06-01,40,Divorced,Postgraduate,Government Employee,3762543.03,Hyderabad,Delhi,Indian,Corporate,Low,Yes,5398933.43,Branch Banking,Verified,Urban
+DEM55482,CUST00003,516278088865,Mehta Logistics,Female,1995-02-14,31,Divorced,PhD,Business Owner,1186396.1,Bengaluru,Tamil Nadu,Indian,HNI,High,Yes,607414.41,Internet Banking,Verified,Urban
+DEM95005,CUST00004,504425519849,Sahil Sastry,Male,1974-05-04,52,Single,Graduate,Student,1053982.51,Mumbai,Tamil Nadu,Indian,Premium,High,Yes,1852730.68,Branch Banking,Updated,Rural
+DEM13425,CUST00005,945433611429,Vivaan Mall,Male,1970-01-20,56,Married,PhD,Teacher,1084968.57,Chennai,Telangana,Indian,Retail,High,Yes,2405629.18,Branch Banking,Verified,Urban
+DEM87381,CUST00006,917103043320,Gokul Deshmukh,Female,1970-05-14,56,Divorced,Diploma,Consultant,3655533.6,Chennai,Karnataka,Indian,HNI,Medium,No,0.0,Mobile Banking,Verified,Urban
+DEM95394,CUST00007,171281034036,Aaina Bhat,Female,1999-07-19,27,Married,Postgraduate,Farmer,4485147.69,Mumbai,Telangana,Indian,HNI,High,No,0.0,Internet Banking,Updated,Urban
+DEM86723,CUST00008,653930041483,Priyansh Basak,Female,2004-07-14,22,Single,Graduate,Chartered Accountant,573630.59,Mumbai,Maharashtra,Indian,Retail,High,No,0.0,Branch Banking,Verified,Rural
+DEM38371,CUST00009,499127439409,Sharma Traders,Female,1985-08-11,41,Married,PhD,Software Engineer,2765228.13,Hyderabad,Maharashtra,Indian,HNI,Low,Yes,6030821.23,Mobile Banking,Updated,Urban
+DEM61097,CUST00010,336070141120,Khushi Rajan,Male,1969-01-03,57,Married,Postgraduate,Student,1282984.66,Hyderabad,Tamil Nadu,Indian,Retail,High,No,0.0,Phone Banking,Updated,Urban
+DEM72111,CUST00011,343045499634,Abram Loyal,Male,1995-07-06,31,Single,Postgraduate,Teacher,532069.31,Delhi,Maharashtra,Indian,Retail,Low,No,0.0,Branch Banking,Verified,Urban
+DEM18755,CUST00012,960037124392,Hazel Deep,Female,1966-02-14,60,Single,Undergraduate,Farmer,878146.74,Chennai,Tamil Nadu,Indian,HNI,Medium,Yes,4317466.98,Phone Banking,Pending,Urban
+DEM85987,CUST00013,311521368324,Tara Hari,Female,1991-01-14,35,Married,Postgraduate,Business Owner,1212752.04,Mumbai,Tamil Nadu,Indian,Retail,High,Yes,3437754.37,Internet Banking,Verified,Urban
+DEM22444,CUST00014,333995652670,Amani Bobal,Male,1996-02-05,30,Single,Graduate,Farmer,4289225.31,Hyderabad,Karnataka,Indian,Retail,Medium,Yes,3084241.42,Internet Banking,Pending,Urban
+DEM83192,CUST00015,920600564299,Rasha Anne,Female,1971-02-10,55,Single,PhD,Software Engineer,4702531.57,Delhi,Maharashtra,Indian,Premium,Medium,Yes,2805314.25,Mobile Banking,Updated,Urban
+DEM56217,CUST00016,755321467395,Ivan Dasgupta,Female,1987-06-24,39,Divorced,PhD,Software Engineer,4158942.32,Hyderabad,Delhi,Indian,Retail,Low,Yes,4740551.31,Internet Banking,Updated,Urban
+DEM10422,CUST00017,108901504899,Aradhya Din,Male,1967-08-11,59,Divorced,Diploma,Consultant,975156.17,Bengaluru,Tamil Nadu,Indian,Premium,Medium,Yes,8367692.51,Phone Banking,Verified,Urban
+DEM31100,CUST00018,989003396697,Charvi Kadakia,Female,1990-10-09,36,Single,PhD,Teacher,1218318.27,Bengaluru,Tamil Nadu,Indian,Retail,High,Yes,3350439.63,Internet Banking,Pending,Urban
+DEM85896,CUST00019,798737479634,Eshani Kapoor,Male,1967-06-06,59,Single,PhD,Retailer,4357002.93,Bengaluru,Tamil Nadu,Indian,Corporate,Low,Yes,9983490.47,Mobile Banking,Verified,Rural
+DEM64556,CUST00020,110999011248,Nehmat Singhal,Male,1985-07-13,41,Divorced,Postgraduate,Retailer,4566672.75,Bengaluru,Maharashtra,Indian,Retail,Medium,Yes,792731.94,Mobile Banking,Verified,Urban
+DEM29266,CUST00021,956217530058,Dhanush Ravi,Male,1968-12-14,58,Divorced,Undergraduate,Teacher,2963303.33,Mumbai,Delhi,Indian,Corporate,High,Yes,2708886.75,Phone Banking,Verified,Urban
+DEM73489,CUST00022,619083705463,Kashvi Bumb,Female,1998-01-18,28,Single,PhD,Chartered Accountant,3334939.98,Delhi,Delhi,Indian,Corporate,Low,Yes,241199.52,Mobile Banking,Verified,Urban
+DEM24810,CUST00023,224672594992,Rasha Singh,Male,1973-05-29,53,Single,PhD,Software Engineer,1356698.61,Mumbai,Tamil Nadu,Indian,Corporate,High,Yes,4376438.24,Phone Banking,Updated,Rural
+DEM97977,CUST00024,691874457344,Reddy Foods,Female,1986-06-25,40,Single,Undergraduate,Consultant,2614347.65,Chennai,Telangana,Indian,Retail,High,Yes,7404897.92,Branch Banking,Updated,Urban
+DEM40496,CUST00025,239820136955,Mehta Logistics,Female,1985-03-16,41,Divorced,Graduate,Doctor,4683978.04,Bengaluru,Delhi,Indian,Corporate,Medium,Yes,926333.6,Mobile Banking,Updated,Rural
+DEM49970,CUST00026,587328413513,Manikya Baria,Female,1966-06-01,60,Divorced,Postgraduate,Government Employee,787589.42,Delhi,Maharashtra,Indian,Premium,Medium,No,0.0,Branch Banking,Updated,Urban
+DEM20734,CUST00027,772055593219,Mehta Logistics,Male,1966-02-28,60,Married,Undergraduate,Business Owner,3650462.76,Delhi,Karnataka,Indian,Corporate,Low,Yes,6801524.33,Mobile Banking,Pending,Urban
+DEM12088,CUST00028,153534834134,Ayesha Kade,Male,1975-08-07,51,Divorced,Postgraduate,Retailer,4674517.66,Mumbai,Telangana,Indian,Retail,High,No,0.0,Phone Banking,Updated,Urban
+DEM75165,CUST00029,803686852877,Zaina Dhawan,Male,1983-03-28,43,Married,PhD,Teacher,334377.54,Hyderabad,Delhi,Indian,HNI,Low,Yes,728254.22,Branch Banking,Updated,Urban
+DEM48525,CUST00030,861854335443,Kavya Wable,Female,1981-04-11,45,Married,Diploma,Government Employee,1491014.49,Bengaluru,Maharashtra,Indian,Corporate,Low,No,0.0,Branch Banking,Pending,Urban
+DEM22169,CUST00031,490596101232,Sharma Traders,Female,1971-04-21,55,Single,Postgraduate,Student,3411338.35,Chennai,Tamil Nadu,Indian,Corporate,Low,No,0.0,Branch Banking,Verified,Urban
+DEM71129,CUST00032,283498961791,Tarini Sodhi,Female,1991-11-16,35,Single,Diploma,Retailer,4759574.58,Mumbai,Telangana,Indian,Retail,Low,Yes,3343910.48,Internet Banking,Updated,Rural
+DEM43847,CUST00033,470770979513,Tara Sachdeva,Female,1979-02-26,47,Divorced,Undergraduate,Chartered Accountant,4670237.86,Delhi,Telangana,Indian,HNI,Medium,No,0.0,Internet Banking,Updated,Urban
+DEM34067,CUST00034,374661490981,Patel Textiles,Female,1983-07-14,43,Married,PhD,Student,4618084.26,Delhi,Tamil Nadu,Indian,Premium,Medium,Yes,2917042.94,Mobile Banking,Verified,Rural
+DEM20095,CUST00035,128255235797,Patel Textiles,Male,1987-11-05,39,Single,Graduate,Student,1293642.17,Delhi,Karnataka,Indian,HNI,Low,No,0.0,Internet Banking,Updated,Rural
+DEM88056,CUST00036,218069517293,Iyer Solutions,Female,1998-02-26,28,Married,Diploma,Government Employee,3549390.24,Bengaluru,Maharashtra,Indian,Corporate,High,Yes,694063.7,Branch Banking,Updated,Urban
+DEM40594,CUST00037,368224152205,Mehta Logistics,Female,1972-08-22,54,Married,Graduate,Software Engineer,1751840.04,Chennai,Karnataka,Indian,Retail,High,Yes,1524198.07,Mobile Banking,Pending,Rural
+DEM72801,CUST00038,110977038883,Rati Karan,Female,1987-08-18,39,Divorced,Undergraduate,Software Engineer,3251250.08,Bengaluru,Tamil Nadu,Indian,Corporate,Low,Yes,2183664.85,Mobile Banking,Updated,Urban
+DEM90417,CUST00039,827164617915,Damini Roy,Male,1998-11-25,28,Divorced,Graduate,Government Employee,3892646.57,Mumbai,Telangana,Indian,Premium,Medium,Yes,6427031.13,Mobile Banking,Updated,Rural
+DEM63282,CUST00040,941602610731,Dhruv Ramachandran,Male,1986-09-11,40,Divorced,PhD,Business Owner,1859124.07,Bengaluru,Telangana,Indian,Retail,Medium,No,0.0,Internet Banking,Pending,Urban
+DEM11227,CUST00041,401191380396,Oorja Kurian,Female,1973-07-27,53,Divorced,Undergraduate,Chartered Accountant,1654007.39,Delhi,Delhi,Indian,HNI,Medium,No,0.0,Branch Banking,Verified,Urban
+DEM94159,CUST00042,226605882836,Nitya Tailor,Female,1990-12-01,36,Married,Graduate,Software Engineer,961529.76,Chennai,Tamil Nadu,Indian,Retail,High,Yes,871051.03,Branch Banking,Pending,Rural
+DEM41487,CUST00043,674562228753,Ranbir Korpal,Female,1980-12-29,46,Single,PhD,Chartered Accountant,4759732.15,Hyderabad,Karnataka,Indian,HNI,Medium,No,0.0,Phone Banking,Updated,Rural
+DEM98752,CUST00044,100672302490,Patel Textiles,Female,1997-09-20,29,Single,Undergraduate,Student,3642280.42,Bengaluru,Delhi,Indian,Retail,High,No,0.0,Mobile Banking,Updated,Urban
+DEM60786,CUST00045,226380009561,Ivana Biswas,Female,1982-08-16,44,Single,Graduate,Doctor,2690818.5,Delhi,Maharashtra,Indian,Premium,High,Yes,2459431.58,Phone Banking,Pending,Urban
+DEM31335,CUST00046,694854998490,Anay Divan,Female,1966-08-18,60,Divorced,Undergraduate,Government Employee,1756059.28,Mumbai,Karnataka,Indian,Corporate,Medium,Yes,3921167.66,Internet Banking,Pending,Urban
+DEM60728,CUST00047,932206216332,Sharma Traders,Male,1993-11-18,33,Married,Undergraduate,Software Engineer,2284187.79,Hyderabad,Karnataka,Indian,HNI,Medium,No,0.0,Internet Banking,Pending,Urban
+DEM74801,CUST00048,552388062042,Samar Borra,Female,1995-06-07,31,Married,Graduate,Doctor,948768.73,Chennai,Tamil Nadu,Indian,Retail,High,No,0.0,Phone Banking,Pending,Urban
+DEM45394,CUST00049,667741343954,Ranbir Sidhu,Male,1967-02-09,59,Single,Graduate,Consultant,3410463.46,Hyderabad,Tamil Nadu,Indian,Corporate,Low,No,0.0,Internet Banking,Pending,Urban
+DEM36439,CUST00050,274847185866,Khan Exports,Female,1968-07-13,58,Divorced,Postgraduate,Student,4983558.85,Chennai,Karnataka,Indian,Corporate,Medium,No,0.0,Internet Banking,Verified,Urban
+DEM30547,CUST00051,707552271685,Mehta Logistics,Female,1995-09-11,31,Married,Undergraduate,Business Owner,1547870.08,Bengaluru,Delhi,Indian,Premium,Medium,Yes,3238914.25,Branch Banking,Pending,Urban
+DEM28568,CUST00052,266925023221,Mehta Logistics,Female,1985-09-25,41,Married,Postgraduate,Business Owner,2512694.73,Bengaluru,Telangana,Indian,Premium,High,Yes,2341200.6,Internet Banking,Verified,Rural
+DEM73521,CUST00053,970433915604,Shaan Gara,Female,1980-04-16,46,Divorced,Undergraduate,Chartered Accountant,4216467.21,Delhi,Telangana,Indian,Corporate,Low,No,0.0,Phone Banking,Pending,Rural
+DEM73171,CUST00054,784353909489,Divyansh Boase,Female,1968-01-17,58,Divorced,PhD,Software Engineer,2935088.87,Delhi,Telangana,Indian,HNI,High,No,0.0,Branch Banking,Updated,Rural
+DEM55799,CUST00055,799050464905,Mehta Logistics,Female,2001-11-16,25,Married,Graduate,Student,3092547.17,Delhi,Delhi,Indian,Premium,High,Yes,1134832.12,Mobile Banking,Verified,Urban
+DEM36258,CUST00056,289708635239,Anya Date,Male,1973-11-30,53,Single,Undergraduate,Consultant,2494203.01,Chennai,Tamil Nadu,Indian,HNI,High,Yes,1615916.2,Internet Banking,Pending,Urban
+DEM53907,CUST00057,177987911475,Sharma Traders,Female,1981-12-12,45,Divorced,PhD,Retailer,2161066.16,Bengaluru,Telangana,Indian,Corporate,High,Yes,3612260.78,Mobile Banking,Pending,Rural
+DEM29451,CUST00058,873062725840,Pari Tripathi,Male,2005-03-05,21,Single,PhD,Student,3966823.16,Mumbai,Maharashtra,Indian,Corporate,Low,Yes,4541979.88,Mobile Banking,Updated,Urban
+DEM23783,CUST00059,931839664317,Ela Kari,Male,1982-06-09,44,Single,Diploma,Farmer,4658021.96,Hyderabad,Telangana,Indian,Retail,Medium,No,0.0,Mobile Banking,Pending,Urban
+DEM33804,CUST00060,696083533662,Ishita Kala,Male,1965-10-17,61,Divorced,PhD,Software Engineer,404728.1,Mumbai,Telangana,Indian,Corporate,Medium,Yes,5268973.14,Phone Banking,Verified,Urban
+DEM69736,CUST00061,387822589021,Iyer Solutions,Female,1970-02-18,56,Divorced,Diploma,Business Owner,543586.75,Delhi,Tamil Nadu,Indian,Retail,High,Yes,1545394.5,Phone Banking,Pending,Urban
+DEM46625,CUST00062,872704936140,Singh Enterprises,Male,1968-05-24,58,Divorced,PhD,Software Engineer,348274.11,Mumbai,Delhi,Indian,HNI,Low,Yes,3416873.58,Branch Banking,Verified,Urban
+DEM28534,CUST00063,746045230097,Raghav Sampath,Male,1969-04-04,57,Divorced,Diploma,Doctor,1330584.51,Chennai,Telangana,Indian,Corporate,High,Yes,1817537.29,Branch Banking,Verified,Urban
+DEM62469,CUST00064,812869405517,Prerak Suresh,Female,1972-06-07,54,Single,Diploma,Farmer,4444917.1,Chennai,Maharashtra,Indian,Corporate,Low,Yes,2294664.46,Internet Banking,Verified,Rural
+DEM18198,CUST00065,338741697466,Dhanush Shan,Female,1971-01-13,55,Married,Graduate,Software Engineer,2924357.43,Bengaluru,Maharashtra,Indian,Corporate,High,Yes,4034416.99,Internet Banking,Updated,Rural
+DEM94952,CUST00066,454716422315,Devansh Kapur,Male,1994-07-23,32,Married,Graduate,Teacher,4587077.76,Mumbai,Maharashtra,Indian,Retail,Medium,Yes,1859618.28,Mobile Banking,Pending,Urban
+DEM34757,CUST00067,603806666041,Reddy Foods,Male,1992-10-03,34,Married,Postgraduate,Business Owner,2781723.72,Chennai,Tamil Nadu,Indian,Retail,Low,No,0.0,Phone Banking,Updated,Rural
+DEM30669,CUST00068,459540958538,Gupta Electronics,Female,1975-12-14,51,Married,PhD,Farmer,2596128.89,Bengaluru,Tamil Nadu,Indian,Corporate,High,No,0.0,Phone Banking,Updated,Urban
+DEM60624,CUST00069,900650578998,Shalv Viswanathan,Male,1969-10-31,57,Single,Undergraduate,Business Owner,1479986.43,Chennai,Maharashtra,Indian,Retail,Medium,Yes,7513609.06,Branch Banking,Verified,Urban
+DEM74716,CUST00070,716592318610,Aarna Mandal,Male,1982-09-06,44,Married,Diploma,Student,3140989.96,Chennai,Karnataka,Indian,Retail,Low,Yes,4440007.09,Mobile Banking,Updated,Rural
+DEM73132,CUST00071,506116067841,Reddy Foods,Male,1975-12-12,51,Divorced,PhD,Chartered Accountant,3417010.02,Hyderabad,Maharashtra,Indian,HNI,Low,Yes,5753346.69,Phone Banking,Updated,Rural
+DEM93435,CUST00072,297594719776,Vanya Babu,Female,2001-06-12,25,Single,Undergraduate,Doctor,2799281.53,Delhi,Telangana,Indian,HNI,High,No,0.0,Branch Banking,Updated,Urban
+DEM22369,CUST00073,755272824750,Uthkarsh Chada,Female,1993-09-18,33,Divorced,Graduate,Farmer,2931462.23,Chennai,Delhi,Indian,Corporate,High,No,0.0,Branch Banking,Pending,Urban
+DEM61173,CUST00074,478445964518,Zara Bose,Female,1983-06-23,43,Single,Postgraduate,Chartered Accountant,479388.9,Hyderabad,Karnataka,Indian,Corporate,High,Yes,8441597.0,Internet Banking,Verified,Urban
+DEM57785,CUST00075,230258293666,Faiyaz Wali,Male,2003-09-06,23,Divorced,Graduate,Business Owner,2182874.73,Delhi,Karnataka,Indian,HNI,Medium,Yes,3453402.37,Mobile Banking,Updated,Urban
+DEM28605,CUST00076,447300118003,Sharma Traders,Male,2004-10-11,22,Single,Graduate,Business Owner,1134269.12,Chennai,Maharashtra,Indian,HNI,High,Yes,2304288.61,Phone Banking,Verified,Urban
+DEM47047,CUST00077,188149747921,Aayush Bava,Female,1986-09-25,40,Single,PhD,Farmer,4793454.77,Bengaluru,Telangana,Indian,Retail,High,No,0.0,Mobile Banking,Updated,Rural
+DEM31888,CUST00078,259355332042,Raghav Lalla,Male,1996-05-02,30,Married,PhD,Business Owner,1702335.25,Bengaluru,Delhi,Indian,Corporate,Low,Yes,3376888.8,Branch Banking,Updated,Urban
+DEM32351,CUST00079,404067920664,Rasha Sani,Female,1979-03-28,47,Married,PhD,Doctor,3257677.68,Bengaluru,Tamil Nadu,Indian,HNI,Medium,No,0.0,Phone Banking,Verified,Urban
+DEM18529,CUST00080,730543358089,Iyer Solutions,Female,2004-08-17,22,Single,PhD,Retailer,1213876.1,Mumbai,Tamil Nadu,Indian,Premium,High,No,0.0,Mobile Banking,Verified,Urban
+DEM81169,CUST00081,772260083878,Alia Sama,Female,1994-01-29,32,Divorced,Undergraduate,Software Engineer,4657812.21,Mumbai,Delhi,Indian,Retail,Low,No,0.0,Mobile Banking,Updated,Urban
+DEM47095,CUST00082,765317675836,Nehmat Edwin,Female,1998-07-01,28,Divorced,PhD,Government Employee,4094369.07,Bengaluru,Delhi,Indian,Corporate,High,No,0.0,Internet Banking,Updated,Rural
+DEM88464,CUST00083,240931555521,Patel Textiles,Male,1998-08-02,28,Single,Graduate,Farmer,994402.01,Hyderabad,Telangana,Indian,Premium,Low,Yes,3141270.63,Branch Banking,Pending,Rural
+DEM93398,CUST00084,182269863100,Divit Ramakrishnan,Female,1983-01-19,43,Single,Diploma,Chartered Accountant,2484628.36,Delhi,Maharashtra,Indian,Premium,High,No,0.0,Mobile Banking,Updated,Urban
+DEM83057,CUST00085,584133794547,Anvi Khurana,Male,1970-07-12,56,Divorced,PhD,Consultant,3781302.91,Delhi,Karnataka,Indian,Retail,High,No,0.0,Internet Banking,Verified,Urban
+DEM70112,CUST00086,943796490407,Vivaan Dewan,Female,1973-11-13,53,Single,Graduate,Teacher,2942853.35,Chennai,Maharashtra,Indian,Corporate,High,No,0.0,Branch Banking,Verified,Rural
+DEM35313,CUST00087,937878863625,Patel Textiles,Female,1978-06-09,48,Single,Graduate,Chartered Accountant,392051.61,Bengaluru,Delhi,Indian,HNI,Medium,No,0.0,Branch Banking,Pending,Urban
+DEM36974,CUST00088,131029157713,Singh Enterprises,Male,1996-01-19,30,Single,Postgraduate,Chartered Accountant,1171184.51,Chennai,Delhi,Indian,Premium,Medium,Yes,4315960.64,Branch Banking,Pending,Rural
+DEM21271,CUST00089,768843380505,Sharma Traders,Male,1974-04-07,52,Single,PhD,Farmer,4350928.52,Chennai,Maharashtra,Indian,Corporate,High,No,0.0,Branch Banking,Verified,Rural
+DEM16747,CUST00090,364462815102,Saksham Mahal,Female,1967-09-11,59,Single,Graduate,Student,801212.05,Mumbai,Tamil Nadu,Indian,HNI,High,Yes,262048.12,Branch Banking,Updated,Rural
+DEM31220,CUST00091,512235425357,Sharma Traders,Male,2005-02-07,21,Single,Diploma,Teacher,536130.64,Mumbai,Maharashtra,Indian,Retail,High,Yes,2646833.04,Internet Banking,Updated,Urban
+DEM52037,CUST00092,958264962544,Nitya Comar,Male,1971-12-25,55,Divorced,Undergraduate,Business Owner,4994332.39,Mumbai,Tamil Nadu,Indian,HNI,Low,Yes,2559001.22,Phone Banking,Updated,Rural
+DEM55601,CUST00093,443311214228,Bhamini Amble,Male,1972-07-07,54,Single,Undergraduate,Business Owner,1363426.09,Delhi,Maharashtra,Indian,Retail,Low,No,0.0,Phone Banking,Pending,Rural
+DEM37403,CUST00094,646263220416,Faiyaz Vora,Male,1988-02-18,38,Single,Undergraduate,Chartered Accountant,3406363.08,Mumbai,Karnataka,Indian,Premium,Low,Yes,965375.66,Internet Banking,Verified,Rural
+DEM69981,CUST00095,763340157198,Krish Vala,Male,2005-04-09,21,Divorced,Undergraduate,Farmer,844038.12,Bengaluru,Tamil Nadu,Indian,Retail,High,Yes,4428644.02,Internet Banking,Updated,Urban
+DEM15932,CUST00096,134156970372,Iyer Solutions,Female,1994-08-19,32,Married,Postgraduate,Retailer,1905180.82,Mumbai,Karnataka,Indian,Corporate,High,No,0.0,Internet Banking,Updated,Urban
+DEM91983,CUST00097,586929089756,Trisha Sem,Female,1965-11-08,61,Divorced,Diploma,Farmer,2042449.73,Hyderabad,Telangana,Indian,HNI,Low,No,0.0,Branch Banking,Pending,Urban
+DEM49423,CUST00098,951527846849,Faiyaz Bose,Male,1976-09-20,50,Married,Undergraduate,Doctor,1994248.85,Delhi,Delhi,Indian,HNI,Medium,Yes,1467650.01,Branch Banking,Verified,Rural
+DEM21483,CUST00099,480825472103,Khan Exports,Male,1986-12-19,40,Divorced,Graduate,Student,1983851.81,Delhi,Delhi,Indian,Corporate,High,Yes,3911998.69,Mobile Banking,Updated,Urban
+DEM67050,CUST00100,982475788471,Samiha Datta,Male,1997-08-13,29,Single,Postgraduate,Chartered Accountant,2200600.09,Delhi,Maharashtra,Indian,Retail,Medium,Yes,2566313.12,Phone Banking,Pending,Urban
+DEM21850,CUST00101,958259250541,Patel Textiles,Male,1989-11-14,37,Married,Diploma,Consultant,4516289.9,Bengaluru,Karnataka,Indian,Retail,Medium,Yes,4619989.67,Mobile Banking,Verified,Urban
+DEM16506,CUST00102,413081322878,Yuvaan Lall,Female,1970-12-31,56,Single,PhD,Chartered Accountant,442884.24,Delhi,Delhi,Indian,Retail,Low,No,0.0,Branch Banking,Updated,Rural
+DEM83658,CUST00103,147593489764,Singh Enterprises,Female,1966-06-24,60,Divorced,Undergraduate,Chartered Accountant,3578019.28,Delhi,Delhi,Indian,HNI,Medium,No,0.0,Internet Banking,Updated,Rural
+DEM50555,CUST00104,856227660834,Ira Krishnan,Male,1989-03-17,37,Divorced,Postgraduate,Doctor,4130962.64,Bengaluru,Tamil Nadu,Indian,Retail,Medium,No,0.0,Internet Banking,Verified,Rural
+DEM58584,CUST00105,363363597372,Anya Batta,Male,1990-07-17,36,Married,Postgraduate,Student,4967030.81,Chennai,Delhi,Indian,HNI,Medium,No,0.0,Phone Banking,Pending,Rural
+DEM45338,CUST00106,613311834571,Mishti Sule,Female,1967-06-17,59,Divorced,Graduate,Business Owner,568460.69,Delhi,Telangana,Indian,Retail,Medium,Yes,9020141.78,Internet Banking,Verified,Rural
+DEM42534,CUST00107,689637799519,Abram Basu,Male,1987-07-22,39,Divorced,Undergraduate,Chartered Accountant,3007950.39,Mumbai,Telangana,Indian,Retail,High,No,0.0,Mobile Banking,Verified,Urban
+DEM61227,CUST00108,850001111711,Mehta Logistics,Female,1997-12-18,29,Single,Postgraduate,Government Employee,2555300.41,Bengaluru,Delhi,Indian,Corporate,High,No,0.0,Internet Banking,Pending,Urban
+DEM55805,CUST00109,623144049876,Ehsaan Dara,Female,1984-11-27,42,Single,PhD,Farmer,4457857.37,Hyderabad,Tamil Nadu,Indian,Corporate,Medium,Yes,3666376.37,Internet Banking,Pending,Urban
+DEM85017,CUST00110,462359337607,Khan Exports,Male,1972-12-18,54,Divorced,Diploma,Retailer,3554788.16,Hyderabad,Karnataka,Indian,Corporate,High,Yes,1892511.29,Mobile Banking,Updated,Urban
+DEM29225,CUST00111,369211672097,Shayak Kibe,Female,1994-02-27,32,Divorced,Graduate,Software Engineer,1702257.88,Hyderabad,Maharashtra,Indian,HNI,Medium,Yes,3480521.91,Phone Banking,Verified,Urban
+DEM24922,CUST00112,715070849168,Khan Exports,Male,1998-01-17,28,Divorced,Undergraduate,Student,2674020.55,Hyderabad,Maharashtra,Indian,Premium,High,Yes,216389.44,Branch Banking,Pending,Rural
+DEM67650,CUST00113,947386802116,Dishani Krishnan,Male,1987-01-08,39,Married,Postgraduate,Doctor,4969983.56,Hyderabad,Telangana,Indian,Corporate,Medium,No,0.0,Internet Banking,Updated,Rural
+DEM34965,CUST00114,144197157631,Iyer Solutions,Female,1998-10-28,28,Divorced,Diploma,Software Engineer,513167.0,Mumbai,Telangana,Indian,Premium,Medium,No,0.0,Phone Banking,Verified,Urban
+DEM36765,CUST00115,347093941718,Zaina Korpal,Male,1996-05-30,30,Married,Postgraduate,Software Engineer,1551586.85,Delhi,Karnataka,Indian,Retail,Low,No,0.0,Phone Banking,Updated,Rural
+DEM93741,CUST00116,414912017394,Khan Exports,Male,1968-11-25,58,Single,Diploma,Farmer,3120582.62,Chennai,Delhi,Indian,Corporate,Low,Yes,2302702.1,Mobile Banking,Pending,Urban
+DEM39109,CUST00117,724051842709,Madhav Ghosh,Male,1965-08-08,61,Single,Graduate,Teacher,4450631.47,Chennai,Karnataka,Indian,Retail,Medium,No,0.0,Internet Banking,Updated,Rural
+DEM82987,CUST00118,907514342796,Nakul Rajan,Male,1987-07-18,39,Divorced,Postgraduate,Chartered Accountant,789846.0,Mumbai,Delhi,Indian,Corporate,High,No,0.0,Mobile Banking,Updated,Urban
+DEM93834,CUST00119,383497176691,Eshani Grewal,Female,1977-04-28,49,Married,Diploma,Farmer,2587592.97,Mumbai,Telangana,Indian,Corporate,Low,No,0.0,Phone Banking,Updated,Rural
+DEM15969,CUST00120,876907191317,Stuvan Chaudry,Male,1994-06-02,32,Married,Graduate,Teacher,1525922.36,Mumbai,Telangana,Indian,Retail,High,No,0.0,Branch Banking,Verified,Rural
+DEM75356,CUST00121,691663315274,Taimur Bhatti,Male,2004-10-15,22,Divorced,Diploma,Retailer,3674149.42,Hyderabad,Tamil Nadu,Indian,Retail,Low,No,0.0,Internet Banking,Updated,Rural
+DEM64673,CUST00122,674900639822,Reddy Foods,Male,1997-08-11,29,Divorced,Postgraduate,Teacher,1139269.12,Mumbai,Karnataka,Indian,Premium,Medium,Yes,3309370.49,Phone Banking,Verified,Rural
+DEM59057,CUST00123,124581300799,Sharma Traders,Male,1977-10-01,49,Married,PhD,Consultant,1374318.72,Chennai,Telangana,Indian,HNI,Low,No,0.0,Mobile Banking,Updated,Urban
+DEM46526,CUST00124,807663841396,Mishti Hans,Female,1979-08-13,47,Married,Graduate,Doctor,3700161.03,Chennai,Delhi,Indian,HNI,High,No,0.0,Mobile Banking,Updated,Urban
+DEM88640,CUST00125,103585531525,Lakshay Shah,Male,1987-01-06,39,Married,Postgraduate,Doctor,4958889.42,Mumbai,Karnataka,Indian,Retail,High,No,0.0,Branch Banking,Verified,Rural
+DEM76220,CUST00126,944454665058,Vaibhav Tank,Female,1968-05-30,58,Married,Undergraduate,Government Employee,2774911.68,Delhi,Maharashtra,Indian,HNI,Low,No,0.0,Internet Banking,Updated,Urban
+DEM44623,CUST00127,994358913631,Reddy Foods,Male,2005-05-03,21,Divorced,Graduate,Business Owner,3185691.31,Delhi,Delhi,Indian,HNI,High,Yes,3618022.48,Internet Banking,Updated,Urban
+DEM76819,CUST00128,845717962258,Ivan Vaidya,Female,1967-05-17,59,Married,Graduate,Farmer,4711545.35,Bengaluru,Tamil Nadu,Indian,Premium,High,No,0.0,Internet Banking,Updated,Rural
+DEM85616,CUST00129,257657841886,Divyansh Sharma,Female,1983-11-01,43,Single,Undergraduate,Business Owner,1730256.68,Bengaluru,Karnataka,Indian,Corporate,Low,Yes,728405.16,Phone Banking,Pending,Rural
+DEM22862,CUST00130,392279124270,Patel Textiles,Male,1999-11-24,27,Married,Postgraduate,Software Engineer,3725349.93,Bengaluru,Delhi,Indian,Corporate,High,Yes,4210198.94,Mobile Banking,Verified,Urban
+DEM22761,CUST00131,370215467820,Lagan Chaudhry,Female,1974-12-12,52,Divorced,Diploma,Government Employee,1143727.47,Delhi,Delhi,Indian,Retail,High,Yes,2896127.15,Phone Banking,Pending,Urban
+DEM94476,CUST00132,504599351747,Anaya Sani,Female,1979-11-22,47,Divorced,Diploma,Consultant,799938.94,Bengaluru,Maharashtra,Indian,HNI,High,Yes,3039760.64,Internet Banking,Updated,Urban
+DEM95327,CUST00133,703439904963,Nirvi Shan,Male,1969-09-07,57,Single,Undergraduate,Farmer,4307589.26,Delhi,Tamil Nadu,Indian,Corporate,Low,Yes,4863109.46,Mobile Banking,Verified,Urban
+DEM62177,CUST00134,136610062509,Khan Exports,Female,1971-09-13,55,Married,PhD,Software Engineer,3429043.54,Delhi,Telangana,Indian,HNI,Low,Yes,2080082.29,Internet Banking,Updated,Urban
+DEM99058,CUST00135,635407549376,Jhanvi Devi,Female,1996-12-17,30,Divorced,PhD,Student,4610621.75,Hyderabad,Maharashtra,Indian,Corporate,Medium,Yes,1635728.95,Mobile Banking,Updated,Urban
+DEM80692,CUST00136,678187556104,Samar Baral,Male,1972-09-26,54,Divorced,Graduate,Government Employee,1884412.19,Delhi,Delhi,Indian,Premium,Low,No,0.0,Branch Banking,Updated,Urban
+DEM82525,CUST00137,800320681066,Sharma Traders,Female,2003-09-23,23,Single,PhD,Chartered Accountant,4194052.54,Mumbai,Tamil Nadu,Indian,HNI,Low,No,0.0,Internet Banking,Verified,Urban
+DEM99462,CUST00138,700862968276,Khan Exports,Male,1968-10-25,58,Divorced,Graduate,Government Employee,1213083.22,Delhi,Telangana,Indian,Premium,Medium,Yes,1197167.79,Phone Banking,Verified,Urban
+DEM62334,CUST00139,897529515996,Kabir Bumb,Female,2003-04-08,23,Divorced,PhD,Doctor,397853.37,Hyderabad,Maharashtra,Indian,Retail,Medium,No,0.0,Internet Banking,Pending,Urban
+DEM62171,CUST00140,574058849227,Mehta Logistics,Male,1988-03-03,38,Divorced,Graduate,Student,2755917.54,Mumbai,Maharashtra,Indian,Retail,Low,No,0.0,Branch Banking,Updated,Urban
+DEM37436,CUST00141,496497113885,Mahika Dar,Male,1998-05-01,28,Married,PhD,Business Owner,3525933.5,Delhi,Maharashtra,Indian,Premium,Medium,Yes,3615625.64,Internet Banking,Verified,Rural
+DEM51875,CUST00142,759693767724,Iyer Solutions,Female,1972-12-04,54,Single,Diploma,Farmer,355650.5,Chennai,Karnataka,Indian,Corporate,Medium,Yes,2674435.83,Branch Banking,Verified,Rural
+DEM86976,CUST00143,280660356787,Zeeshan Mander,Male,1969-08-19,57,Married,Diploma,Student,3127161.09,Delhi,Karnataka,Indian,HNI,High,Yes,4575820.75,Internet Banking,Updated,Urban
+DEM73642,CUST00144,519275532872,Himmat Sehgal,Female,2000-03-23,26,Married,Undergraduate,Teacher,3806833.63,Chennai,Tamil Nadu,Indian,HNI,Medium,No,0.0,Mobile Banking,Updated,Rural
+DEM35401,CUST00145,735516703300,Pranay Lata,Female,1973-09-16,53,Single,Graduate,Government Employee,2366226.62,Delhi,Delhi,Indian,Premium,Medium,No,0.0,Phone Banking,Verified,Urban
+DEM56028,CUST00146,975295681163,Reddy Foods,Female,2000-07-08,26,Single,Graduate,Teacher,1714710.04,Chennai,Karnataka,Indian,Corporate,Low,Yes,1786820.12,Phone Banking,Verified,Urban
+DEM16752,CUST00147,562532367627,Saanvi De,Male,2002-02-14,24,Divorced,Postgraduate,Teacher,4166729.59,Mumbai,Telangana,Indian,Premium,High,No,0.0,Mobile Banking,Verified,Urban
+DEM20413,CUST00148,928786143023,Rohan Thakur,Female,1992-06-13,34,Single,Postgraduate,Business Owner,1875195.31,Hyderabad,Karnataka,Indian,HNI,Low,Yes,758098.58,Phone Banking,Updated,Rural
+DEM84137,CUST00149,478604566605,Urvi Deo,Male,1993-05-07,33,Divorced,PhD,Doctor,2683763.5,Bengaluru,Maharashtra,Indian,Retail,Low,Yes,1979397.33,Mobile Banking,Pending,Rural
+DEM70357,CUST00150,174384149802,Misha Dewan,Male,1994-08-07,32,Single,Graduate,Consultant,1953456.16,Hyderabad,Telangana,Indian,Premium,High,No,0.0,Mobile Banking,Verified,Urban
+DEM50026,CUST00151,977169140360,Heer Brahmbhatt,Female,1985-08-03,41,Married,Diploma,Farmer,944544.05,Hyderabad,Tamil Nadu,Indian,Premium,Medium,Yes,3237427.44,Mobile Banking,Verified,Rural
+DEM61208,CUST00152,214148840081,Reddy Foods,Male,1995-03-20,31,Divorced,Postgraduate,Software Engineer,2823254.62,Mumbai,Maharashtra,Indian,HNI,High,No,0.0,Internet Banking,Updated,Rural
+DEM97627,CUST00153,291630113537,Krish Sathe,Male,1993-06-08,33,Single,Graduate,Teacher,3027564.43,Hyderabad,Telangana,Indian,Corporate,High,Yes,1137511.02,Mobile Banking,Verified,Rural
+DEM13702,CUST00154,252885484746,Drishya Jayaraman,Male,1995-08-03,31,Divorced,Graduate,Retailer,4258526.95,Delhi,Telangana,Indian,Corporate,Low,Yes,1959197.22,Mobile Banking,Verified,Urban
+DEM78226,CUST00155,112678064653,Tushar Chanda,Female,1988-07-29,38,Married,Undergraduate,Student,2452244.86,Delhi,Delhi,Indian,Retail,High,No,0.0,Branch Banking,Updated,Urban
+DEM37883,CUST00156,135614254976,Seher Sachdeva,Female,1982-02-26,44,Single,Diploma,Consultant,3848148.93,Chennai,Tamil Nadu,Indian,Corporate,Medium,Yes,788201.02,Branch Banking,Updated,Urban
+DEM93108,CUST00157,338569770723,Yasmin Bala,Male,1988-12-23,38,Divorced,Graduate,Farmer,2864964.9,Hyderabad,Karnataka,Indian,Retail,High,No,0.0,Phone Banking,Pending,Rural
+DEM70235,CUST00158,775022751100,Ehsaan Bala,Female,2000-03-09,26,Single,Graduate,Government Employee,1084267.24,Mumbai,Maharashtra,Indian,Corporate,High,Yes,4495273.58,Mobile Banking,Pending,Urban
+DEM17415,CUST00159,996270765905,Hridaan Venkataraman,Male,1995-09-27,31,Married,Undergraduate,Business Owner,4135876.7,Bengaluru,Delhi,Indian,HNI,High,No,0.0,Phone Banking,Verified,Rural
+DEM50853,CUST00160,595532591925,Nirvi Halder,Male,1973-02-21,53,Married,Diploma,Retailer,3892573.47,Chennai,Maharashtra,Indian,Premium,Low,Yes,3399163.79,Phone Banking,Pending,Urban
+DEM77080,CUST00161,687532962937,Khan Exports,Male,1976-11-11,50,Divorced,PhD,Software Engineer,1839278.69,Mumbai,Telangana,Indian,HNI,Medium,No,0.0,Phone Banking,Updated,Urban
+DEM24491,CUST00162,233213914058,Sharma Traders,Male,2002-06-25,24,Divorced,Postgraduate,Consultant,2292468.57,Bengaluru,Maharashtra,Indian,HNI,Medium,No,0.0,Phone Banking,Pending,Rural
+DEM29334,CUST00163,534014121543,Nirvaan Tripathi,Female,2005-03-21,21,Single,Postgraduate,Business Owner,2188112.31,Bengaluru,Delhi,Indian,Retail,High,No,0.0,Internet Banking,Verified,Urban
+DEM92558,CUST00164,476649721582,Reddy Foods,Female,1972-12-23,54,Single,Undergraduate,Retailer,4553996.46,Delhi,Delhi,Indian,Premium,Medium,Yes,2086709.74,Internet Banking,Updated,Rural
+DEM63095,CUST00165,257527104283,Hiran Virk,Male,1986-05-20,40,Single,Undergraduate,Student,1226947.05,Bengaluru,Karnataka,Indian,Corporate,Low,Yes,817499.11,Branch Banking,Updated,Urban
+DEM28081,CUST00166,236375715642,Khan Exports,Female,1973-08-21,53,Married,Graduate,Software Engineer,3635860.44,Hyderabad,Delhi,Indian,Retail,Low,Yes,1095127.39,Internet Banking,Pending,Urban
+DEM28439,CUST00167,667818065717,Mehta Logistics,Female,1982-01-01,44,Married,PhD,Consultant,3417127.66,Hyderabad,Karnataka,Indian,Corporate,Medium,Yes,1860329.34,Internet Banking,Pending,Rural
+DEM16231,CUST00168,525768624477,Patel Textiles,Female,2003-03-17,23,Married,Postgraduate,Teacher,1057053.59,Chennai,Delhi,Indian,HNI,High,Yes,961273.79,Internet Banking,Verified,Urban
+DEM88179,CUST00169,415708488576,Umang Keer,Female,1989-08-10,37,Married,Postgraduate,Software Engineer,2019759.54,Bengaluru,Delhi,Indian,Premium,Low,No,0.0,Branch Banking,Updated,Urban
+DEM86173,CUST00170,458786063830,Manjari Khare,Female,2000-10-13,26,Married,PhD,Business Owner,2247821.65,Mumbai,Telangana,Indian,Corporate,Low,Yes,6407048.09,Branch Banking,Verified,Urban
+DEM42466,CUST00171,113397905703,Khushi Raval,Female,1976-11-07,50,Divorced,Diploma,Consultant,4214170.99,Mumbai,Tamil Nadu,Indian,Corporate,High,Yes,2076587.19,Mobile Banking,Updated,Urban
+DEM87469,CUST00172,986202124371,Mehta Logistics,Male,1979-01-08,47,Divorced,Undergraduate,Consultant,1928145.5,Delhi,Telangana,Indian,Corporate,High,No,0.0,Mobile Banking,Pending,Urban
+DEM85441,CUST00173,912729808458,Charvi Walla,Female,2004-01-02,22,Divorced,Postgraduate,Chartered Accountant,4097140.41,Bengaluru,Karnataka,Indian,Retail,Medium,Yes,5098328.37,Branch Banking,Verified,Urban
+DEM43256,CUST00174,727399747618,Arhaan Chandran,Female,1971-02-15,55,Married,PhD,Government Employee,1568154.77,Delhi,Tamil Nadu,Indian,HNI,High,No,0.0,Phone Banking,Pending,Rural
+DEM22401,CUST00175,418689455961,Azad Dhingra,Male,1994-02-28,32,Single,Diploma,Business Owner,3021208.95,Bengaluru,Tamil Nadu,Indian,Premium,Low,No,0.0,Internet Banking,Pending,Rural
+DEM16932,CUST00176,469156692237,Zain Borah,Female,1973-04-05,53,Single,Postgraduate,Student,2693698.44,Mumbai,Delhi,Indian,Retail,High,No,0.0,Phone Banking,Verified,Urban
+DEM29384,CUST00177,870573211450,Mehta Logistics,Male,1998-03-25,28,Married,PhD,Consultant,767733.78,Delhi,Karnataka,Indian,Premium,Medium,No,0.0,Internet Banking,Pending,Urban
+DEM41941,CUST00178,459640602106,Ojas Bava,Female,1984-05-12,42,Married,Postgraduate,Consultant,2570368.4,Delhi,Telangana,Indian,HNI,Low,No,0.0,Phone Banking,Verified,Rural
+DEM36298,CUST00179,436948418166,Hansh Ramakrishnan,Female,1999-02-06,27,Divorced,Diploma,Retailer,1339917.6,Bengaluru,Karnataka,Indian,Retail,Low,Yes,2851139.87,Branch Banking,Pending,Rural
+DEM47798,CUST00180,130811527327,Gatik Rana,Male,1989-06-19,37,Divorced,Graduate,Software Engineer,4263226.6,Bengaluru,Karnataka,Indian,HNI,High,No,0.0,Internet Banking,Verified,Urban
+DEM81051,CUST00181,746746156066,Dishani Sachar,Male,1967-07-05,59,Divorced,Graduate,Chartered Accountant,1257368.78,Delhi,Delhi,Indian,Premium,High,No,0.0,Mobile Banking,Pending,Rural
+DEM40215,CUST00182,132195617724,Pranay Desai,Male,1994-04-24,32,Divorced,Diploma,Chartered Accountant,3921086.95,Mumbai,Telangana,Indian,Premium,High,No,0.0,Phone Banking,Pending,Rural
+DEM87097,CUST00183,522108423720,Yakshit Ratti,Male,1997-02-16,29,Divorced,Undergraduate,Retailer,4491112.59,Bengaluru,Maharashtra,Indian,HNI,High,Yes,6362379.49,Branch Banking,Pending,Rural
+DEM50668,CUST00184,298730008062,Adira Karan,Male,1967-05-12,59,Single,Diploma,Teacher,3670850.63,Hyderabad,Karnataka,Indian,Premium,High,No,0.0,Mobile Banking,Pending,Urban
+DEM82855,CUST00185,344588949245,Rati Sharma,Female,1990-06-22,36,Divorced,Undergraduate,Consultant,4632098.31,Mumbai,Tamil Nadu,Indian,HNI,High,Yes,4713173.89,Branch Banking,Updated,Urban
+DEM94662,CUST00186,140761114077,Indrajit Luthra,Male,1974-08-13,52,Married,Diploma,Doctor,1536761.64,Hyderabad,Karnataka,Indian,Retail,Low,Yes,4120220.58,Branch Banking,Pending,Rural
+DEM66589,CUST00187,875613580509,Gupta Electronics,Male,1990-07-25,36,Single,Diploma,Retailer,360318.54,Bengaluru,Karnataka,Indian,HNI,Medium,Yes,2498927.74,Phone Banking,Verified,Urban
+DEM14898,CUST00188,450680559005,Kiara Sanghvi,Male,1978-08-20,48,Single,Graduate,Teacher,4203191.37,Delhi,Karnataka,Indian,Corporate,High,Yes,2488719.35,Mobile Banking,Pending,Urban
+DEM12024,CUST00189,762206998783,Sharma Traders,Female,1993-02-08,33,Divorced,Undergraduate,Business Owner,491182.73,Delhi,Maharashtra,Indian,Premium,Medium,Yes,1033825.88,Branch Banking,Updated,Urban
+DEM45707,CUST00190,110508195555,Eshani Ratta,Male,1979-11-08,47,Married,Diploma,Teacher,553642.6,Bengaluru,Telangana,Indian,Retail,Medium,Yes,4908543.93,Internet Banking,Verified,Urban
+DEM55062,CUST00191,965347817151,Kiaan Kothari,Female,1965-10-14,61,Divorced,PhD,Software Engineer,447118.26,Delhi,Tamil Nadu,Indian,HNI,Low,No,0.0,Internet Banking,Pending,Urban
+DEM35845,CUST00192,184748230645,Myra Devan,Female,1972-10-02,54,Single,Diploma,Consultant,1450531.31,Mumbai,Telangana,Indian,Corporate,High,Yes,4044919.29,Branch Banking,Updated,Urban
+DEM67180,CUST00193,708584825780,Saksham Sampath,Male,1971-08-03,55,Single,Postgraduate,Software Engineer,3163262.89,Mumbai,Tamil Nadu,Indian,HNI,Low,Yes,2941033.33,Phone Banking,Verified,Urban
+DEM15714,CUST00194,203936811868,Miraan Tailor,Male,1999-08-04,27,Single,Postgraduate,Chartered Accountant,2188018.08,Mumbai,Maharashtra,Indian,HNI,Low,Yes,2930490.65,Mobile Banking,Pending,Urban
+DEM20649,CUST00195,590427639369,Iyer Solutions,Female,1975-02-15,51,Married,PhD,Business Owner,3397570.39,Mumbai,Maharashtra,Indian,Retail,Medium,Yes,1170974.06,Mobile Banking,Updated,Urban
+DEM90590,CUST00196,528812958649,Iyer Solutions,Female,1989-07-15,37,Divorced,Graduate,Software Engineer,439574.22,Bengaluru,Tamil Nadu,Indian,Premium,High,Yes,662137.56,Branch Banking,Pending,Urban
+DEM93778,CUST00197,143491637722,Aaryahi Thaker,Female,1976-05-26,50,Single,Graduate,Teacher,2339491.85,Mumbai,Maharashtra,Indian,HNI,High,No,0.0,Phone Banking,Updated,Rural
+DEM41167,CUST00198,116636410911,Zeeshan Sekhon,Male,1972-03-18,54,Single,Undergraduate,Retailer,3853374.51,Hyderabad,Tamil Nadu,Indian,Premium,Medium,Yes,3764687.94,Branch Banking,Verified,Urban
+DEM22495,CUST00199,554742090222,Shanaya Kumar,Male,1980-12-01,46,Divorced,Undergraduate,Student,4621134.54,Hyderabad,Telangana,Indian,Premium,Low,Yes,4547857.85,Internet Banking,Pending,Rural
+DEM37177,CUST00200,396012732259,Vihaan Deol,Female,1970-05-25,56,Single,Graduate,Student,4618138.88,Chennai,Maharashtra,Indian,Premium,High,Yes,2875150.55,Branch Banking,Verified,Rural

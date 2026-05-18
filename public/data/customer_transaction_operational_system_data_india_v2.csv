@@ -1,0 +1,501 @@
+Operational_Record_ID,customer_transaction_data,Customer_ID,Branch_Name,Branch_Code,Transaction_Type,Transaction_Channel,Transaction_Amount_INR,Transaction_Date_Time,Transaction_Status,Linked_Loan_ID,Processed_By_RM,Operational_Risk_Flag,Fraud_Alert,System_Response_Time_ms,Customer_Channel_Usage,KYC_Status,Transaction_Remarks,ATM_Code
+OPS000001,TXN707673735,CUST00061,,DEL002,IMPS,Internet Banking,1574254.03,2025-07-02 11:57:04,Reversed,LN00081,Kunal Mehta,Medium,Yes,4531,Yes,Pending,Cash Handling,
+OPS000002,TXN252412702,CUST00182,Mumbai Main,MUM001,IMPS,Branch,895386.01,2025-08-24 11:57:04,Pending,,Support Pool,High,No,3208,Yes,Pending,Routine Banking Activity,
+OPS000003,TXN210327185,CUST00003,Bengaluru Tech Park,BLR003,RTGS,Branch,819174.99,2025-07-03 11:57:04,Success,LN00056,Support Pool,Medium,No,4936,Yes,Verified,Customer Transaction,
+OPS000004,TXN165058674,CUST00012,Chennai Central,CHE004,Cash Withdrawal,Branch,1546871.36,2024-05-16 11:57:04,Success,LN00058,Neha Kapoor,Low,No,4546,No,Pending,Cash Handling,
+OPS000005,TXN533182696,CUST00091,,MUM001,Cash Withdrawal,Internet Banking,1240120.98,2025-06-21 11:57:04,Success,LN00114,Support Pool,Low,No,3508,No,Updated,Branch Processing,
+OPS000006,TXN784740251,CUST00034,,DEL002,Cheque Deposit,Internet Banking,1349879.03,2025-07-27 11:57:04,Pending,LN00125,Digital Support,Medium,No,2446,No,Verified,Branch Processing,
+OPS000007,TXN180904750,CUST00117,Chennai Central,CHE004,IMPS,Branch,303463.0,2025-09-14 11:57:04,Success,,Support Pool,Low,No,4415,No,Updated,Cash Handling,
+OPS000008,TXN871054849,CUST00103,,DEL002,Loan EMI,Internet Banking,246644.81,2025-04-04 11:57:04,Failed,,Rohit Sharma,Medium,No,4741,No,Updated,Routine Banking Activity,
+OPS000009,TXN742016272,CUST00052,,BLR003,Cash Deposit,Internet Banking,1069759.72,2025-01-28 11:57:04,Reversed,LN00054,Neha Kapoor,Low,No,334,Yes,Verified,Branch Processing,
+OPS000010,TXN411647537,CUST00024,Chennai Central,CHE004,Cash Withdrawal,Mobile Banking,241098.88,2025-04-02 11:57:04,Success,LN00146,Support Pool,Medium,No,2080,No,Updated,Cash Handling,
+OPS000011,TXN951995817,CUST00035,Delhi Connaught,DEL002,Loan EMI,ATM,1573151.41,2025-09-02 11:57:04,Reversed,,Amit Verma,High,No,2508,Yes,Updated,Customer Transaction,ATM59993
+OPS000012,TXN997827785,CUST00102,Delhi Connaught,DEL002,Cash Deposit,POS Machine,109456.71,2024-10-02 11:57:04,Reversed,,Sneha Iyer,Medium,No,2959,Yes,Updated,Cash Handling,
+OPS000013,TXN113347564,CUST00062,Mumbai Main,MUM001,RTGS,POS Machine,1692397.75,2024-06-01 11:57:04,Reversed,LN00128,Support Pool,Medium,No,1269,Yes,Verified,Branch Processing,
+OPS000014,TXN149670472,CUST00074,Hyderabad Prime,HYD005,NEFT,Branch,1764068.06,2025-08-31 11:57:04,Pending,LN00066,Sneha Iyer,High,No,902,Yes,Verified,Interbank Fund Transfer,
+OPS000015,TXN259979796,CUST00172,Delhi Connaught,DEL002,Cash Withdrawal,POS Machine,157098.11,2024-05-28 11:57:04,Pending,,Amit Verma,Low,Yes,1716,No,Pending,Cash Handling,
+OPS000016,TXN268320027,CUST00008,,MUM001,IMPS,Internet Banking,256806.26,2025-06-05 11:57:04,Success,,Sneha Iyer,Medium,No,425,No,Verified,Branch Processing,
+OPS000017,TXN556464105,CUST00179,Bengaluru Tech Park,BLR003,IMPS,ATM,588218.19,2025-06-28 11:57:04,Success,LN00011,Sneha Iyer,High,Yes,2352,Yes,Pending,Cash Handling,ATM89525
+OPS000018,TXN903602508,CUST00196,Bengaluru Tech Park,BLR003,RTGS,Branch,1869165.08,2025-01-11 11:57:04,Reversed,LN00071,Support Pool,Low,No,173,Yes,Pending,Customer Transaction,
+OPS000019,TXN483990448,CUST00002,Hyderabad Prime,HYD005,Cash Withdrawal,Branch,170359.46,2025-04-10 11:57:04,Failed,LN00063,Sneha Iyer,Low,No,2603,Yes,Verified,Customer Transaction,
+OPS000020,TXN660236152,CUST00165,Bengaluru Tech Park,BLR003,Loan EMI,POS Machine,1937508.3,2024-09-24 11:57:04,Failed,LN00062,Rohit Sharma,Medium,Yes,4013,Yes,Updated,EMI Payment for LN00062,
+OPS000021,TXN875946624,CUST00081,,MUM001,NEFT,Internet Banking,761020.09,2025-03-22 11:57:04,Reversed,,Neha Kapoor,Low,No,935,No,Updated,Interbank Fund Transfer,
+OPS000022,TXN682052800,CUST00015,Delhi Connaught,DEL002,Cash Withdrawal,POS Machine,834504.97,2025-02-12 11:57:04,Failed,LN00116,Support Pool,Low,No,3817,Yes,Updated,Routine Banking Activity,
+OPS000023,TXN502038284,CUST00121,Hyderabad Prime,HYD005,Cash Deposit,POS Machine,295324.1,2025-03-07 11:57:04,Pending,,Kunal Mehta,Low,No,580,Yes,Updated,Routine Banking Activity,
+OPS000024,TXN130191747,CUST00153,Hyderabad Prime,HYD005,RTGS,Mobile Banking,1228289.22,2024-12-16 11:57:04,Success,LN00083,Support Pool,Medium,No,4140,No,Verified,Routine Banking Activity,
+OPS000025,TXN583913931,CUST00148,Hyderabad Prime,HYD005,Loan EMI,Branch,1052214.48,2024-09-17 11:57:04,Failed,LN00089,Rohit Sharma,Medium,No,2471,Yes,Updated,EMI Payment for LN00089,
+OPS000026,TXN875763040,CUST00070,Chennai Central,CHE004,RTGS,ATM,1791361.15,2026-04-16 11:57:04,Failed,LN00122,Support Pool,High,No,2139,No,Updated,Customer Transaction,ATM80024
+OPS000027,TXN150457507,CUST00195,Mumbai Main,MUM001,Cheque Deposit,Branch,1493658.67,2024-10-22 11:57:04,Reversed,LN00130,Rohit Sharma,Low,No,3279,Yes,Updated,Customer Transaction,
+OPS000028,TXN868516073,CUST00171,,MUM001,Loan EMI,Internet Banking,1394016.51,2025-03-11 11:57:04,Success,LN00003,Digital Support,High,No,730,Yes,Updated,EMI Payment for LN00003,
+OPS000029,TXN881570950,CUST00079,,BLR003,Cheque Deposit,Internet Banking,536931.82,2025-11-16 11:57:04,Success,,Support Pool,High,No,4105,No,Verified,Branch Processing,
+OPS000030,TXN163087004,CUST00078,Bengaluru Tech Park,BLR003,UPI Transfer,Branch,1706201.87,2025-02-05 11:57:04,Reversed,LN00113,Amit Verma,Low,No,4556,No,Updated,UPI Merchant Payment,
+OPS000031,TXN669966671,CUST00126,Delhi Connaught,DEL002,Cash Deposit,POS Machine,1814834.98,2024-06-21 11:57:04,Failed,,Digital Support,High,No,1528,No,Updated,Routine Banking Activity,
+OPS000032,TXN539834836,CUST00003,Bengaluru Tech Park,BLR003,NEFT,Mobile Banking,835019.53,2025-11-02 11:57:04,Failed,LN00056,Support Pool,High,No,2914,Yes,Verified,Interbank Fund Transfer,
+OPS000033,TXN211341884,CUST00090,Mumbai Main,MUM001,Cash Deposit,Branch,1069963.44,2025-12-05 11:57:04,Pending,LN00004,Support Pool,High,Yes,963,Yes,Updated,Cash Handling,
+OPS000034,TXN807819630,CUST00139,Hyderabad Prime,HYD005,IMPS,ATM,1003254.48,2024-12-05 11:57:04,Reversed,,Kunal Mehta,High,No,86,No,Pending,Cash Handling,ATM47799
+OPS000035,TXN637313899,CUST00053,Delhi Connaught,DEL002,NEFT,Branch,1794875.34,2025-10-10 11:57:04,Success,,Support Pool,High,No,2149,No,Pending,Interbank Fund Transfer,
+OPS000036,TXN872901672,CUST00095,,BLR003,IMPS,Internet Banking,266375.94,2025-06-14 11:57:04,Reversed,LN00070,Amit Verma,Medium,No,4482,No,Updated,Routine Banking Activity,
+OPS000037,TXN134794154,CUST00006,Chennai Central,CHE004,Cash Withdrawal,POS Machine,1691018.91,2024-12-17 11:57:04,Failed,,Support Pool,Medium,Yes,3869,No,Verified,Routine Banking Activity,
+OPS000038,TXN934912890,CUST00105,Chennai Central,CHE004,Cash Deposit,POS Machine,658391.53,2025-05-14 11:57:04,Success,,Priya Nair,High,No,3779,No,Pending,Cash Handling,
+OPS000039,TXN616683100,CUST00157,Hyderabad Prime,HYD005,NEFT,Mobile Banking,1050982.91,2025-06-25 11:57:04,Success,,Rohit Sharma,High,No,3051,Yes,Pending,Interbank Fund Transfer,
+OPS000040,TXN171709408,CUST00192,Mumbai Main,MUM001,RTGS,Mobile Banking,1900828.73,2025-04-30 11:57:04,Success,LN00009,Amit Verma,High,No,4447,No,Updated,Branch Processing,
+OPS000041,TXN657378940,CUST00030,,BLR003,Cash Deposit,Internet Banking,541350.67,2024-08-18 11:57:04,Failed,,Digital Support,Medium,No,4698,Yes,Pending,Branch Processing,
+OPS000042,TXN497246915,CUST00014,Hyderabad Prime,HYD005,Cash Deposit,Mobile Banking,1613486.05,2025-05-30 11:57:04,Failed,LN00120,Digital Support,Medium,No,2975,No,Pending,Customer Transaction,
+OPS000043,TXN121492379,CUST00105,Chennai Central,CHE004,Cash Withdrawal,Branch,1746336.58,2025-05-25 11:57:04,Failed,,Sneha Iyer,High,No,2792,No,Pending,Cash Handling,
+OPS000044,TXN922423868,CUST00158,Mumbai Main,MUM001,IMPS,Branch,157105.66,2025-01-23 11:57:04,Failed,LN00037,Neha Kapoor,Medium,No,1616,Yes,Pending,Routine Banking Activity,
+OPS000045,TXN779365900,CUST00092,Mumbai Main,MUM001,RTGS,ATM,250497.15,2024-10-12 11:57:04,Failed,LN00101,Amit Verma,High,No,2009,Yes,Updated,Cash Handling,ATM47167
+OPS000046,TXN266763213,CUST00176,Mumbai Main,MUM001,Loan EMI,Branch,40377.95,2024-12-16 11:57:04,Reversed,,Support Pool,Medium,No,4083,No,Verified,Routine Banking Activity,
+OPS000047,TXN835695404,CUST00020,Bengaluru Tech Park,BLR003,Cash Withdrawal,ATM,138670.44,2024-10-31 11:57:04,Failed,LN00082,Kunal Mehta,Low,No,425,No,Verified,Cash Handling,ATM50119
+OPS000048,TXN359439072,CUST00061,Delhi Connaught,DEL002,IMPS,ATM,1078088.8,2024-08-14 11:57:04,Pending,LN00081,Kunal Mehta,Medium,No,2383,Yes,Pending,Cash Handling,ATM80858
+OPS000049,TXN933083352,CUST00019,Bengaluru Tech Park,BLR003,UPI Transfer,Branch,967144.79,2025-03-01 11:57:04,Pending,LN00057,Support Pool,Medium,No,1958,No,Verified,UPI Merchant Payment,
+OPS000050,TXN973340691,CUST00161,Mumbai Main,MUM001,Cheque Deposit,Mobile Banking,1758716.48,2025-03-09 11:57:04,Failed,,Rohit Sharma,High,No,4127,Yes,Updated,Customer Transaction,
+OPS000051,TXN834445587,CUST00051,Bengaluru Tech Park,BLR003,NEFT,ATM,1629938.81,2024-09-08 11:57:04,Success,LN00012,Support Pool,High,No,2519,No,Pending,Interbank Fund Transfer,ATM32889
+OPS000052,TXN679934316,CUST00109,,HYD005,IMPS,Internet Banking,1493358.29,2026-02-07 11:57:04,Reversed,LN00026,Support Pool,Low,Yes,1257,No,Pending,Routine Banking Activity,
+OPS000053,TXN632220735,CUST00191,,DEL002,IMPS,Internet Banking,290652.69,2026-01-25 11:57:04,Failed,,Support Pool,Low,No,1944,No,Pending,Customer Transaction,
+OPS000054,TXN716296780,CUST00165,Bengaluru Tech Park,BLR003,RTGS,ATM,1980680.34,2025-10-25 11:57:04,Pending,LN00062,Rohit Sharma,High,No,1181,Yes,Updated,Customer Transaction,ATM61550
+OPS000055,TXN131798182,CUST00120,Mumbai Main,MUM001,IMPS,POS Machine,56623.09,2025-10-30 11:57:04,Reversed,,Support Pool,Low,Yes,2167,Yes,Verified,Customer Transaction,
+OPS000056,TXN449547777,CUST00135,,HYD005,UPI Transfer,Internet Banking,518652.78,2024-07-03 11:57:04,Reversed,LN00021,Support Pool,High,No,3124,Yes,Updated,UPI Merchant Payment,
+OPS000057,TXN319005704,CUST00089,Chennai Central,CHE004,NEFT,POS Machine,30260.04,2025-12-23 11:57:04,Success,,Kunal Mehta,Medium,Yes,2920,No,Verified,Interbank Fund Transfer,
+OPS000058,TXN850853004,CUST00152,Mumbai Main,MUM001,RTGS,POS Machine,1949228.88,2024-07-11 11:57:04,Reversed,,Neha Kapoor,High,No,4169,No,Updated,Routine Banking Activity,
+OPS000059,TXN473373576,CUST00199,Hyderabad Prime,HYD005,UPI Transfer,ATM,1888895.44,2025-09-26 11:57:04,Reversed,LN00097,Rohit Sharma,Medium,No,3511,No,Pending,UPI Merchant Payment,ATM36102
+OPS000060,TXN407895251,CUST00181,Delhi Connaught,DEL002,RTGS,Branch,246667.76,2024-07-26 11:57:04,Success,,Support Pool,Low,Yes,3934,Yes,Pending,Branch Processing,
+OPS000061,TXN648582750,CUST00171,,MUM001,NEFT,Internet Banking,939123.89,2024-07-01 11:57:04,Failed,LN00003,Support Pool,Medium,No,1761,Yes,Updated,Interbank Fund Transfer,
+OPS000062,TXN560315652,CUST00154,Delhi Connaught,DEL002,Cash Deposit,ATM,226168.61,2025-11-09 11:57:04,Pending,LN00136,Kunal Mehta,Medium,No,2940,No,Verified,Branch Processing,ATM66565
+OPS000063,TXN298844059,CUST00047,Hyderabad Prime,HYD005,Cash Deposit,ATM,325562.57,2025-02-21 11:57:04,Failed,,Amit Verma,High,No,3781,No,Pending,Cash Handling,ATM89117
+OPS000064,TXN991744799,CUST00010,Hyderabad Prime,HYD005,UPI Transfer,Branch,1569422.23,2025-07-01 11:57:04,Success,,Amit Verma,High,No,1878,Yes,Updated,UPI Merchant Payment,
+OPS000065,TXN231204969,CUST00135,Hyderabad Prime,HYD005,Cash Deposit,ATM,1638574.54,2025-04-26 11:57:04,Success,LN00021,Support Pool,High,Yes,3304,Yes,Updated,Cash Handling,ATM56402
+OPS000066,TXN934943233,CUST00056,,CHE004,Cheque Deposit,Internet Banking,182282.04,2025-06-07 11:57:04,Pending,LN00150,Priya Nair,Low,No,4691,No,Pending,Routine Banking Activity,
+OPS000067,TXN824028811,CUST00079,Bengaluru Tech Park,BLR003,Cheque Deposit,ATM,1058105.99,2024-06-04 11:57:04,Success,,Support Pool,Medium,No,3916,No,Verified,Routine Banking Activity,ATM51809
+OPS000068,TXN480858311,CUST00143,Delhi Connaught,DEL002,Cash Withdrawal,POS Machine,1179940.82,2025-03-22 11:57:04,Failed,LN00002,Kunal Mehta,Low,No,4429,No,Updated,Branch Processing,
+OPS000069,TXN755070872,CUST00093,Delhi Connaught,DEL002,IMPS,Branch,723342.94,2025-09-07 11:57:04,Failed,,Rohit Sharma,High,No,4090,No,Pending,Branch Processing,
+OPS000070,TXN696093935,CUST00134,Delhi Connaught,DEL002,RTGS,Mobile Banking,1447749.61,2025-11-11 11:57:04,Failed,LN00013,Rohit Sharma,Medium,No,231,Yes,Updated,Cash Handling,
+OPS000071,TXN981979505,CUST00063,Chennai Central,CHE004,NEFT,Mobile Banking,717955.39,2025-05-07 11:57:04,Pending,LN00112,Amit Verma,Low,No,668,No,Verified,Interbank Fund Transfer,
+OPS000072,TXN793942506,CUST00170,,MUM001,Cheque Deposit,Internet Banking,1115788.12,2025-05-08 11:57:04,Pending,LN00068,Rohit Sharma,Low,No,2656,Yes,Verified,Routine Banking Activity,
+OPS000073,TXN882123149,CUST00085,Delhi Connaught,DEL002,Cash Deposit,ATM,1962456.64,2026-02-23 11:57:04,Success,,Support Pool,Medium,No,4154,Yes,Verified,Branch Processing,ATM80735
+OPS000074,TXN598601417,CUST00126,,DEL002,Loan EMI,Internet Banking,938895.39,2024-07-18 11:57:04,Pending,,Support Pool,Low,No,567,No,Updated,Routine Banking Activity,
+OPS000075,TXN499993178,CUST00143,Delhi Connaught,DEL002,Cash Deposit,ATM,588033.68,2026-01-04 11:57:04,Pending,LN00002,Kunal Mehta,High,Yes,2133,No,Updated,Branch Processing,ATM30095
+OPS000076,TXN864444621,CUST00080,Mumbai Main,MUM001,UPI Transfer,POS Machine,1683581.09,2026-02-01 11:57:04,Failed,,Kunal Mehta,Low,No,2708,Yes,Verified,UPI Merchant Payment,
+OPS000077,TXN763274347,CUST00062,Mumbai Main,MUM001,NEFT,POS Machine,1150430.35,2025-08-24 11:57:04,Reversed,LN00128,Support Pool,Low,No,3648,Yes,Verified,Interbank Fund Transfer,
+OPS000078,TXN373005604,CUST00006,Chennai Central,CHE004,RTGS,Branch,1079347.93,2025-10-19 11:57:04,Success,,Support Pool,Low,Yes,514,No,Verified,Routine Banking Activity,
+OPS000079,TXN958626245,CUST00050,Chennai Central,CHE004,RTGS,Mobile Banking,1282931.19,2025-04-29 11:57:04,Success,,Amit Verma,Low,No,2742,Yes,Verified,Cash Handling,
+OPS000080,TXN698468163,CUST00099,Delhi Connaught,DEL002,IMPS,Mobile Banking,1454175.42,2025-10-24 11:57:04,Pending,LN00033,Amit Verma,Low,No,2890,Yes,Updated,Customer Transaction,
+OPS000081,TXN775895887,CUST00150,Hyderabad Prime,HYD005,RTGS,POS Machine,1199668.72,2025-03-16 11:57:04,Reversed,,Support Pool,Medium,No,4818,Yes,Verified,Customer Transaction,
+OPS000082,TXN546253885,CUST00163,,BLR003,Cheque Deposit,Internet Banking,1327561.22,2025-02-06 11:57:04,Pending,,Neha Kapoor,Low,No,1805,No,Verified,Cash Handling,
+OPS000083,TXN558758309,CUST00069,Chennai Central,CHE004,NEFT,ATM,1539544.97,2025-12-09 11:57:04,Reversed,LN00119,Amit Verma,High,Yes,328,Yes,Verified,Interbank Fund Transfer,ATM71977
+OPS000084,TXN235975957,CUST00191,Delhi Connaught,DEL002,NEFT,ATM,1923530.25,2024-07-24 11:57:04,Failed,,Support Pool,Low,No,3960,No,Pending,Interbank Fund Transfer,ATM99857
+OPS000085,TXN540538056,CUST00178,,DEL002,NEFT,Internet Banking,1287922.39,2025-01-01 11:57:04,Failed,,Support Pool,Low,No,1513,No,Verified,Interbank Fund Transfer,
+OPS000086,TXN677570839,CUST00028,Mumbai Main,MUM001,IMPS,ATM,111478.71,2024-05-16 11:57:04,Pending,,Rohit Sharma,Medium,No,1099,No,Updated,Branch Processing,ATM61928
+OPS000087,TXN668285637,CUST00092,Mumbai Main,MUM001,Loan EMI,Branch,1044200.57,2024-11-04 11:57:04,Pending,LN00101,Amit Verma,Low,No,815,Yes,Updated,EMI Payment for LN00101,
+OPS000088,TXN735529641,CUST00113,Hyderabad Prime,HYD005,Cash Withdrawal,Mobile Banking,683073.22,2026-03-26 11:57:04,Reversed,,Kunal Mehta,Low,No,4354,No,Updated,Customer Transaction,
+OPS000089,TXN543004559,CUST00075,Delhi Connaught,DEL002,RTGS,Branch,714012.95,2024-08-05 11:57:04,Success,LN00109,Rohit Sharma,High,No,3315,No,Updated,Routine Banking Activity,
+OPS000090,TXN958907859,CUST00108,Bengaluru Tech Park,BLR003,Cheque Deposit,POS Machine,1428465.85,2025-08-23 11:57:04,Failed,,Sneha Iyer,High,Yes,4184,Yes,Pending,Cash Handling,
+OPS000091,TXN162042339,CUST00128,Bengaluru Tech Park,BLR003,Cheque Deposit,Branch,1819782.07,2025-05-03 11:57:04,Pending,,Neha Kapoor,Low,Yes,2992,No,Updated,Routine Banking Activity,
+OPS000092,TXN482157997,CUST00185,Mumbai Main,MUM001,Cash Withdrawal,POS Machine,1948918.59,2024-06-29 11:57:04,Reversed,LN00039,Priya Nair,Low,No,285,No,Updated,Cash Handling,
+OPS000093,TXN149126732,CUST00024,Chennai Central,CHE004,RTGS,POS Machine,1358344.96,2024-10-28 11:57:04,Pending,LN00016,Support Pool,Low,No,4245,No,Updated,Routine Banking Activity,
+OPS000094,TXN781815061,CUST00032,Mumbai Main,MUM001,Cash Withdrawal,POS Machine,1821262.85,2025-05-27 11:57:04,Failed,LN00148,Amit Verma,Medium,No,3307,Yes,Updated,Routine Banking Activity,
+OPS000095,TXN865926700,CUST00135,Hyderabad Prime,HYD005,RTGS,Mobile Banking,784239.58,2024-11-06 11:57:04,Success,LN00021,Support Pool,Medium,No,4457,Yes,Updated,Routine Banking Activity,
+OPS000096,TXN444920445,CUST00060,Mumbai Main,MUM001,IMPS,Mobile Banking,1376464.55,2026-04-24 11:57:04,Failed,LN00029,Support Pool,Medium,No,540,Yes,Verified,Branch Processing,
+OPS000097,TXN202674976,CUST00061,Delhi Connaught,DEL002,UPI Transfer,Mobile Banking,1655500.94,2024-09-07 11:57:04,Failed,LN00081,Kunal Mehta,High,No,1576,Yes,Pending,UPI Merchant Payment,
+OPS000098,TXN908254503,CUST00048,Chennai Central,CHE004,Cheque Deposit,Branch,502210.91,2025-08-19 11:57:04,Pending,,Support Pool,Low,No,4796,Yes,Pending,Cash Handling,
+OPS000099,TXN392014185,CUST00061,Delhi Connaught,DEL002,RTGS,Branch,1809924.86,2025-10-16 11:57:04,Pending,LN00081,Kunal Mehta,High,No,4120,Yes,Pending,Branch Processing,
+OPS000100,TXN820610025,CUST00121,Hyderabad Prime,HYD005,IMPS,Mobile Banking,1832326.2,2025-08-06 11:57:04,Success,,Kunal Mehta,High,No,1389,Yes,Updated,Customer Transaction,
+OPS000101,TXN208285585,CUST00095,Bengaluru Tech Park,BLR003,IMPS,POS Machine,1206911.21,2025-05-29 11:57:04,Failed,LN00070,Amit Verma,High,No,2384,No,Updated,Branch Processing,
+OPS000102,TXN302840612,CUST00103,Delhi Connaught,DEL002,NEFT,ATM,771237.85,2025-04-11 11:57:04,Success,,Rohit Sharma,Low,No,1708,No,Updated,Interbank Fund Transfer,ATM45981
+OPS000103,TXN892769312,CUST00055,Delhi Connaught,DEL002,NEFT,ATM,115481.72,2025-05-14 11:57:04,Reversed,LN00028,Sneha Iyer,High,No,208,No,Verified,Interbank Fund Transfer,ATM86907
+OPS000104,TXN579884548,CUST00175,Bengaluru Tech Park,BLR003,RTGS,ATM,299268.21,2026-03-27 11:57:04,Failed,,Priya Nair,Medium,No,4569,Yes,Pending,Cash Handling,ATM51615
+OPS000105,TXN206881445,CUST00055,Delhi Connaught,DEL002,Cash Deposit,Branch,225916.14,2026-03-03 11:57:04,Reversed,LN00028,Sneha Iyer,High,No,1379,No,Verified,Customer Transaction,
+OPS000106,TXN500959613,CUST00027,Delhi Connaught,DEL002,IMPS,ATM,896159.09,2024-10-09 11:57:04,Failed,LN00075,Support Pool,Low,No,3939,Yes,Pending,Customer Transaction,ATM77324
+OPS000107,TXN510804156,CUST00068,,BLR003,Cash Deposit,Internet Banking,1156248.44,2024-10-27 11:57:04,Success,,Sneha Iyer,Medium,No,4212,Yes,Updated,Routine Banking Activity,
+OPS000108,TXN598398566,CUST00067,Chennai Central,CHE004,Cash Deposit,ATM,937052.47,2025-04-11 11:57:04,Reversed,,Amit Verma,Medium,Yes,2612,Yes,Updated,Branch Processing,ATM93401
+OPS000109,TXN929060172,CUST00031,Chennai Central,CHE004,IMPS,ATM,1990243.24,2025-04-13 11:57:04,Pending,,Sneha Iyer,Medium,No,1769,No,Verified,Routine Banking Activity,ATM10276
+OPS000110,TXN890557335,CUST00065,Bengaluru Tech Park,BLR003,Cheque Deposit,Branch,1385326.88,2024-07-17 11:57:04,Pending,LN00126,Support Pool,Low,No,4333,Yes,Updated,Customer Transaction,
+OPS000111,TXN144490995,CUST00101,Bengaluru Tech Park,BLR003,Cash Deposit,ATM,560407.46,2024-06-09 11:57:04,Failed,LN00105,Neha Kapoor,Low,Yes,2734,Yes,Verified,Customer Transaction,ATM54903
+OPS000112,TXN189373047,CUST00132,Bengaluru Tech Park,BLR003,UPI Transfer,Branch,1053334.42,2025-01-16 11:57:04,Success,LN00050,Kunal Mehta,Low,No,2987,No,Updated,UPI Merchant Payment,
+OPS000113,TXN683381578,CUST00014,Hyderabad Prime,HYD005,IMPS,POS Machine,1265606.76,2025-02-03 11:57:04,Reversed,LN00120,Support Pool,Low,No,4131,No,Pending,Cash Handling,
+OPS000114,TXN692065403,CUST00020,Bengaluru Tech Park,BLR003,UPI Transfer,POS Machine,742995.65,2025-02-15 11:57:04,Failed,LN00082,Sneha Iyer,Medium,No,2709,No,Verified,UPI Merchant Payment,
+OPS000115,TXN828987637,CUST00118,Mumbai Main,MUM001,RTGS,POS Machine,569949.31,2025-11-30 11:57:04,Success,,Neha Kapoor,Medium,Yes,3783,Yes,Updated,Routine Banking Activity,
+OPS000116,TXN671894589,CUST00084,Delhi Connaught,DEL002,NEFT,POS Machine,1616768.74,2024-08-16 11:57:04,Pending,,Support Pool,High,Yes,4154,Yes,Updated,Interbank Fund Transfer,
+OPS000117,TXN516105305,CUST00087,,BLR003,UPI Transfer,Internet Banking,1480504.54,2025-05-20 11:57:04,Pending,,Neha Kapoor,Medium,No,3427,No,Pending,UPI Merchant Payment,
+OPS000118,TXN737233173,CUST00199,,HYD005,IMPS,Internet Banking,44063.59,2025-12-06 11:57:04,Pending,LN00097,Rohit Sharma,Medium,No,1945,No,Pending,Branch Processing,
+OPS000119,TXN144266441,CUST00053,Delhi Connaught,DEL002,NEFT,Branch,145842.59,2026-01-07 11:57:04,Pending,,Support Pool,Low,No,4451,No,Pending,Interbank Fund Transfer,
+OPS000120,TXN349290334,CUST00053,Delhi Connaught,DEL002,Loan EMI,POS Machine,451231.43,2025-11-20 11:57:04,Reversed,,Support Pool,High,No,2836,No,Pending,Customer Transaction,
+OPS000121,TXN843229393,CUST00041,Delhi Connaught,DEL002,Cash Deposit,Branch,558213.15,2025-12-04 11:57:04,Pending,,Digital Support,High,Yes,4892,No,Verified,Routine Banking Activity,
+OPS000122,TXN235177081,CUST00017,Bengaluru Tech Park,BLR003,NEFT,Mobile Banking,1077420.56,2025-05-09 11:57:04,Success,LN00001,Neha Kapoor,Low,No,4751,Yes,Verified,Interbank Fund Transfer,
+OPS000123,TXN554014808,CUST00126,,DEL002,RTGS,Internet Banking,329151.37,2025-07-10 11:57:04,Reversed,,Digital Support,Medium,No,607,No,Updated,Cash Handling,
+OPS000124,TXN557984128,CUST00015,Delhi Connaught,DEL002,Cash Deposit,Mobile Banking,350782.45,2025-05-20 11:57:04,Reversed,LN00116,Support Pool,Medium,Yes,2018,Yes,Updated,Cash Handling,
+OPS000125,TXN388679977,CUST00050,Chennai Central,CHE004,UPI Transfer,Mobile Banking,1209232.45,2025-08-14 11:57:04,Pending,,Amit Verma,Low,No,1857,Yes,Verified,UPI Merchant Payment,
+OPS000126,TXN607562767,CUST00169,,BLR003,Cash Deposit,Internet Banking,392455.56,2026-03-24 11:57:04,Success,,Amit Verma,Low,No,247,Yes,Updated,Routine Banking Activity,
+OPS000127,TXN514593283,CUST00112,,HYD005,NEFT,Internet Banking,29591.68,2026-01-15 11:57:04,Success,LN00076,Amit Verma,High,No,605,No,Pending,Interbank Fund Transfer,
+OPS000128,TXN839326647,CUST00082,Bengaluru Tech Park,BLR003,NEFT,POS Machine,1823765.92,2025-08-09 11:57:04,Pending,,Sneha Iyer,Low,Yes,735,No,Updated,Interbank Fund Transfer,
+OPS000129,TXN699297219,CUST00027,Delhi Connaught,DEL002,IMPS,POS Machine,1557478.74,2025-12-14 11:57:04,Pending,LN00032,Digital Support,Medium,Yes,2827,Yes,Pending,Customer Transaction,
+OPS000130,TXN911351865,CUST00167,Hyderabad Prime,HYD005,Cheque Deposit,ATM,523137.69,2025-09-23 11:57:04,Pending,LN00027,Digital Support,Low,No,1833,Yes,Pending,Branch Processing,ATM96882
+OPS000131,TXN791791526,CUST00001,Mumbai Main,MUM001,RTGS,Mobile Banking,1075596.86,2025-07-17 11:57:04,Reversed,LN00094,Support Pool,Medium,Yes,428,Yes,Verified,Branch Processing,
+OPS000132,TXN869700910,CUST00180,Bengaluru Tech Park,BLR003,Cheque Deposit,Branch,325086.17,2024-07-13 11:57:04,Failed,,Neha Kapoor,High,Yes,3056,Yes,Verified,Customer Transaction,
+OPS000133,TXN510676430,CUST00195,,MUM001,Cheque Deposit,Internet Banking,915526.67,2025-12-23 11:57:04,Pending,LN00130,Neha Kapoor,Medium,No,871,Yes,Updated,Routine Banking Activity,
+OPS000134,TXN828359522,CUST00094,Mumbai Main,MUM001,NEFT,ATM,167627.66,2024-08-30 11:57:04,Pending,LN00140,Amit Verma,Low,Yes,883,Yes,Verified,Interbank Fund Transfer,ATM68724
+OPS000135,TXN626900366,CUST00113,,HYD005,RTGS,Internet Banking,537920.89,2024-05-29 11:57:04,Failed,,Priya Nair,Low,No,283,No,Updated,Cash Handling,
+OPS000136,TXN497034471,CUST00132,Bengaluru Tech Park,BLR003,IMPS,ATM,1556821.52,2024-08-27 11:57:04,Success,LN00050,Kunal Mehta,High,No,3113,No,Updated,Branch Processing,ATM90172
+OPS000137,TXN210443352,CUST00018,Bengaluru Tech Park,BLR003,IMPS,POS Machine,1335682.98,2025-03-27 11:57:04,Reversed,LN00038,Amit Verma,Medium,No,914,Yes,Pending,Cash Handling,
+OPS000138,TXN997229595,CUST00068,,BLR003,UPI Transfer,Internet Banking,421181.87,2024-12-26 11:57:04,Failed,,Sneha Iyer,High,No,842,Yes,Updated,UPI Merchant Payment,
+OPS000139,TXN677792986,CUST00057,,BLR003,Cash Deposit,Internet Banking,1972474.15,2026-04-23 11:57:04,Failed,LN00053,Neha Kapoor,Medium,Yes,3495,No,Pending,Routine Banking Activity,
+OPS000140,TXN894933455,CUST00115,Delhi Connaught,DEL002,IMPS,Mobile Banking,1805989.95,2025-12-16 11:57:04,Reversed,,Support Pool,Low,Yes,3436,Yes,Updated,Customer Transaction,
+OPS000141,TXN614193197,CUST00090,Mumbai Main,MUM001,RTGS,ATM,1402387.36,2025-03-27 11:57:04,Failed,LN00004,Support Pool,Medium,No,66,Yes,Updated,Customer Transaction,ATM87642
+OPS000142,TXN248646597,CUST00075,Delhi Connaught,DEL002,RTGS,Branch,498700.09,2024-12-30 11:57:04,Reversed,LN00109,Amit Verma,Low,Yes,3865,No,Updated,Cash Handling,
+OPS000143,TXN671428089,CUST00050,Chennai Central,CHE004,UPI Transfer,ATM,970955.01,2026-04-07 11:57:04,Success,,Amit Verma,High,No,4514,Yes,Verified,UPI Merchant Payment,ATM43709
+OPS000144,TXN900278809,CUST00155,Delhi Connaught,DEL002,IMPS,POS Machine,946871.33,2025-06-21 11:57:04,Success,,Support Pool,High,No,997,No,Updated,Routine Banking Activity,
+OPS000145,TXN702290671,CUST00095,,BLR003,Cash Withdrawal,Internet Banking,1655728.96,2024-05-26 11:57:04,Reversed,LN00070,Amit Verma,Low,No,4679,No,Updated,Branch Processing,
+OPS000146,TXN977435731,CUST00054,Delhi Connaught,DEL002,Loan EMI,Branch,179837.07,2025-10-28 11:57:04,Reversed,,Support Pool,Medium,No,3930,Yes,Updated,Branch Processing,
+OPS000147,TXN574556035,CUST00015,Delhi Connaught,DEL002,IMPS,ATM,771392.9,2025-05-29 11:57:04,Failed,LN00116,Support Pool,High,No,1550,Yes,Updated,Routine Banking Activity,ATM15093
+OPS000148,TXN350862482,CUST00088,Chennai Central,CHE004,IMPS,Mobile Banking,489186.83,2025-09-14 11:57:04,Failed,LN00135,Neha Kapoor,Low,No,4746,Yes,Pending,Branch Processing,
+OPS000149,TXN148288675,CUST00110,,HYD005,Cash Deposit,Internet Banking,42723.75,2025-01-05 11:57:04,Failed,LN00093,Support Pool,High,No,1642,Yes,Updated,Routine Banking Activity,
+OPS000150,TXN286788075,CUST00144,Chennai Central,CHE004,Cash Withdrawal,Branch,816569.03,2025-08-29 11:57:04,Reversed,,Digital Support,High,No,3567,No,Updated,Branch Processing,
+OPS000151,TXN515521591,CUST00175,Bengaluru Tech Park,BLR003,Cheque Deposit,ATM,474382.24,2025-11-13 11:57:04,Pending,,Priya Nair,High,Yes,2924,Yes,Pending,Branch Processing,ATM28084
+OPS000152,TXN154320791,CUST00145,Delhi Connaught,DEL002,IMPS,Mobile Banking,791958.21,2026-05-13 11:57:04,Success,,Neha Kapoor,Low,No,2214,Yes,Verified,Cash Handling,
+OPS000153,TXN453886696,CUST00023,Mumbai Main,MUM001,Cash Deposit,Branch,1237549.2,2025-11-24 11:57:04,Failed,LN00131,Support Pool,Medium,Yes,863,No,Updated,Customer Transaction,
+OPS000154,TXN501279916,CUST00051,Bengaluru Tech Park,BLR003,UPI Transfer,ATM,998057.42,2024-12-20 11:57:04,Reversed,LN00012,Support Pool,Medium,Yes,4676,No,Pending,UPI Merchant Payment,ATM71634
+OPS000155,TXN184336365,CUST00164,,DEL002,RTGS,Internet Banking,1890691.26,2025-04-26 11:57:04,Success,LN00123,Priya Nair,Medium,Yes,1057,Yes,Updated,Cash Handling,
+OPS000156,TXN880678793,CUST00083,Hyderabad Prime,HYD005,IMPS,POS Machine,152666.3,2026-03-12 11:57:04,Failed,LN00133,Sneha Iyer,Low,No,509,No,Pending,Routine Banking Activity,
+OPS000157,TXN448848319,CUST00153,Hyderabad Prime,HYD005,Cash Deposit,Mobile Banking,1400631.35,2024-12-02 11:57:04,Failed,LN00083,Support Pool,High,No,3261,No,Verified,Customer Transaction,
+OPS000158,TXN303765089,CUST00136,Delhi Connaught,DEL002,RTGS,Branch,27069.71,2025-09-08 11:57:04,Reversed,,Digital Support,High,No,4566,Yes,Updated,Cash Handling,
+OPS000159,TXN738789878,CUST00033,,DEL002,Cash Withdrawal,Internet Banking,1190761.84,2024-12-12 11:57:04,Success,,Kunal Mehta,High,No,4461,Yes,Updated,Branch Processing,
+OPS000160,TXN282645603,CUST00116,Chennai Central,CHE004,Loan EMI,Mobile Banking,490643.24,2025-03-17 11:57:04,Success,LN00080,Priya Nair,Medium,No,2160,Yes,Pending,EMI Payment for LN00080,
+OPS000161,TXN208868563,CUST00004,,MUM001,IMPS,Internet Banking,1339621.6,2025-10-24 11:57:04,Reversed,LN00079,Support Pool,High,Yes,2977,Yes,Updated,Branch Processing,
+OPS000162,TXN470321002,CUST00045,Delhi Connaught,DEL002,IMPS,ATM,1728485.27,2024-06-16 11:57:04,Pending,LN00103,Kunal Mehta,Medium,No,652,No,Pending,Branch Processing,ATM51307
+OPS000163,TXN672375301,CUST00166,Hyderabad Prime,HYD005,Cash Withdrawal,Branch,477965.91,2025-09-20 11:57:04,Success,LN00065,Amit Verma,Low,No,612,Yes,Pending,Branch Processing,
+OPS000164,TXN192178359,CUST00127,Delhi Connaught,DEL002,RTGS,Branch,361992.49,2025-09-04 11:57:04,Reversed,LN00010,Digital Support,High,Yes,4834,Yes,Updated,Customer Transaction,
+OPS000165,TXN724338980,CUST00152,,MUM001,Cash Deposit,Internet Banking,1570397.49,2024-07-15 11:57:04,Reversed,,Neha Kapoor,High,No,772,No,Updated,Routine Banking Activity,
+OPS000166,TXN986845345,CUST00151,Hyderabad Prime,HYD005,Cash Withdrawal,Branch,265075.11,2025-03-27 11:57:04,Failed,LN00121,Priya Nair,Medium,No,4105,No,Verified,Cash Handling,
+OPS000167,TXN404759706,CUST00085,,DEL002,Loan EMI,Internet Banking,518100.59,2026-03-11 11:57:04,Reversed,,Support Pool,Medium,No,1017,Yes,Verified,Routine Banking Activity,
+OPS000168,TXN575523435,CUST00001,Mumbai Main,MUM001,IMPS,POS Machine,1572641.14,2025-09-13 11:57:04,Reversed,LN00094,Support Pool,Medium,Yes,976,Yes,Verified,Customer Transaction,
+OPS000169,TXN995731562,CUST00140,Mumbai Main,MUM001,UPI Transfer,ATM,1917379.58,2024-10-11 11:57:04,Reversed,,Sneha Iyer,Low,Yes,2052,Yes,Updated,UPI Merchant Payment,ATM75001
+OPS000170,TXN235244107,CUST00183,Bengaluru Tech Park,BLR003,Loan EMI,Branch,484075.0,2025-10-05 11:57:04,Success,LN00124,Kunal Mehta,High,No,106,No,Pending,EMI Payment for LN00124,
+OPS000171,TXN508864242,CUST00191,,DEL002,UPI Transfer,Internet Banking,640002.27,2025-02-16 11:57:04,Pending,,Support Pool,Low,No,4360,No,Pending,UPI Merchant Payment,
+OPS000172,TXN197217644,CUST00086,Chennai Central,CHE004,Cash Deposit,Branch,1285615.14,2025-09-24 11:57:04,Failed,,Rohit Sharma,High,No,4619,Yes,Verified,Customer Transaction,
+OPS000173,TXN548940395,CUST00072,Delhi Connaught,DEL002,IMPS,Mobile Banking,231064.05,2025-03-21 11:57:04,Pending,,Rohit Sharma,High,No,4248,Yes,Updated,Customer Transaction,
+OPS000174,TXN897149195,CUST00123,Chennai Central,CHE004,NEFT,Branch,81705.26,2025-06-24 11:57:04,Failed,,Rohit Sharma,Medium,Yes,4595,Yes,Updated,Interbank Fund Transfer,
+OPS000175,TXN333926289,CUST00136,Delhi Connaught,DEL002,RTGS,POS Machine,901139.29,2026-03-13 11:57:04,Success,,Digital Support,Medium,Yes,1311,Yes,Updated,Branch Processing,
+OPS000176,TXN575677640,CUST00193,Mumbai Main,MUM001,UPI Transfer,ATM,1162101.3,2026-02-03 11:57:04,Pending,LN00036,Neha Kapoor,High,No,438,No,Verified,UPI Merchant Payment,ATM45554
+OPS000177,TXN145212898,CUST00098,Delhi Connaught,DEL002,Loan EMI,Branch,343881.52,2026-02-07 11:57:04,Failed,LN00067,Neha Kapoor,Low,No,4509,Yes,Verified,EMI Payment for LN00067,
+OPS000178,TXN225842584,CUST00062,,MUM001,Cash Withdrawal,Internet Banking,303480.19,2025-01-24 11:57:04,Success,LN00128,Support Pool,Medium,No,1441,Yes,Verified,Cash Handling,
+OPS000179,TXN453221009,CUST00182,Mumbai Main,MUM001,NEFT,Branch,1972798.18,2025-11-11 11:57:04,Failed,,Support Pool,Low,No,2406,Yes,Pending,Interbank Fund Transfer,
+OPS000180,TXN406044107,CUST00007,,MUM001,IMPS,Internet Banking,160157.61,2024-08-23 11:57:04,Reversed,,Support Pool,High,No,3856,No,Updated,Branch Processing,
+OPS000181,TXN774461149,CUST00143,Delhi Connaught,DEL002,Loan EMI,Branch,705287.96,2026-04-05 11:57:04,Reversed,LN00002,Sneha Iyer,High,No,503,No,Updated,EMI Payment for LN00002,
+OPS000182,TXN829653455,CUST00015,Delhi Connaught,DEL002,IMPS,Mobile Banking,1085497.61,2025-12-13 11:57:04,Success,LN00116,Support Pool,High,No,4291,Yes,Updated,Cash Handling,
+OPS000183,TXN162564158,CUST00097,Hyderabad Prime,HYD005,RTGS,ATM,1809224.94,2025-05-05 11:57:04,Success,,Neha Kapoor,Low,No,3246,Yes,Pending,Cash Handling,ATM11036
+OPS000184,TXN712299559,CUST00199,,HYD005,Cheque Deposit,Internet Banking,803233.83,2024-10-24 11:57:04,Pending,LN00097,Rohit Sharma,High,No,893,No,Pending,Routine Banking Activity,
+OPS000185,TXN624906221,CUST00022,Delhi Connaught,DEL002,Loan EMI,Branch,407996.54,2025-08-26 11:57:04,Failed,LN00042,Support Pool,Low,Yes,1816,No,Verified,EMI Payment for LN00042,
+OPS000186,TXN125689800,CUST00080,Mumbai Main,MUM001,NEFT,ATM,362151.66,2025-03-24 11:57:04,Reversed,,Priya Nair,Medium,Yes,912,Yes,Verified,Interbank Fund Transfer,ATM58851
+OPS000187,TXN875254874,CUST00062,,MUM001,Loan EMI,Internet Banking,76402.19,2026-01-17 11:57:04,Pending,LN00128,Support Pool,Low,No,731,Yes,Verified,EMI Payment for LN00128,
+OPS000188,TXN539650431,CUST00060,,MUM001,IMPS,Internet Banking,261387.11,2025-05-12 11:57:04,Success,LN00091,Support Pool,Low,Yes,3172,Yes,Verified,Routine Banking Activity,
+OPS000189,TXN187485129,CUST00189,Delhi Connaught,DEL002,Loan EMI,POS Machine,286996.55,2025-01-17 11:57:04,Failed,LN00024,Priya Nair,Medium,No,3395,Yes,Updated,EMI Payment for LN00024,
+OPS000190,TXN959623570,CUST00014,Hyderabad Prime,HYD005,RTGS,ATM,1544314.6,2025-06-11 11:57:04,Reversed,LN00120,Digital Support,Medium,No,1073,No,Pending,Branch Processing,ATM53635
+OPS000191,TXN176481968,CUST00153,Hyderabad Prime,HYD005,Loan EMI,Mobile Banking,537516.34,2025-06-04 11:57:04,Pending,LN00083,Support Pool,Medium,No,187,No,Verified,EMI Payment for LN00083,
+OPS000192,TXN906914113,CUST00173,Bengaluru Tech Park,BLR003,Cash Deposit,Mobile Banking,1327688.4,2024-05-20 11:57:04,Success,LN00087,Amit Verma,High,No,3987,Yes,Verified,Customer Transaction,
+OPS000193,TXN586215387,CUST00133,Delhi Connaught,DEL002,UPI Transfer,POS Machine,988817.85,2025-07-16 11:57:04,Pending,LN00145,Kunal Mehta,High,Yes,491,No,Verified,UPI Merchant Payment,
+OPS000194,TXN923608975,CUST00077,Bengaluru Tech Park,BLR003,Loan EMI,POS Machine,42260.43,2025-05-29 11:57:04,Reversed,,Kunal Mehta,High,No,2488,Yes,Updated,Branch Processing,
+OPS000195,TXN599133438,CUST00011,Delhi Connaught,DEL002,NEFT,Mobile Banking,1626740.28,2024-07-30 11:57:04,Success,,Support Pool,High,No,1845,Yes,Verified,Interbank Fund Transfer,
+OPS000196,TXN345948425,CUST00061,Delhi Connaught,DEL002,IMPS,Mobile Banking,1406872.07,2026-03-13 11:57:04,Success,LN00081,Sneha Iyer,Medium,No,4994,Yes,Pending,Routine Banking Activity,
+OPS000197,TXN804660708,CUST00041,Delhi Connaught,DEL002,RTGS,POS Machine,1758100.65,2025-10-01 11:57:04,Reversed,,Support Pool,Low,No,3477,No,Verified,Routine Banking Activity,
+OPS000198,TXN773782180,CUST00121,,HYD005,IMPS,Internet Banking,1459016.48,2025-04-17 11:57:04,Success,,Kunal Mehta,High,Yes,2031,Yes,Updated,Cash Handling,
+OPS000199,TXN735976025,CUST00055,,DEL002,Cheque Deposit,Internet Banking,41524.5,2025-05-12 11:57:04,Pending,LN00028,Priya Nair,Low,No,1297,No,Verified,Branch Processing,
+OPS000200,TXN675114967,CUST00017,Bengaluru Tech Park,BLR003,NEFT,POS Machine,1997819.98,2025-03-26 11:57:04,Pending,LN00001,Neha Kapoor,Low,Yes,803,Yes,Verified,Interbank Fund Transfer,
+OPS000201,TXN602018766,CUST00057,Bengaluru Tech Park,BLR003,Loan EMI,Mobile Banking,891239.69,2025-07-28 11:57:04,Pending,LN00053,Amit Verma,Medium,No,663,No,Pending,EMI Payment for LN00053,
+OPS000202,TXN539051479,CUST00018,,BLR003,Cash Deposit,Internet Banking,1385368.25,2025-08-19 11:57:04,Pending,LN00038,Amit Verma,High,Yes,4590,Yes,Pending,Branch Processing,
+OPS000203,TXN671479104,CUST00102,,DEL002,Cash Withdrawal,Internet Banking,1223908.62,2024-09-18 11:57:04,Success,,Sneha Iyer,High,No,3136,Yes,Updated,Customer Transaction,
+OPS000204,TXN119942123,CUST00052,Bengaluru Tech Park,BLR003,NEFT,POS Machine,511955.47,2026-01-31 11:57:04,Failed,LN00054,Neha Kapoor,Low,Yes,2501,Yes,Verified,Interbank Fund Transfer,
+OPS000205,TXN459050353,CUST00190,Bengaluru Tech Park,BLR003,Cheque Deposit,POS Machine,1015265.46,2025-03-24 11:57:04,Pending,LN00059,Neha Kapoor,Low,No,948,No,Verified,Routine Banking Activity,
+OPS000206,TXN372629390,CUST00047,Hyderabad Prime,HYD005,Cash Deposit,Mobile Banking,371792.82,2025-11-29 11:57:04,Pending,,Amit Verma,Low,No,2801,No,Pending,Customer Transaction,
+OPS000207,TXN346391325,CUST00173,Bengaluru Tech Park,BLR003,Cheque Deposit,POS Machine,305320.04,2026-04-15 11:57:04,Success,LN00087,Amit Verma,Medium,No,851,Yes,Verified,Branch Processing,
+OPS000208,TXN193087437,CUST00037,Chennai Central,CHE004,Cash Withdrawal,POS Machine,1069360.64,2025-04-14 11:57:04,Reversed,LN00085,Support Pool,High,No,2386,No,Pending,Routine Banking Activity,
+OPS000209,TXN101706144,CUST00093,Delhi Connaught,DEL002,NEFT,POS Machine,610145.33,2026-04-19 11:57:04,Reversed,,Rohit Sharma,Medium,No,1649,No,Pending,Interbank Fund Transfer,
+OPS000210,TXN261799556,CUST00125,Mumbai Main,MUM001,Loan EMI,Branch,738829.23,2024-12-24 11:57:04,Reversed,,Priya Nair,Low,No,2843,No,Verified,Cash Handling,
+OPS000211,TXN649106600,CUST00118,Mumbai Main,MUM001,Cash Withdrawal,ATM,1324145.11,2026-01-21 11:57:04,Reversed,,Neha Kapoor,Low,Yes,1244,Yes,Updated,Routine Banking Activity,ATM88032
+OPS000212,TXN225092308,CUST00145,Delhi Connaught,DEL002,UPI Transfer,ATM,237861.02,2025-01-07 11:57:04,Failed,,Amit Verma,Medium,No,976,Yes,Verified,UPI Merchant Payment,ATM33340
+OPS000213,TXN757784727,CUST00003,,BLR003,Cheque Deposit,Internet Banking,1567653.0,2025-08-12 11:57:04,Pending,LN00056,Support Pool,Low,No,4590,Yes,Verified,Cash Handling,
+OPS000214,TXN199053905,CUST00114,Mumbai Main,MUM001,Cheque Deposit,ATM,1337836.93,2026-01-21 11:57:04,Failed,,Support Pool,High,No,4755,No,Verified,Cash Handling,ATM48967
+OPS000215,TXN265540079,CUST00043,Hyderabad Prime,HYD005,Cheque Deposit,Mobile Banking,193380.23,2026-01-06 11:57:04,Failed,,Rohit Sharma,Medium,No,831,Yes,Updated,Branch Processing,
+OPS000216,TXN968193054,CUST00158,Mumbai Main,MUM001,IMPS,POS Machine,966395.25,2025-02-14 11:57:04,Reversed,LN00100,Amit Verma,Medium,No,1227,Yes,Pending,Routine Banking Activity,
+OPS000217,TXN489668358,CUST00007,Mumbai Main,MUM001,Loan EMI,Branch,1007069.34,2024-12-06 11:57:04,Reversed,,Support Pool,Low,No,848,No,Updated,Cash Handling,
+OPS000218,TXN297437011,CUST00196,Bengaluru Tech Park,BLR003,RTGS,ATM,60471.35,2025-09-15 11:57:04,Failed,LN00071,Support Pool,High,No,2728,Yes,Pending,Branch Processing,ATM90020
+OPS000219,TXN622749545,CUST00164,,DEL002,UPI Transfer,Internet Banking,1363391.55,2025-04-03 11:57:04,Pending,LN00123,Priya Nair,High,Yes,266,Yes,Updated,UPI Merchant Payment,
+OPS000220,TXN541623851,CUST00151,Hyderabad Prime,HYD005,NEFT,ATM,386658.96,2025-04-09 11:57:04,Pending,LN00121,Sneha Iyer,High,No,1213,No,Verified,Interbank Fund Transfer,ATM35810
+OPS000221,TXN442012970,CUST00091,Mumbai Main,MUM001,Cash Deposit,Mobile Banking,1384323.25,2025-08-11 11:57:04,Success,LN00114,Support Pool,Low,Yes,555,No,Updated,Customer Transaction,
+OPS000222,TXN226504953,CUST00074,,HYD005,Cash Deposit,Internet Banking,693622.27,2024-12-07 11:57:04,Failed,LN00017,Sneha Iyer,High,Yes,872,Yes,Verified,Customer Transaction,
+OPS000223,TXN583036729,CUST00039,Mumbai Main,MUM001,Cheque Deposit,Mobile Banking,509074.97,2024-10-28 11:57:04,Reversed,LN00077,Priya Nair,High,Yes,2018,No,Updated,Branch Processing,
+OPS000224,TXN761325627,CUST00021,Mumbai Main,MUM001,Cash Withdrawal,POS Machine,310924.77,2024-11-25 11:57:04,Pending,LN00030,Priya Nair,Low,No,3815,No,Verified,Cash Handling,
+OPS000225,TXN611473400,CUST00068,,BLR003,Cash Deposit,Internet Banking,1844654.19,2026-03-02 11:57:04,Reversed,,Sneha Iyer,Low,No,4529,Yes,Updated,Branch Processing,
+OPS000226,TXN201140552,CUST00145,Delhi Connaught,DEL002,RTGS,Mobile Banking,1075802.76,2024-10-25 11:57:04,Reversed,,Neha Kapoor,High,No,3180,Yes,Verified,Cash Handling,
+OPS000227,TXN280187473,CUST00025,Bengaluru Tech Park,BLR003,Cash Withdrawal,ATM,566162.62,2025-03-23 11:57:04,Failed,LN00088,Sneha Iyer,Low,No,1926,No,Updated,Branch Processing,ATM30081
+OPS000228,TXN428854773,CUST00161,Mumbai Main,MUM001,RTGS,Branch,1650132.74,2025-05-26 11:57:04,Reversed,,Rohit Sharma,High,No,1377,Yes,Updated,Customer Transaction,
+OPS000229,TXN556401403,CUST00094,Mumbai Main,MUM001,RTGS,Branch,1245408.72,2026-05-07 11:57:04,Reversed,LN00140,Amit Verma,Low,No,553,Yes,Verified,Routine Banking Activity,
+OPS000230,TXN828375058,CUST00057,,BLR003,UPI Transfer,Internet Banking,1336076.17,2025-06-22 11:57:04,Success,LN00053,Amit Verma,Low,Yes,163,No,Pending,UPI Merchant Payment,
+OPS000231,TXN721027541,CUST00148,,HYD005,IMPS,Internet Banking,765569.88,2025-12-03 11:57:04,Pending,LN00089,Rohit Sharma,Low,No,659,Yes,Updated,Cash Handling,
+OPS000232,TXN221300564,CUST00142,Chennai Central,CHE004,Loan EMI,Mobile Banking,1516076.28,2024-05-28 11:57:04,Success,LN00069,Digital Support,High,No,2871,Yes,Verified,EMI Payment for LN00069,
+OPS000233,TXN662673307,CUST00036,Bengaluru Tech Park,BLR003,IMPS,Branch,1973998.12,2025-11-03 11:57:04,Reversed,LN00143,Support Pool,Low,Yes,1365,No,Updated,Routine Banking Activity,
+OPS000234,TXN405389557,CUST00089,Chennai Central,CHE004,Loan EMI,ATM,691006.49,2025-05-24 11:57:04,Failed,,Kunal Mehta,Medium,No,4162,No,Verified,Routine Banking Activity,ATM29551
+OPS000235,TXN705860266,CUST00076,Chennai Central,CHE004,NEFT,Mobile Banking,653855.22,2025-09-09 11:57:04,Pending,LN00142,Support Pool,Low,No,4174,Yes,Verified,Interbank Fund Transfer,
+OPS000236,TXN664022512,CUST00002,Hyderabad Prime,HYD005,UPI Transfer,Branch,136737.11,2025-12-04 11:57:04,Reversed,LN00137,Sneha Iyer,High,No,1134,Yes,Verified,UPI Merchant Payment,
+OPS000237,TXN621478720,CUST00129,Bengaluru Tech Park,BLR003,NEFT,Branch,870761.01,2026-04-08 11:57:04,Reversed,LN00134,Priya Nair,Low,No,543,No,Pending,Interbank Fund Transfer,
+OPS000238,TXN314214667,CUST00119,Mumbai Main,MUM001,IMPS,POS Machine,1365672.46,2025-12-24 11:57:04,Success,,Kunal Mehta,Medium,No,1130,Yes,Updated,Branch Processing,
+OPS000239,TXN198207283,CUST00086,Chennai Central,CHE004,RTGS,Mobile Banking,821789.57,2025-04-09 11:57:04,Reversed,,Rohit Sharma,Low,Yes,3902,Yes,Verified,Routine Banking Activity,
+OPS000240,TXN757685697,CUST00154,Delhi Connaught,DEL002,Cash Withdrawal,Mobile Banking,1202458.02,2026-03-10 11:57:04,Reversed,LN00136,Kunal Mehta,Medium,No,4427,No,Verified,Customer Transaction,
+OPS000241,TXN635941089,CUST00007,Mumbai Main,MUM001,UPI Transfer,POS Machine,1829776.99,2025-11-17 11:57:04,Pending,,Digital Support,High,Yes,3967,No,Updated,UPI Merchant Payment,
+OPS000242,TXN389568668,CUST00022,Delhi Connaught,DEL002,IMPS,ATM,908154.87,2025-07-28 11:57:04,Failed,LN00042,Support Pool,Low,Yes,3305,No,Verified,Cash Handling,ATM48870
+OPS000243,TXN486874118,CUST00151,Hyderabad Prime,HYD005,NEFT,Branch,624872.98,2024-12-18 11:57:04,Reversed,LN00121,Sneha Iyer,High,No,1363,No,Verified,Interbank Fund Transfer,
+OPS000244,TXN396581446,CUST00027,Delhi Connaught,DEL002,Cheque Deposit,Mobile Banking,1302461.28,2024-10-24 11:57:04,Pending,LN00032,Support Pool,Low,No,2274,Yes,Pending,Cash Handling,
+OPS000245,TXN395075773,CUST00148,Hyderabad Prime,HYD005,UPI Transfer,Mobile Banking,1073768.99,2025-05-26 11:57:04,Pending,LN00089,Neha Kapoor,Low,Yes,3872,Yes,Updated,UPI Merchant Payment,
+OPS000246,TXN992792241,CUST00070,Chennai Central,CHE004,IMPS,Mobile Banking,191125.48,2026-02-08 11:57:04,Success,LN00045,Support Pool,High,No,274,No,Updated,Cash Handling,
+OPS000247,TXN311451633,CUST00047,,HYD005,Loan EMI,Internet Banking,1354387.11,2024-12-03 11:57:04,Pending,,Amit Verma,Medium,No,2987,No,Pending,Cash Handling,
+OPS000248,TXN838779392,CUST00150,,HYD005,NEFT,Internet Banking,1253654.03,2025-03-01 11:57:04,Pending,,Support Pool,Medium,Yes,1770,Yes,Verified,Interbank Fund Transfer,
+OPS000249,TXN931824795,CUST00167,Hyderabad Prime,HYD005,Cash Deposit,ATM,1791700.21,2025-06-22 11:57:04,Failed,LN00027,Digital Support,High,Yes,728,Yes,Pending,Branch Processing,ATM98954
+OPS000250,TXN603545422,CUST00142,Chennai Central,CHE004,NEFT,Mobile Banking,1623932.34,2025-06-08 11:57:04,Reversed,LN00069,Digital Support,High,No,4050,Yes,Verified,Interbank Fund Transfer,
+OPS000251,TXN351096531,CUST00019,,BLR003,Cash Withdrawal,Internet Banking,1294350.18,2025-12-04 11:57:04,Success,LN00127,Support Pool,High,Yes,514,No,Verified,Branch Processing,
+OPS000252,TXN790464617,CUST00018,Bengaluru Tech Park,BLR003,NEFT,ATM,1370091.26,2024-09-14 11:57:04,Failed,LN00038,Amit Verma,High,Yes,744,Yes,Pending,Interbank Fund Transfer,ATM78153
+OPS000253,TXN656075848,CUST00049,Hyderabad Prime,HYD005,Cash Withdrawal,POS Machine,211530.23,2026-03-21 11:57:04,Failed,,Sneha Iyer,High,No,195,Yes,Pending,Customer Transaction,
+OPS000254,TXN421365414,CUST00085,Delhi Connaught,DEL002,Cheque Deposit,ATM,223885.46,2026-01-14 11:57:04,Success,,Support Pool,Medium,No,3614,Yes,Verified,Customer Transaction,ATM93757
+OPS000255,TXN982610742,CUST00032,,MUM001,RTGS,Internet Banking,490729.67,2025-11-14 11:57:04,Success,LN00148,Amit Verma,Medium,No,1291,Yes,Updated,Branch Processing,
+OPS000256,TXN791346844,CUST00012,Chennai Central,CHE004,NEFT,ATM,161488.12,2025-09-03 11:57:04,Failed,LN00058,Rohit Sharma,Low,No,1623,No,Pending,Interbank Fund Transfer,ATM52429
+OPS000257,TXN781616054,CUST00075,Delhi Connaught,DEL002,Cheque Deposit,Branch,1103200.66,2026-05-09 11:57:04,Success,LN00109,Neha Kapoor,Low,Yes,1348,No,Updated,Branch Processing,
+OPS000258,TXN664892060,CUST00093,Delhi Connaught,DEL002,NEFT,POS Machine,630956.04,2025-12-13 11:57:04,Success,,Rohit Sharma,Low,No,2164,No,Pending,Interbank Fund Transfer,
+OPS000259,TXN809357523,CUST00101,Bengaluru Tech Park,BLR003,Cash Deposit,ATM,904550.41,2025-01-04 11:57:04,Pending,LN00105,Neha Kapoor,High,No,1260,Yes,Verified,Branch Processing,ATM72196
+OPS000260,TXN209117204,CUST00184,Hyderabad Prime,HYD005,Cheque Deposit,Mobile Banking,1509304.25,2025-04-03 11:57:04,Pending,,Priya Nair,Medium,No,802,Yes,Pending,Customer Transaction,
+OPS000261,TXN523428094,CUST00002,Hyderabad Prime,HYD005,RTGS,Branch,1765910.53,2024-11-13 11:57:04,Reversed,LN00063,Sneha Iyer,Low,No,247,Yes,Verified,Cash Handling,
+OPS000262,TXN699777061,CUST00143,Delhi Connaught,DEL002,Loan EMI,Branch,320100.17,2025-06-06 11:57:04,Reversed,LN00002,Kunal Mehta,Medium,No,4167,No,Updated,EMI Payment for LN00002,
+OPS000263,TXN891971742,CUST00156,Chennai Central,CHE004,NEFT,Branch,1236083.33,2026-02-22 11:57:04,Failed,LN00052,Support Pool,Medium,No,3468,Yes,Updated,Interbank Fund Transfer,
+OPS000264,TXN802776916,CUST00160,,CHE004,Loan EMI,Internet Banking,957523.56,2024-09-23 11:57:04,Success,LN00078,Support Pool,Medium,No,1212,No,Pending,EMI Payment for LN00078,
+OPS000265,TXN779230394,CUST00041,Delhi Connaught,DEL002,Cheque Deposit,POS Machine,1583029.96,2026-04-07 11:57:04,Pending,,Digital Support,Medium,Yes,4356,No,Verified,Cash Handling,
+OPS000266,TXN207983532,CUST00131,Delhi Connaught,DEL002,IMPS,Mobile Banking,1858581.28,2024-06-23 11:57:04,Failed,LN00060,Support Pool,High,No,3429,No,Pending,Routine Banking Activity,
+OPS000267,TXN909417139,CUST00161,Mumbai Main,MUM001,Cheque Deposit,Branch,614228.31,2024-08-09 11:57:04,Reversed,,Rohit Sharma,High,No,4825,Yes,Updated,Routine Banking Activity,
+OPS000268,TXN155696951,CUST00086,Chennai Central,CHE004,Cheque Deposit,ATM,778774.49,2025-02-03 11:57:04,Failed,,Rohit Sharma,Low,No,3542,Yes,Verified,Cash Handling,ATM46846
+OPS000269,TXN126616863,CUST00153,Hyderabad Prime,HYD005,RTGS,Mobile Banking,473341.41,2025-03-05 11:57:04,Pending,LN00083,Support Pool,Low,Yes,1038,No,Verified,Branch Processing,
+OPS000270,TXN199620309,CUST00073,Chennai Central,CHE004,Cash Deposit,ATM,1959269.6,2026-04-26 11:57:04,Success,,Priya Nair,Low,Yes,3665,No,Pending,Routine Banking Activity,ATM85954
+OPS000271,TXN889730871,CUST00110,Hyderabad Prime,HYD005,UPI Transfer,Branch,1849719.02,2025-01-24 11:57:04,Reversed,LN00093,Support Pool,High,No,2510,Yes,Updated,UPI Merchant Payment,
+OPS000272,TXN693755909,CUST00022,Delhi Connaught,DEL002,IMPS,POS Machine,1557438.56,2025-07-08 11:57:04,Reversed,LN00042,Support Pool,Low,No,2293,No,Verified,Routine Banking Activity,
+OPS000273,TXN898812741,CUST00158,Mumbai Main,MUM001,Cash Withdrawal,POS Machine,563890.72,2026-02-26 11:57:04,Failed,LN00100,Neha Kapoor,Low,No,1053,Yes,Pending,Customer Transaction,
+OPS000274,TXN964373160,CUST00132,Bengaluru Tech Park,BLR003,Loan EMI,Mobile Banking,536235.24,2024-07-03 11:57:04,Success,LN00050,Kunal Mehta,High,No,141,No,Updated,EMI Payment for LN00050,
+OPS000275,TXN696856235,CUST00024,Chennai Central,CHE004,RTGS,Branch,1520940.4,2025-02-09 11:57:04,Pending,LN00016,Support Pool,Low,No,652,No,Updated,Branch Processing,
+OPS000276,TXN197871502,CUST00105,Chennai Central,CHE004,Cash Withdrawal,ATM,1205910.4,2025-02-22 11:57:04,Pending,,Sneha Iyer,Low,Yes,1686,No,Pending,Routine Banking Activity,ATM89790
+OPS000277,TXN630666774,CUST00128,Bengaluru Tech Park,BLR003,Cash Deposit,Branch,1909148.25,2026-03-11 11:57:04,Failed,,Rohit Sharma,Low,Yes,358,No,Updated,Cash Handling,
+OPS000278,TXN197845103,CUST00176,Mumbai Main,MUM001,Cash Deposit,Mobile Banking,773907.02,2025-07-04 11:57:04,Reversed,,Support Pool,Low,No,3971,No,Verified,Branch Processing,
+OPS000279,TXN677275849,CUST00069,Chennai Central,CHE004,Cheque Deposit,Mobile Banking,612388.73,2024-06-14 11:57:04,Reversed,LN00034,Amit Verma,Low,No,539,Yes,Verified,Cash Handling,
+OPS000280,TXN116451926,CUST00092,Mumbai Main,MUM001,Cash Deposit,ATM,1328306.0,2026-02-12 11:57:04,Failed,LN00101,Amit Verma,High,No,2111,Yes,Updated,Branch Processing,ATM62239
+OPS000281,TXN692996543,CUST00026,Delhi Connaught,DEL002,RTGS,ATM,1089893.14,2024-12-28 11:57:04,Pending,,Neha Kapoor,Medium,No,2781,No,Updated,Routine Banking Activity,ATM10424
+OPS000282,TXN808336076,CUST00129,Bengaluru Tech Park,BLR003,RTGS,POS Machine,301780.57,2025-12-03 11:57:04,Reversed,LN00134,Priya Nair,Medium,No,1647,No,Pending,Routine Banking Activity,
+OPS000283,TXN692703249,CUST00186,Hyderabad Prime,HYD005,NEFT,POS Machine,295076.46,2026-04-09 11:57:04,Pending,LN00107,Kunal Mehta,Low,No,4118,Yes,Pending,Interbank Fund Transfer,
+OPS000284,TXN457148101,CUST00136,Delhi Connaught,DEL002,NEFT,POS Machine,837914.17,2026-04-18 11:57:04,Pending,,Digital Support,Low,Yes,1141,Yes,Updated,Interbank Fund Transfer,
+OPS000285,TXN575461014,CUST00160,,CHE004,NEFT,Internet Banking,417387.67,2026-05-10 11:57:04,Pending,LN00078,Support Pool,High,No,4396,No,Pending,Interbank Fund Transfer,
+OPS000286,TXN817467618,CUST00147,Mumbai Main,MUM001,NEFT,Branch,1912675.86,2024-10-19 11:57:04,Reversed,,Sneha Iyer,Medium,No,3318,No,Verified,Interbank Fund Transfer,
+OPS000287,TXN969338382,CUST00148,Hyderabad Prime,HYD005,IMPS,Mobile Banking,1311595.81,2024-09-22 11:57:04,Failed,LN00089,Neha Kapoor,High,No,2310,Yes,Updated,Cash Handling,
+OPS000288,TXN370323026,CUST00104,Bengaluru Tech Park,BLR003,IMPS,Mobile Banking,499056.82,2024-10-13 11:57:04,Failed,,Kunal Mehta,Low,Yes,317,No,Verified,Customer Transaction,
+OPS000289,TXN918590176,CUST00194,Mumbai Main,MUM001,Cash Deposit,Mobile Banking,1925179.44,2024-11-28 11:57:04,Success,LN00117,Digital Support,Medium,No,2940,No,Pending,Routine Banking Activity,
+OPS000290,TXN697791462,CUST00039,Mumbai Main,MUM001,Cash Withdrawal,Mobile Banking,1719107.91,2024-08-20 11:57:04,Pending,LN00106,Priya Nair,Low,No,3489,No,Updated,Routine Banking Activity,
+OPS000291,TXN772301379,CUST00017,Bengaluru Tech Park,BLR003,RTGS,POS Machine,1603129.7,2025-12-19 11:57:04,Pending,LN00020,Neha Kapoor,Medium,No,3880,Yes,Verified,Customer Transaction,
+OPS000292,TXN724353567,CUST00050,Chennai Central,CHE004,NEFT,Mobile Banking,1105438.58,2024-06-28 11:57:04,Reversed,,Amit Verma,High,Yes,4134,Yes,Verified,Interbank Fund Transfer,
+OPS000293,TXN569838788,CUST00029,Hyderabad Prime,HYD005,NEFT,Branch,1284411.53,2024-07-08 11:57:04,Failed,LN00086,Kunal Mehta,High,No,1544,Yes,Updated,Interbank Fund Transfer,
+OPS000294,TXN744125183,CUST00179,Bengaluru Tech Park,BLR003,Cash Deposit,POS Machine,1494103.59,2025-03-05 11:57:04,Failed,LN00011,Sneha Iyer,Low,No,3069,Yes,Pending,Branch Processing,
+OPS000295,TXN456948882,CUST00142,Chennai Central,CHE004,Cheque Deposit,ATM,1041001.25,2025-10-29 11:57:04,Reversed,LN00069,Digital Support,Medium,Yes,2762,Yes,Verified,Cash Handling,ATM72170
+OPS000296,TXN559408059,CUST00126,Delhi Connaught,DEL002,Cheque Deposit,Mobile Banking,1804701.3,2025-02-04 11:57:04,Pending,,Digital Support,High,No,4483,No,Updated,Branch Processing,
+OPS000297,TXN531046790,CUST00091,Mumbai Main,MUM001,Cheque Deposit,Mobile Banking,324800.57,2025-05-16 11:57:04,Failed,LN00114,Support Pool,High,No,1853,No,Updated,Cash Handling,
+OPS000298,TXN354958614,CUST00009,Hyderabad Prime,HYD005,Cheque Deposit,Mobile Banking,1455066.92,2026-03-28 11:57:04,Pending,LN00139,Kunal Mehta,Medium,No,1378,Yes,Updated,Branch Processing,
+OPS000299,TXN175182125,CUST00083,,HYD005,Cash Withdrawal,Internet Banking,1598407.22,2024-11-30 11:57:04,Failed,LN00133,Sneha Iyer,Low,No,1074,No,Pending,Routine Banking Activity,
+OPS000300,TXN833552469,CUST00116,Chennai Central,CHE004,Cheque Deposit,Mobile Banking,206451.33,2026-03-23 11:57:04,Success,LN00141,Priya Nair,Medium,No,438,Yes,Pending,Cash Handling,
+OPS000301,TXN511035747,CUST00063,Chennai Central,CHE004,NEFT,Branch,1006960.37,2025-12-26 11:57:04,Failed,LN00112,Amit Verma,Medium,No,2487,No,Verified,Interbank Fund Transfer,
+OPS000302,TXN882141821,CUST00186,Hyderabad Prime,HYD005,Cheque Deposit,Branch,977435.11,2024-12-10 11:57:04,Failed,LN00107,Kunal Mehta,Medium,No,1836,Yes,Pending,Customer Transaction,
+OPS000303,TXN869474820,CUST00058,Mumbai Main,MUM001,Cash Deposit,ATM,1553975.98,2026-01-14 11:57:04,Success,LN00015,Priya Nair,High,Yes,557,No,Updated,Branch Processing,ATM86142
+OPS000304,TXN814948687,CUST00183,Bengaluru Tech Park,BLR003,Loan EMI,Branch,588901.41,2026-04-01 11:57:04,Reversed,LN00084,Kunal Mehta,Low,No,4571,No,Pending,EMI Payment for LN00084,
+OPS000305,TXN553626489,CUST00067,Chennai Central,CHE004,IMPS,ATM,468688.46,2024-08-25 11:57:04,Failed,,Amit Verma,Low,No,1923,Yes,Updated,Branch Processing,ATM17930
+OPS000306,TXN891581218,CUST00137,Mumbai Main,MUM001,RTGS,Branch,1970978.65,2026-01-16 11:57:04,Success,,Priya Nair,Low,Yes,3996,Yes,Verified,Branch Processing,
+OPS000307,TXN699755657,CUST00159,,BLR003,Cheque Deposit,Internet Banking,1023468.95,2025-02-13 11:57:04,Success,,Rohit Sharma,Medium,No,3239,No,Verified,Branch Processing,
+OPS000308,TXN498135788,CUST00140,Mumbai Main,MUM001,NEFT,Branch,1024507.17,2026-03-12 11:57:04,Failed,,Sneha Iyer,Medium,Yes,1458,Yes,Updated,Interbank Fund Transfer,
+OPS000309,TXN659030725,CUST00013,Mumbai Main,MUM001,Loan EMI,Branch,1631053.3,2025-02-19 11:57:04,Reversed,LN00005,Support Pool,High,No,3430,Yes,Verified,EMI Payment for LN00005,
+OPS000310,TXN916565072,CUST00148,Hyderabad Prime,HYD005,Cheque Deposit,ATM,319953.56,2025-02-15 11:57:04,Reversed,LN00089,Neha Kapoor,Low,No,1867,Yes,Updated,Cash Handling,ATM65363
+OPS000311,TXN737407333,CUST00135,Hyderabad Prime,HYD005,UPI Transfer,ATM,1667191.77,2025-11-21 11:57:04,Pending,LN00021,Support Pool,High,No,2717,Yes,Updated,UPI Merchant Payment,ATM83241
+OPS000312,TXN391530128,CUST00106,Delhi Connaught,DEL002,RTGS,ATM,309747.55,2025-10-21 11:57:04,Failed,LN00046,Digital Support,Medium,No,4412,No,Verified,Routine Banking Activity,ATM39354
+OPS000313,TXN179162664,CUST00189,Delhi Connaught,DEL002,NEFT,POS Machine,790470.53,2026-02-24 11:57:04,Pending,LN00024,Priya Nair,Medium,No,3864,Yes,Updated,Interbank Fund Transfer,
+OPS000314,TXN362983169,CUST00077,Bengaluru Tech Park,BLR003,Cash Deposit,Branch,833885.64,2025-03-09 11:57:04,Pending,,Kunal Mehta,Medium,No,3179,Yes,Updated,Branch Processing,
+OPS000315,TXN192326672,CUST00012,Chennai Central,CHE004,Cash Withdrawal,POS Machine,1176149.8,2025-08-16 11:57:04,Pending,LN00058,Amit Verma,Low,Yes,1041,No,Pending,Customer Transaction,
+OPS000316,TXN882728731,CUST00065,Bengaluru Tech Park,BLR003,Loan EMI,ATM,563830.58,2025-11-27 11:57:04,Success,LN00126,Support Pool,High,No,4099,Yes,Updated,EMI Payment for LN00126,ATM67848
+OPS000317,TXN243782324,CUST00142,Chennai Central,CHE004,Cash Deposit,POS Machine,62686.1,2025-11-27 11:57:04,Success,LN00069,Digital Support,High,No,3771,Yes,Verified,Branch Processing,
+OPS000318,TXN303146163,CUST00075,Delhi Connaught,DEL002,Loan EMI,Mobile Banking,1695165.01,2024-11-30 11:57:04,Success,LN00109,Rohit Sharma,Low,No,3223,No,Updated,EMI Payment for LN00109,
+OPS000319,TXN268053259,CUST00036,,BLR003,Cheque Deposit,Internet Banking,118962.37,2026-04-05 11:57:04,Success,LN00143,Support Pool,Medium,Yes,281,No,Updated,Routine Banking Activity,
+OPS000320,TXN583570928,CUST00119,,MUM001,Cash Deposit,Internet Banking,319965.47,2024-07-01 11:57:04,Success,,Priya Nair,High,No,247,Yes,Updated,Branch Processing,
+OPS000321,TXN295318551,CUST00028,Mumbai Main,MUM001,Cash Withdrawal,Branch,646668.75,2024-05-28 11:57:04,Pending,,Rohit Sharma,High,No,4038,No,Updated,Branch Processing,
+OPS000322,TXN312507003,CUST00151,,HYD005,IMPS,Internet Banking,1883072.39,2025-05-20 11:57:04,Failed,LN00121,Sneha Iyer,Low,Yes,1045,No,Verified,Customer Transaction,
+OPS000323,TXN339006429,CUST00170,,MUM001,RTGS,Internet Banking,1862522.16,2025-07-31 11:57:04,Pending,LN00092,Neha Kapoor,High,Yes,3835,Yes,Verified,Cash Handling,
+OPS000324,TXN118098724,CUST00045,Delhi Connaught,DEL002,RTGS,Branch,1646607.88,2024-05-28 11:57:04,Success,LN00103,Kunal Mehta,High,No,4510,No,Pending,Branch Processing,
+OPS000325,TXN213093467,CUST00104,Bengaluru Tech Park,BLR003,RTGS,ATM,1312532.86,2024-10-22 11:57:04,Success,,Kunal Mehta,Medium,No,4811,No,Verified,Cash Handling,ATM17898
+OPS000326,TXN148768508,CUST00066,Mumbai Main,MUM001,Cheque Deposit,ATM,1338539.04,2024-10-10 11:57:04,Pending,LN00096,Amit Verma,Medium,Yes,4591,No,Pending,Cash Handling,ATM36978
+OPS000327,TXN888577494,CUST00106,Delhi Connaught,DEL002,RTGS,Mobile Banking,40416.44,2025-08-31 11:57:04,Pending,LN00051,Support Pool,Medium,No,3031,No,Verified,Cash Handling,
+OPS000328,TXN811926392,CUST00163,Bengaluru Tech Park,BLR003,Cash Withdrawal,Mobile Banking,1636087.53,2025-11-24 11:57:04,Reversed,,Amit Verma,High,No,1923,No,Verified,Customer Transaction,
+OPS000329,TXN329356225,CUST00133,Delhi Connaught,DEL002,Cash Withdrawal,ATM,265030.82,2025-09-22 11:57:04,Reversed,LN00145,Kunal Mehta,High,No,2192,No,Verified,Routine Banking Activity,ATM62141
+OPS000330,TXN639139149,CUST00109,Hyderabad Prime,HYD005,NEFT,Branch,1883623.73,2025-06-20 11:57:04,Success,LN00026,Support Pool,High,No,4122,No,Pending,Interbank Fund Transfer,
+OPS000331,TXN409429331,CUST00183,Bengaluru Tech Park,BLR003,Cash Deposit,ATM,890129.19,2026-02-14 11:57:04,Reversed,LN00084,Kunal Mehta,Medium,No,423,No,Pending,Routine Banking Activity,ATM91233
+OPS000332,TXN156896610,CUST00095,,BLR003,Cash Withdrawal,Internet Banking,177918.27,2026-04-22 11:57:04,Reversed,LN00070,Amit Verma,High,No,2417,No,Updated,Customer Transaction,
+OPS000333,TXN122870598,CUST00080,Mumbai Main,MUM001,Loan EMI,ATM,1301435.58,2026-05-12 11:57:04,Reversed,,Priya Nair,High,No,3106,Yes,Verified,Customer Transaction,ATM20264
+OPS000334,TXN437392201,CUST00197,Mumbai Main,MUM001,Loan EMI,Mobile Banking,1350720.53,2025-05-12 11:57:04,Pending,,Neha Kapoor,Medium,Yes,228,Yes,Updated,Branch Processing,
+OPS000335,TXN105348237,CUST00118,Mumbai Main,MUM001,NEFT,POS Machine,368131.11,2024-06-02 11:57:04,Success,,Neha Kapoor,High,No,187,Yes,Updated,Interbank Fund Transfer,
+OPS000336,TXN469069591,CUST00195,Mumbai Main,MUM001,Cheque Deposit,ATM,1471425.81,2025-02-05 11:57:04,Reversed,LN00130,Neha Kapoor,Low,No,1494,Yes,Updated,Branch Processing,ATM29603
+OPS000337,TXN770504460,CUST00008,,MUM001,NEFT,Internet Banking,282973.43,2025-10-22 11:57:04,Pending,,Sneha Iyer,Low,No,199,No,Verified,Interbank Fund Transfer,
+OPS000338,TXN981847269,CUST00077,Bengaluru Tech Park,BLR003,Cheque Deposit,ATM,1697536.63,2025-01-21 11:57:04,Success,,Kunal Mehta,Low,No,3211,Yes,Updated,Branch Processing,ATM70009
+OPS000339,TXN341094734,CUST00059,Hyderabad Prime,HYD005,UPI Transfer,Branch,682956.61,2025-06-19 11:57:04,Reversed,,Digital Support,Low,No,4033,No,Pending,UPI Merchant Payment,
+OPS000340,TXN636800393,CUST00069,,CHE004,UPI Transfer,Internet Banking,881370.0,2025-05-01 11:57:04,Failed,LN00119,Amit Verma,Medium,No,3197,Yes,Verified,UPI Merchant Payment,
+OPS000341,TXN207224098,CUST00066,,MUM001,UPI Transfer,Internet Banking,1686194.79,2025-10-07 11:57:04,Failed,LN00132,Amit Verma,Medium,Yes,2723,No,Pending,UPI Merchant Payment,
+OPS000342,TXN775058711,CUST00003,Bengaluru Tech Park,BLR003,Cash Withdrawal,Branch,863707.91,2025-08-03 11:57:04,Reversed,LN00056,Support Pool,Medium,No,3976,Yes,Verified,Customer Transaction,
+OPS000343,TXN857733776,CUST00092,Mumbai Main,MUM001,Cash Withdrawal,ATM,1293797.31,2026-04-29 11:57:04,Reversed,LN00101,Amit Verma,Medium,No,3437,Yes,Updated,Customer Transaction,ATM12362
+OPS000344,TXN372104044,CUST00067,Chennai Central,CHE004,RTGS,POS Machine,789011.6,2025-12-22 11:57:04,Pending,,Amit Verma,Medium,No,4731,Yes,Updated,Branch Processing,
+OPS000345,TXN251520914,CUST00123,Chennai Central,CHE004,Cheque Deposit,ATM,1998821.48,2025-08-01 11:57:04,Success,,Rohit Sharma,Medium,No,2066,Yes,Updated,Customer Transaction,ATM89167
+OPS000346,TXN113548703,CUST00054,Delhi Connaught,DEL002,Loan EMI,POS Machine,552962.81,2026-03-22 11:57:04,Pending,,Support Pool,Medium,No,382,Yes,Updated,Routine Banking Activity,
+OPS000347,TXN645609001,CUST00007,Mumbai Main,MUM001,Cash Withdrawal,Branch,162505.63,2026-03-01 11:57:04,Success,,Digital Support,Low,No,3742,No,Updated,Branch Processing,
+OPS000348,TXN321762465,CUST00087,Bengaluru Tech Park,BLR003,Loan EMI,Mobile Banking,78591.99,2025-07-08 11:57:04,Failed,,Neha Kapoor,High,Yes,2230,No,Pending,Cash Handling,
+OPS000349,TXN845186534,CUST00113,,HYD005,Cash Deposit,Internet Banking,45987.31,2024-06-05 11:57:04,Failed,,Kunal Mehta,High,No,3673,No,Updated,Branch Processing,
+OPS000350,TXN664544598,CUST00007,,MUM001,NEFT,Internet Banking,861805.82,2025-09-10 11:57:04,Success,,Support Pool,Low,No,3281,No,Updated,Interbank Fund Transfer,
+OPS000351,TXN594205403,CUST00037,Chennai Central,CHE004,Loan EMI,Mobile Banking,1477602.98,2025-03-23 11:57:04,Failed,LN00085,Support Pool,Low,No,4722,No,Pending,EMI Payment for LN00085,
+OPS000352,TXN922856892,CUST00042,Chennai Central,CHE004,Cash Deposit,ATM,1209309.03,2026-01-31 11:57:04,Pending,LN00102,Neha Kapoor,Medium,No,2081,Yes,Pending,Branch Processing,ATM31052
+OPS000353,TXN499003832,CUST00165,,BLR003,Loan EMI,Internet Banking,145388.88,2025-07-28 11:57:04,Failed,LN00062,Amit Verma,High,No,1127,Yes,Updated,EMI Payment for LN00062,
+OPS000354,TXN942675639,CUST00127,Delhi Connaught,DEL002,Cash Deposit,POS Machine,1291075.38,2025-10-10 11:57:04,Success,LN00073,Digital Support,Low,No,4245,Yes,Updated,Routine Banking Activity,
+OPS000355,TXN301945495,CUST00138,Delhi Connaught,DEL002,Loan EMI,ATM,758408.12,2025-04-15 11:57:04,Success,LN00118,Rohit Sharma,Low,No,3618,Yes,Verified,EMI Payment for LN00118,ATM40535
+OPS000356,TXN991439126,CUST00083,,HYD005,NEFT,Internet Banking,248572.24,2025-06-04 11:57:04,Success,LN00133,Sneha Iyer,Low,No,2428,No,Pending,Interbank Fund Transfer,
+OPS000357,TXN872406470,CUST00037,Chennai Central,CHE004,UPI Transfer,POS Machine,1491010.67,2025-04-18 11:57:04,Reversed,LN00085,Support Pool,Low,No,3805,No,Pending,UPI Merchant Payment,
+OPS000358,TXN411245707,CUST00082,Bengaluru Tech Park,BLR003,Cash Withdrawal,Mobile Banking,1479407.17,2025-03-16 11:57:04,Reversed,,Kunal Mehta,Medium,No,120,No,Updated,Branch Processing,
+OPS000359,TXN117184674,CUST00164,,DEL002,NEFT,Internet Banking,1477184.58,2024-06-18 11:57:04,Pending,LN00123,Priya Nair,Low,No,585,Yes,Updated,Interbank Fund Transfer,
+OPS000360,TXN355695379,CUST00105,Chennai Central,CHE004,NEFT,POS Machine,609248.16,2025-04-11 11:57:04,Failed,,Sneha Iyer,Medium,No,4701,No,Pending,Interbank Fund Transfer,
+OPS000361,TXN645722681,CUST00096,,MUM001,Cash Withdrawal,Internet Banking,1092427.28,2025-12-29 11:57:04,Pending,,Rohit Sharma,Medium,No,4282,No,Updated,Routine Banking Activity,
+OPS000362,TXN841379090,CUST00003,Bengaluru Tech Park,BLR003,NEFT,POS Machine,1479245.74,2024-10-29 11:57:04,Pending,LN00056,Support Pool,Medium,No,4521,Yes,Verified,Interbank Fund Transfer,
+OPS000363,TXN212907079,CUST00200,Chennai Central,CHE004,UPI Transfer,ATM,1729658.67,2024-08-18 11:57:04,Reversed,LN00095,Digital Support,Medium,No,313,Yes,Verified,UPI Merchant Payment,ATM21575
+OPS000364,TXN718294041,CUST00002,Hyderabad Prime,HYD005,Loan EMI,POS Machine,625075.5,2024-06-05 11:57:04,Reversed,LN00137,Sneha Iyer,Low,No,2716,Yes,Verified,EMI Payment for LN00137,
+OPS000365,TXN461160985,CUST00147,Mumbai Main,MUM001,NEFT,Branch,1564348.97,2025-08-28 11:57:04,Reversed,,Sneha Iyer,Medium,No,3805,No,Verified,Interbank Fund Transfer,
+OPS000366,TXN134408483,CUST00034,,DEL002,UPI Transfer,Internet Banking,1559711.53,2026-02-09 11:57:04,Reversed,LN00125,Support Pool,High,Yes,934,No,Verified,UPI Merchant Payment,
+OPS000367,TXN201920572,CUST00172,Delhi Connaught,DEL002,Cash Withdrawal,ATM,596994.07,2025-06-27 11:57:04,Reversed,,Amit Verma,High,No,1655,No,Pending,Routine Banking Activity,ATM13415
+OPS000368,TXN696085116,CUST00087,,BLR003,IMPS,Internet Banking,1475622.16,2026-04-28 11:57:04,Reversed,,Neha Kapoor,Low,No,4470,No,Pending,Branch Processing,
+OPS000369,TXN786965183,CUST00180,Bengaluru Tech Park,BLR003,Loan EMI,Branch,1844551.11,2024-06-17 11:57:04,Reversed,,Neha Kapoor,High,No,2803,Yes,Verified,Customer Transaction,
+OPS000370,TXN797970734,CUST00010,Hyderabad Prime,HYD005,Loan EMI,ATM,936768.53,2025-05-25 11:57:04,Reversed,,Amit Verma,Medium,No,2227,Yes,Updated,Customer Transaction,ATM13864
+OPS000371,TXN981017320,CUST00029,Hyderabad Prime,HYD005,Cheque Deposit,Mobile Banking,1110775.6,2026-03-22 11:57:04,Reversed,LN00086,Sneha Iyer,Medium,No,1364,Yes,Updated,Cash Handling,
+OPS000372,TXN747876757,CUST00161,Mumbai Main,MUM001,RTGS,Branch,1944422.37,2024-10-13 11:57:04,Success,,Rohit Sharma,Low,Yes,3729,Yes,Updated,Cash Handling,
+OPS000373,TXN327939789,CUST00138,,DEL002,Loan EMI,Internet Banking,123496.59,2024-09-08 11:57:04,Failed,LN00098,Rohit Sharma,Medium,Yes,1532,Yes,Verified,EMI Payment for LN00098,
+OPS000374,TXN101857769,CUST00072,,DEL002,NEFT,Internet Banking,905298.83,2025-04-19 11:57:04,Success,,Rohit Sharma,High,Yes,3726,Yes,Updated,Interbank Fund Transfer,
+OPS000375,TXN836612779,CUST00060,Mumbai Main,MUM001,Cash Deposit,ATM,1248475.67,2026-02-13 11:57:04,Reversed,LN00091,Support Pool,Low,Yes,1052,Yes,Verified,Customer Transaction,ATM12054
+OPS000376,TXN827525752,CUST00193,Mumbai Main,MUM001,IMPS,POS Machine,1700469.78,2026-04-26 11:57:04,Failed,LN00036,Neha Kapoor,Medium,Yes,2237,No,Verified,Cash Handling,
+OPS000377,TXN844971211,CUST00028,Mumbai Main,MUM001,Cash Withdrawal,POS Machine,1365040.44,2025-11-03 11:57:04,Pending,,Rohit Sharma,Low,No,3728,No,Updated,Cash Handling,
+OPS000378,TXN542510005,CUST00120,,MUM001,Cheque Deposit,Internet Banking,496840.62,2024-07-06 11:57:04,Success,,Support Pool,High,No,4223,Yes,Verified,Routine Banking Activity,
+OPS000379,TXN501412553,CUST00093,Delhi Connaught,DEL002,Cheque Deposit,Mobile Banking,1754796.67,2025-07-21 11:57:04,Reversed,,Rohit Sharma,Medium,No,3702,No,Pending,Routine Banking Activity,
+OPS000380,TXN566987411,CUST00015,Delhi Connaught,DEL002,UPI Transfer,Branch,1740775.69,2024-11-26 11:57:04,Success,LN00116,Support Pool,Low,No,1477,Yes,Updated,UPI Merchant Payment,
+OPS000381,TXN547116991,CUST00106,Delhi Connaught,DEL002,RTGS,Mobile Banking,417581.07,2025-05-12 11:57:04,Pending,LN00051,Digital Support,Medium,No,2826,No,Verified,Routine Banking Activity,
+OPS000382,TXN125294360,CUST00166,Hyderabad Prime,HYD005,UPI Transfer,Branch,1545151.25,2024-09-12 11:57:04,Reversed,LN00065,Amit Verma,Low,No,1761,Yes,Pending,UPI Merchant Payment,
+OPS000383,TXN836500234,CUST00184,,HYD005,RTGS,Internet Banking,1856428.87,2025-01-25 11:57:04,Pending,,Priya Nair,Low,No,3914,Yes,Pending,Routine Banking Activity,
+OPS000384,TXN399330800,CUST00016,Hyderabad Prime,HYD005,Loan EMI,ATM,1148302.27,2026-03-09 11:57:04,Reversed,LN00111,Kunal Mehta,Medium,No,3455,No,Updated,EMI Payment for LN00111,ATM17194
+OPS000385,TXN424766853,CUST00147,Mumbai Main,MUM001,Cheque Deposit,Branch,513032.45,2025-05-11 11:57:04,Success,,Sneha Iyer,Low,Yes,2612,No,Verified,Cash Handling,
+OPS000386,TXN488347919,CUST00040,Bengaluru Tech Park,BLR003,NEFT,Branch,1890635.23,2025-05-03 11:57:04,Pending,,Kunal Mehta,Low,No,2681,Yes,Pending,Interbank Fund Transfer,
+OPS000387,TXN136957515,CUST00191,Delhi Connaught,DEL002,NEFT,POS Machine,191133.5,2025-01-04 11:57:04,Reversed,,Support Pool,Medium,No,3391,No,Pending,Interbank Fund Transfer,
+OPS000388,TXN822200790,CUST00126,,DEL002,NEFT,Internet Banking,662020.55,2025-10-31 11:57:04,Pending,,Digital Support,Low,No,4705,No,Updated,Interbank Fund Transfer,
+OPS000389,TXN847232355,CUST00117,Chennai Central,CHE004,NEFT,Mobile Banking,600002.99,2024-07-25 11:57:04,Pending,,Support Pool,Medium,No,2875,No,Updated,Interbank Fund Transfer,
+OPS000390,TXN710088496,CUST00190,Bengaluru Tech Park,BLR003,Cheque Deposit,POS Machine,1541187.51,2024-10-23 11:57:04,Success,LN00059,Neha Kapoor,Low,Yes,2147,No,Verified,Customer Transaction,
+OPS000391,TXN391269429,CUST00185,,MUM001,RTGS,Internet Banking,1815350.16,2025-04-07 11:57:04,Failed,LN00149,Priya Nair,High,No,4670,No,Updated,Branch Processing,
+OPS000392,TXN275502764,CUST00170,Mumbai Main,MUM001,Cash Withdrawal,ATM,680512.44,2024-08-11 11:57:04,Success,LN00092,Amit Verma,High,No,4350,Yes,Verified,Cash Handling,ATM23729
+OPS000393,TXN310408475,CUST00069,Chennai Central,CHE004,Cash Withdrawal,Branch,382908.05,2024-05-20 11:57:04,Reversed,LN00034,Amit Verma,Low,No,1782,Yes,Verified,Customer Transaction,
+OPS000394,TXN494583174,CUST00131,Delhi Connaught,DEL002,Loan EMI,POS Machine,194813.61,2025-05-07 11:57:04,Reversed,LN00060,Support Pool,Medium,No,2841,No,Pending,EMI Payment for LN00060,
+OPS000395,TXN569446853,CUST00053,Delhi Connaught,DEL002,Loan EMI,Branch,319210.52,2026-01-11 11:57:04,Failed,,Support Pool,Medium,Yes,4589,No,Pending,Customer Transaction,
+OPS000396,TXN986873349,CUST00041,,DEL002,Cash Deposit,Internet Banking,1406889.38,2026-01-10 11:57:04,Failed,,Support Pool,Low,No,3219,No,Verified,Routine Banking Activity,
+OPS000397,TXN171024101,CUST00145,,DEL002,RTGS,Internet Banking,1098002.81,2026-02-17 11:57:04,Reversed,,Amit Verma,High,No,4212,Yes,Verified,Branch Processing,
+OPS000398,TXN272052331,CUST00186,Hyderabad Prime,HYD005,Cash Deposit,Branch,984075.69,2025-11-17 11:57:04,Failed,LN00107,Kunal Mehta,High,No,3891,Yes,Pending,Customer Transaction,
+OPS000399,TXN350445882,CUST00019,Bengaluru Tech Park,BLR003,NEFT,Branch,1745916.64,2025-07-02 11:57:04,Failed,LN00057,Support Pool,Low,No,1534,No,Verified,Interbank Fund Transfer,
+OPS000400,TXN665698999,CUST00027,Delhi Connaught,DEL002,Cash Deposit,Mobile Banking,1157846.53,2026-04-19 11:57:04,Pending,LN00032,Support Pool,Low,No,4994,Yes,Pending,Routine Banking Activity,
+OPS000401,TXN408301246,CUST00084,Delhi Connaught,DEL002,Loan EMI,Mobile Banking,772169.91,2024-09-01 11:57:04,Reversed,,Support Pool,Low,Yes,1256,Yes,Updated,Customer Transaction,
+OPS000402,TXN789156536,CUST00029,Hyderabad Prime,HYD005,IMPS,Branch,1128165.67,2025-07-08 11:57:04,Success,LN00086,Sneha Iyer,High,No,4309,Yes,Updated,Customer Transaction,
+OPS000403,TXN147039451,CUST00093,,DEL002,RTGS,Internet Banking,610597.8,2025-04-29 11:57:04,Reversed,,Rohit Sharma,High,Yes,2728,No,Pending,Cash Handling,
+OPS000404,TXN321691541,CUST00143,,DEL002,NEFT,Internet Banking,658818.14,2024-12-29 11:57:04,Failed,LN00002,Priya Nair,High,No,2333,No,Updated,Interbank Fund Transfer,
+OPS000405,TXN692619369,CUST00007,Mumbai Main,MUM001,Cash Withdrawal,ATM,333236.84,2026-05-03 11:57:04,Pending,,Digital Support,High,No,813,No,Updated,Routine Banking Activity,ATM54762
+OPS000406,TXN164365178,CUST00132,Bengaluru Tech Park,BLR003,RTGS,POS Machine,421778.32,2024-07-30 11:57:04,Success,LN00050,Kunal Mehta,Medium,No,487,No,Updated,Customer Transaction,
+OPS000407,TXN187956097,CUST00111,Hyderabad Prime,HYD005,UPI Transfer,Branch,885496.05,2024-11-25 11:57:04,Reversed,LN00040,Support Pool,High,No,441,Yes,Verified,UPI Merchant Payment,
+OPS000408,TXN220153076,CUST00100,Delhi Connaught,DEL002,NEFT,Mobile Banking,184480.11,2025-11-30 11:57:04,Failed,LN00110,Digital Support,Low,No,4348,Yes,Pending,Interbank Fund Transfer,
+OPS000409,TXN696598145,CUST00044,Bengaluru Tech Park,BLR003,IMPS,ATM,1636866.45,2026-03-13 11:57:04,Success,,Digital Support,Medium,No,4270,No,Updated,Customer Transaction,ATM77486
+OPS000410,TXN714606664,CUST00168,Chennai Central,CHE004,Cash Deposit,Mobile Banking,1192189.87,2026-02-21 11:57:04,Reversed,LN00090,Rohit Sharma,Low,Yes,2086,Yes,Verified,Customer Transaction,
+OPS000411,TXN109630231,CUST00026,Delhi Connaught,DEL002,NEFT,Mobile Banking,1598137.72,2024-12-17 11:57:04,Reversed,,Neha Kapoor,Low,No,3272,No,Updated,Interbank Fund Transfer,
+OPS000412,TXN783980090,CUST00171,,MUM001,Loan EMI,Internet Banking,902965.28,2025-07-21 11:57:04,Success,LN00003,Digital Support,High,No,4792,Yes,Updated,EMI Payment for LN00003,
+OPS000413,TXN756246943,CUST00159,Bengaluru Tech Park,BLR003,RTGS,Branch,961485.47,2025-09-24 11:57:04,Failed,,Rohit Sharma,High,No,3637,No,Verified,Branch Processing,
+OPS000414,TXN164673557,CUST00148,Hyderabad Prime,HYD005,NEFT,POS Machine,546008.97,2024-06-16 11:57:04,Success,LN00089,Rohit Sharma,Low,No,2128,Yes,Updated,Interbank Fund Transfer,
+OPS000415,TXN835390426,CUST00095,Bengaluru Tech Park,BLR003,Cash Withdrawal,Branch,997964.29,2025-07-05 11:57:04,Pending,LN00070,Amit Verma,Medium,No,1834,No,Updated,Branch Processing,
+OPS000416,TXN205763996,CUST00024,,CHE004,Cash Withdrawal,Internet Banking,1196371.45,2025-11-17 11:57:04,Reversed,LN00016,Support Pool,Medium,No,1317,No,Updated,Routine Banking Activity,
+OPS000417,TXN451346293,CUST00138,Delhi Connaught,DEL002,UPI Transfer,ATM,1951603.94,2025-11-26 11:57:04,Reversed,LN00098,Rohit Sharma,Low,Yes,2749,Yes,Verified,UPI Merchant Payment,ATM10759
+OPS000418,TXN441855688,CUST00023,,MUM001,UPI Transfer,Internet Banking,263827.41,2025-04-14 11:57:04,Success,LN00131,Support Pool,Medium,No,2597,No,Updated,UPI Merchant Payment,
+OPS000419,TXN377883437,CUST00035,,DEL002,Cash Withdrawal,Internet Banking,1369787.81,2024-06-27 11:57:04,Success,,Amit Verma,High,No,1146,Yes,Updated,Routine Banking Activity,
+OPS000420,TXN189109411,CUST00055,Delhi Connaught,DEL002,Loan EMI,POS Machine,312182.85,2026-04-16 11:57:04,Reversed,LN00028,Sneha Iyer,Medium,No,788,No,Verified,EMI Payment for LN00028,
+OPS000421,TXN939800120,CUST00132,Bengaluru Tech Park,BLR003,NEFT,POS Machine,946094.0,2024-05-26 11:57:04,Failed,LN00050,Kunal Mehta,Medium,No,4092,No,Updated,Interbank Fund Transfer,
+OPS000422,TXN772170319,CUST00116,,CHE004,UPI Transfer,Internet Banking,1151604.64,2025-02-20 11:57:04,Pending,LN00141,Priya Nair,Medium,Yes,4612,Yes,Pending,UPI Merchant Payment,
+OPS000423,TXN704624342,CUST00164,,DEL002,Cheque Deposit,Internet Banking,887328.07,2026-01-20 11:57:04,Pending,LN00123,Kunal Mehta,Medium,No,2776,Yes,Updated,Customer Transaction,
+OPS000424,TXN928674618,CUST00056,Chennai Central,CHE004,Loan EMI,POS Machine,873513.97,2026-02-26 11:57:04,Success,LN00150,Priya Nair,Low,Yes,4020,No,Pending,EMI Payment for LN00150,
+OPS000425,TXN785833506,CUST00143,,DEL002,Loan EMI,Internet Banking,564507.77,2026-02-28 11:57:04,Reversed,LN00002,Priya Nair,Medium,No,1649,No,Updated,EMI Payment for LN00002,
+OPS000426,TXN456976712,CUST00197,Mumbai Main,MUM001,Loan EMI,POS Machine,1140599.71,2026-01-29 11:57:04,Success,,Neha Kapoor,Medium,Yes,905,Yes,Updated,Cash Handling,
+OPS000427,TXN151760218,CUST00149,Bengaluru Tech Park,BLR003,Cash Withdrawal,ATM,1986348.2,2025-10-21 11:57:04,Reversed,LN00025,Kunal Mehta,Low,No,4403,No,Pending,Customer Transaction,ATM75343
+OPS000428,TXN163887306,CUST00129,Bengaluru Tech Park,BLR003,Cash Withdrawal,Branch,74862.17,2024-07-11 11:57:04,Success,LN00134,Priya Nair,Low,No,4752,No,Pending,Cash Handling,
+OPS000429,TXN539288747,CUST00005,,CHE004,Cheque Deposit,Internet Banking,772218.47,2025-08-28 11:57:04,Failed,LN00018,Support Pool,Low,No,3758,No,Verified,Customer Transaction,
+OPS000430,TXN562653983,CUST00191,Delhi Connaught,DEL002,Cash Withdrawal,Branch,1553352.41,2025-05-01 11:57:04,Failed,,Support Pool,Low,No,1696,No,Pending,Branch Processing,
+OPS000431,TXN524513672,CUST00197,Mumbai Main,MUM001,Cash Withdrawal,Mobile Banking,1332687.27,2026-03-01 11:57:04,Reversed,,Neha Kapoor,High,Yes,3238,Yes,Updated,Branch Processing,
+OPS000432,TXN696712832,CUST00053,Delhi Connaught,DEL002,Cash Deposit,Branch,1517904.69,2026-02-22 11:57:04,Reversed,,Support Pool,Low,No,1103,No,Pending,Cash Handling,
+OPS000433,TXN763519036,CUST00062,Mumbai Main,MUM001,RTGS,ATM,375324.07,2025-02-02 11:57:04,Reversed,LN00128,Support Pool,High,No,3871,Yes,Verified,Branch Processing,ATM36369
+OPS000434,TXN137779288,CUST00108,Bengaluru Tech Park,BLR003,Cash Deposit,Branch,833131.67,2025-09-23 11:57:04,Pending,,Sneha Iyer,Low,No,957,Yes,Pending,Routine Banking Activity,
+OPS000435,TXN503925369,CUST00023,Mumbai Main,MUM001,RTGS,Mobile Banking,1906363.97,2025-02-20 11:57:04,Pending,LN00131,Support Pool,High,Yes,972,No,Updated,Routine Banking Activity,
+OPS000436,TXN834260627,CUST00162,Bengaluru Tech Park,BLR003,Cash Withdrawal,ATM,947815.57,2024-06-17 11:57:04,Pending,,Support Pool,Low,Yes,2673,No,Pending,Cash Handling,ATM53679
+OPS000437,TXN770163349,CUST00099,Delhi Connaught,DEL002,Cheque Deposit,POS Machine,916654.84,2025-10-16 11:57:04,Success,LN00033,Amit Verma,Medium,Yes,1722,Yes,Updated,Routine Banking Activity,
+OPS000438,TXN297572932,CUST00122,Mumbai Main,MUM001,RTGS,ATM,1625421.24,2024-12-04 11:57:04,Pending,LN00043,Digital Support,Medium,Yes,2309,Yes,Verified,Customer Transaction,ATM68960
+OPS000439,TXN201928497,CUST00178,Delhi Connaught,DEL002,RTGS,Mobile Banking,862132.35,2025-04-06 11:57:04,Pending,,Support Pool,Low,No,4218,No,Verified,Branch Processing,
+OPS000440,TXN158722986,CUST00177,,DEL002,Cheque Deposit,Internet Banking,1074785.93,2024-06-26 11:57:04,Pending,,Rohit Sharma,Low,No,874,Yes,Pending,Cash Handling,
+OPS000441,TXN655520462,CUST00058,Mumbai Main,MUM001,UPI Transfer,Mobile Banking,1948137.03,2024-07-11 11:57:04,Pending,LN00015,Priya Nair,Medium,No,4720,No,Updated,UPI Merchant Payment,
+OPS000442,TXN950829555,CUST00025,,BLR003,Loan EMI,Internet Banking,1854073.02,2024-09-25 11:57:04,Pending,LN00088,Sneha Iyer,High,No,3054,No,Updated,EMI Payment for LN00088,
+OPS000443,TXN713073629,CUST00102,Delhi Connaught,DEL002,Loan EMI,Branch,1185948.97,2024-12-21 11:57:04,Success,,Sneha Iyer,Low,No,4842,Yes,Updated,Customer Transaction,
+OPS000444,TXN546260972,CUST00142,Chennai Central,CHE004,NEFT,Mobile Banking,882534.57,2025-11-11 11:57:04,Success,LN00069,Digital Support,Medium,No,4031,Yes,Verified,Interbank Fund Transfer,
+OPS000445,TXN688195817,CUST00170,,MUM001,IMPS,Internet Banking,703928.3,2024-08-18 11:57:04,Failed,LN00068,Amit Verma,Low,No,3759,Yes,Verified,Cash Handling,
+OPS000446,TXN430841990,CUST00075,Delhi Connaught,DEL002,IMPS,Mobile Banking,635177.54,2026-04-03 11:57:04,Success,LN00109,Amit Verma,High,Yes,1890,No,Updated,Routine Banking Activity,
+OPS000447,TXN727183217,CUST00001,Mumbai Main,MUM001,Cheque Deposit,ATM,1818194.91,2024-08-26 11:57:04,Pending,LN00094,Support Pool,Medium,No,828,Yes,Verified,Customer Transaction,ATM93979
+OPS000448,TXN526794410,CUST00085,Delhi Connaught,DEL002,Cash Withdrawal,Mobile Banking,1528417.26,2024-10-28 11:57:04,Pending,,Support Pool,Low,No,319,Yes,Verified,Customer Transaction,
+OPS000449,TXN273715799,CUST00001,Mumbai Main,MUM001,Cash Withdrawal,Mobile Banking,673249.64,2025-02-21 11:57:04,Pending,LN00094,Support Pool,Low,No,2679,Yes,Verified,Cash Handling,
+OPS000450,TXN722910423,CUST00133,Delhi Connaught,DEL002,Cash Deposit,Branch,1618863.59,2026-05-01 11:57:04,Reversed,LN00145,Kunal Mehta,Low,No,3866,No,Verified,Routine Banking Activity,
+OPS000451,TXN762140524,CUST00174,,DEL002,Cheque Deposit,Internet Banking,1978335.08,2025-09-14 11:57:04,Reversed,,Rohit Sharma,Low,No,4526,No,Pending,Routine Banking Activity,
+OPS000452,TXN329274506,CUST00089,Chennai Central,CHE004,IMPS,ATM,1413861.22,2025-07-30 11:57:04,Success,,Kunal Mehta,Low,No,4176,No,Verified,Branch Processing,ATM88125
+OPS000453,TXN848189491,CUST00003,Bengaluru Tech Park,BLR003,Cash Withdrawal,Mobile Banking,1420675.97,2025-10-11 11:57:04,Pending,LN00056,Support Pool,Low,No,1302,Yes,Verified,Branch Processing,
+OPS000454,TXN366695337,CUST00137,,MUM001,RTGS,Internet Banking,1894902.97,2026-04-08 11:57:04,Failed,,Priya Nair,Medium,No,4472,Yes,Verified,Branch Processing,
+OPS000455,TXN490721542,CUST00098,Delhi Connaught,DEL002,NEFT,POS Machine,1809674.58,2025-11-10 11:57:04,Pending,LN00067,Neha Kapoor,Medium,No,1281,Yes,Verified,Interbank Fund Transfer,
+OPS000456,TXN710455703,CUST00047,Hyderabad Prime,HYD005,Loan EMI,ATM,689321.89,2026-03-25 11:57:04,Reversed,,Amit Verma,Low,No,2173,No,Pending,Routine Banking Activity,ATM98379
+OPS000457,TXN737543982,CUST00058,Mumbai Main,MUM001,NEFT,Mobile Banking,1451516.49,2025-01-04 11:57:04,Failed,LN00015,Priya Nair,High,No,4311,No,Updated,Interbank Fund Transfer,
+OPS000458,TXN882988734,CUST00037,Chennai Central,CHE004,Cheque Deposit,ATM,1515863.16,2025-12-24 11:57:04,Pending,LN00085,Support Pool,High,No,652,No,Pending,Cash Handling,ATM74827
+OPS000459,TXN983107318,CUST00066,Mumbai Main,MUM001,IMPS,Mobile Banking,564900.59,2024-10-30 11:57:04,Failed,LN00096,Amit Verma,High,No,3137,No,Pending,Routine Banking Activity,
+OPS000460,TXN792356508,CUST00008,Mumbai Main,MUM001,RTGS,POS Machine,414979.95,2025-04-12 11:57:04,Reversed,,Sneha Iyer,High,No,2860,No,Verified,Customer Transaction,
+OPS000461,TXN410888889,CUST00160,Chennai Central,CHE004,Cash Deposit,ATM,1291569.11,2025-12-14 11:57:04,Pending,LN00078,Support Pool,High,No,1102,No,Pending,Cash Handling,ATM54401
+OPS000462,TXN518402537,CUST00111,Hyderabad Prime,HYD005,RTGS,POS Machine,646120.08,2026-01-29 11:57:04,Pending,LN00040,Support Pool,Low,No,1912,Yes,Verified,Routine Banking Activity,
+OPS000463,TXN491757146,CUST00134,Delhi Connaught,DEL002,NEFT,ATM,986149.62,2026-03-12 11:57:04,Reversed,LN00013,Rohit Sharma,High,No,530,Yes,Updated,Interbank Fund Transfer,ATM87702
+OPS000464,TXN185844095,CUST00123,Chennai Central,CHE004,RTGS,Mobile Banking,1277823.03,2025-06-12 11:57:04,Reversed,,Rohit Sharma,Low,Yes,3217,Yes,Updated,Customer Transaction,
+OPS000465,TXN400435020,CUST00173,Bengaluru Tech Park,BLR003,UPI Transfer,POS Machine,1226194.43,2024-09-30 11:57:04,Reversed,LN00023,Neha Kapoor,Medium,No,4092,Yes,Verified,UPI Merchant Payment,
+OPS000466,TXN956155862,CUST00095,Bengaluru Tech Park,BLR003,Loan EMI,Mobile Banking,231342.4,2024-11-25 11:57:04,Success,LN00070,Amit Verma,High,No,2427,No,Updated,EMI Payment for LN00070,
+OPS000467,TXN246347135,CUST00026,Delhi Connaught,DEL002,RTGS,ATM,1645477.96,2025-01-29 11:57:04,Failed,,Neha Kapoor,Low,No,745,No,Updated,Cash Handling,ATM71368
+OPS000468,TXN339019551,CUST00137,Mumbai Main,MUM001,NEFT,POS Machine,558563.31,2025-09-08 11:57:04,Success,,Sneha Iyer,High,No,3553,Yes,Verified,Interbank Fund Transfer,
+OPS000469,TXN856945772,CUST00123,Chennai Central,CHE004,NEFT,ATM,1071482.96,2025-04-29 11:57:04,Failed,,Rohit Sharma,High,No,2475,Yes,Updated,Interbank Fund Transfer,ATM76576
+OPS000470,TXN937170139,CUST00135,Hyderabad Prime,HYD005,Cheque Deposit,POS Machine,1784539.67,2024-08-19 11:57:04,Failed,LN00021,Support Pool,High,No,1792,Yes,Updated,Routine Banking Activity,
+OPS000471,TXN336210768,CUST00091,Mumbai Main,MUM001,Cash Deposit,POS Machine,318366.35,2024-07-03 11:57:04,Reversed,LN00114,Support Pool,Low,No,286,No,Updated,Customer Transaction,
+OPS000472,TXN182449570,CUST00062,Mumbai Main,MUM001,UPI Transfer,POS Machine,1980047.89,2024-09-25 11:57:04,Failed,LN00128,Support Pool,Low,Yes,3572,Yes,Verified,UPI Merchant Payment,
+OPS000473,TXN146728620,CUST00044,Bengaluru Tech Park,BLR003,Cheque Deposit,ATM,54920.08,2025-03-26 11:57:04,Pending,,Digital Support,Low,Yes,55,No,Updated,Customer Transaction,ATM13076
+OPS000474,TXN394395892,CUST00150,Hyderabad Prime,HYD005,Cheque Deposit,Branch,1958982.85,2025-03-14 11:57:04,Failed,,Support Pool,High,No,4523,Yes,Verified,Branch Processing,
+OPS000475,TXN719777148,CUST00019,Bengaluru Tech Park,BLR003,UPI Transfer,Branch,889044.54,2025-04-25 11:57:04,Reversed,LN00129,Support Pool,Low,No,1071,No,Verified,UPI Merchant Payment,
+OPS000476,TXN171321158,CUST00066,Mumbai Main,MUM001,Loan EMI,POS Machine,1741453.72,2024-09-20 11:57:04,Success,LN00096,Neha Kapoor,High,No,2726,No,Pending,EMI Payment for LN00096,
+OPS000477,TXN637702017,CUST00112,,HYD005,Cheque Deposit,Internet Banking,1363117.92,2024-08-07 11:57:04,Success,LN00076,Amit Verma,Low,Yes,4101,No,Pending,Cash Handling,
+OPS000478,TXN507557429,CUST00036,Bengaluru Tech Park,BLR003,NEFT,Branch,659954.94,2025-09-20 11:57:04,Failed,LN00143,Support Pool,High,Yes,449,No,Updated,Interbank Fund Transfer,
+OPS000479,TXN938568955,CUST00089,Chennai Central,CHE004,NEFT,ATM,91798.74,2025-03-22 11:57:04,Success,,Sneha Iyer,High,No,687,No,Verified,Interbank Fund Transfer,ATM95486
+OPS000480,TXN910923030,CUST00184,Hyderabad Prime,HYD005,NEFT,POS Machine,1893332.48,2025-10-24 11:57:04,Reversed,,Sneha Iyer,Low,Yes,2637,Yes,Pending,Interbank Fund Transfer,
+OPS000481,TXN688522152,CUST00114,,MUM001,IMPS,Internet Banking,487937.31,2024-09-14 11:57:04,Failed,,Support Pool,High,No,1806,No,Verified,Cash Handling,
+OPS000482,TXN529094857,CUST00148,Hyderabad Prime,HYD005,Loan EMI,ATM,733219.74,2025-07-25 11:57:04,Failed,LN00089,Rohit Sharma,High,No,3816,Yes,Updated,EMI Payment for LN00089,ATM67781
+OPS000483,TXN130206486,CUST00011,Delhi Connaught,DEL002,Cash Withdrawal,Mobile Banking,443922.08,2025-02-13 11:57:04,Pending,,Support Pool,Medium,No,761,Yes,Verified,Routine Banking Activity,
+OPS000484,TXN917030391,CUST00054,,DEL002,Cash Withdrawal,Internet Banking,1938421.55,2026-02-07 11:57:04,Success,,Support Pool,Low,Yes,3655,Yes,Updated,Branch Processing,
+OPS000485,TXN455334704,CUST00047,Hyderabad Prime,HYD005,Loan EMI,Mobile Banking,407563.61,2025-05-26 11:57:04,Pending,,Amit Verma,Low,No,3379,No,Pending,Routine Banking Activity,
+OPS000486,TXN660695985,CUST00152,Mumbai Main,MUM001,NEFT,POS Machine,449438.91,2025-05-28 11:57:04,Success,,Neha Kapoor,Medium,No,4949,No,Updated,Interbank Fund Transfer,
+OPS000487,TXN127068835,CUST00113,Hyderabad Prime,HYD005,IMPS,POS Machine,1153498.42,2024-07-25 11:57:04,Reversed,,Kunal Mehta,High,Yes,1984,No,Updated,Branch Processing,
+OPS000488,TXN800676595,CUST00142,Chennai Central,CHE004,Cash Withdrawal,Mobile Banking,1254182.22,2025-04-24 11:57:04,Failed,LN00069,Digital Support,Medium,No,4506,Yes,Verified,Branch Processing,
+OPS000489,TXN381007944,CUST00017,Bengaluru Tech Park,BLR003,RTGS,Branch,1157644.51,2025-06-08 11:57:04,Reversed,LN00001,Neha Kapoor,Low,No,2404,Yes,Verified,Routine Banking Activity,
+OPS000490,TXN583959907,CUST00051,Bengaluru Tech Park,BLR003,UPI Transfer,POS Machine,1778433.76,2025-06-14 11:57:04,Failed,LN00012,Support Pool,Low,No,4798,No,Pending,UPI Merchant Payment,
+OPS000491,TXN512808134,CUST00175,Bengaluru Tech Park,BLR003,IMPS,POS Machine,1340439.35,2025-02-01 11:57:04,Reversed,,Priya Nair,Low,No,2620,Yes,Pending,Branch Processing,
+OPS000492,TXN798568995,CUST00140,,MUM001,RTGS,Internet Banking,913660.31,2026-02-16 11:57:04,Pending,,Sneha Iyer,High,No,1251,Yes,Updated,Cash Handling,
+OPS000493,TXN350387674,CUST00073,Chennai Central,CHE004,Cheque Deposit,Mobile Banking,1381724.07,2025-08-17 11:57:04,Reversed,,Kunal Mehta,High,Yes,3278,No,Pending,Branch Processing,
+OPS000494,TXN581681493,CUST00053,Delhi Connaught,DEL002,RTGS,Mobile Banking,1178802.12,2024-06-29 11:57:04,Success,,Support Pool,High,No,1838,No,Pending,Routine Banking Activity,
+OPS000495,TXN360922548,CUST00128,Bengaluru Tech Park,BLR003,Cash Deposit,Branch,1494250.66,2025-02-22 11:57:04,Failed,,Rohit Sharma,High,No,2687,No,Updated,Cash Handling,
+OPS000496,TXN852680961,CUST00028,,MUM001,RTGS,Internet Banking,179684.04,2025-11-08 11:57:04,Pending,,Rohit Sharma,Medium,No,2877,No,Updated,Cash Handling,
+OPS000497,TXN682049058,CUST00134,Delhi Connaught,DEL002,IMPS,Branch,1715179.9,2024-06-03 11:57:04,Failed,LN00013,Rohit Sharma,Medium,Yes,512,Yes,Updated,Branch Processing,
+OPS000498,TXN613629877,CUST00120,,MUM001,RTGS,Internet Banking,120315.43,2024-10-18 11:57:04,Success,,Support Pool,Low,No,550,Yes,Verified,Branch Processing,
+OPS000499,TXN527143018,CUST00127,Delhi Connaught,DEL002,IMPS,Branch,629589.23,2026-05-07 11:57:04,Reversed,LN00073,Digital Support,High,No,2983,Yes,Updated,Routine Banking Activity,
+OPS000500,TXN979443839,CUST00131,,DEL002,Cash Withdrawal,Internet Banking,499994.79,2024-09-18 11:57:04,Reversed,LN00060,Support Pool,Low,No,4482,No,Pending,Cash Handling,

@@ -1,0 +1,301 @@
+CRM_Record_ID,Customer_ID,Assigned_Relationship_Manager,Customer_Segment,Preferred_Communication_Channel,Last_Interaction_Date,Last_Service_Request,Service_Request_Status,Customer_Sentiment,Number_Of_Open_Tickets,Cross_Sell_Opportunity,Loan_Customer,Active_Loan_Count,Risk_Category,Net_Banking_User,Debit_Card_User,KYC_Status,Estimated_Customer_Lifetime_Value
+CRM00001,CUST00108,Kunal Mehta,Premium,Email,2025-07-11,Loan Query,In Progress,Neutral,4,Investment Product,No,0,Medium Risk,Yes,No,Pending,2882108.88
+CRM00002,CUST00066,Amit Verma,HNI,Branch Visit,2026-02-18,KYC Update,Escalated,Neutral,4,Personal Loan,Yes,2,Low Risk,No,Yes,Pending,3176483.41
+CRM00003,CUST00199,Rohit Sharma,HNI,Relationship Manager,2026-03-26,Account Closure,Resolved,Dissatisfied,0,Insurance,Yes,1,Medium Risk,No,Yes,Pending,1486069.39
+CRM00004,CUST00195,Rohit Sharma,HNI,Branch Visit,2025-06-20,Fraud Concern,Escalated,Dissatisfied,2,Credit Card,Yes,1,Medium Risk,Yes,Yes,Updated,378431.34
+CRM00005,CUST00063,Rohit Sharma,HNI,Call Center,2026-03-30,Account Closure,In Progress,Neutral,0,Home Loan,Yes,1,Medium Risk,No,Yes,Verified,4124108.61
+CRM00006,CUST00156,Digital Support,Retail,Mobile App,2026-04-19,Loan Query,Escalated,Dissatisfied,1,,Yes,1,High Risk,Yes,No,Updated,4468282.33
+CRM00007,CUST00041,Digital Support,Retail,Call Center,2025-06-19,Service Request,In Progress,Satisfied,2,Personal Loan,No,0,High Risk,No,No,Verified,3962519.88
+CRM00008,CUST00029,Kunal Mehta,Premium,Mobile App,2025-11-27,Transaction Issue,Escalated,Dissatisfied,5,,Yes,1,Low Risk,Yes,No,Updated,2038959.64
+CRM00009,CUST00113,Priya Nair,Premium,Email,2026-03-29,Service Request,In Progress,Dissatisfied,1,Home Loan,No,0,Medium Risk,No,No,Updated,309419.84
+CRM00010,CUST00145,Neha Kapoor,HNI,Branch Visit,2025-07-28,Fraud Concern,Resolved,Neutral,0,Personal Loan,No,0,High Risk,Yes,Yes,Verified,4537402.54
+CRM00011,CUST00105,Sneha Iyer,Premium,Call Center,2025-11-14,Fraud Concern,Escalated,Dissatisfied,4,Investment Product,No,0,Low Risk,No,Yes,Pending,3396057.97
+CRM00012,CUST00118,Neha Kapoor,HNI,Relationship Manager,2025-09-11,Account Closure,In Progress,Satisfied,2,,No,0,Medium Risk,Yes,No,Updated,1014203.9
+CRM00013,CUST00151,Priya Nair,Premium,Relationship Manager,2025-09-28,Loan Query,Pending,Satisfied,0,Credit Card,Yes,1,Low Risk,No,No,Verified,4463239.17
+CRM00014,CUST00006,Digital Support,Retail,Email,2025-09-04,Account Closure,Escalated,Dissatisfied,3,Investment Product,No,0,High Risk,No,Yes,Verified,2055424.6
+CRM00015,CUST00102,Sneha Iyer,Premium,Mobile App,2025-08-20,Card Block,Pending,Satisfied,3,Insurance,No,0,Medium Risk,Yes,Yes,Updated,4711203.56
+CRM00016,CUST00143,Priya Nair,Premium,Relationship Manager,2025-12-06,Transaction Issue,Escalated,Dissatisfied,5,Credit Card,Yes,1,Low Risk,No,Yes,Updated,3342897.93
+CRM00017,CUST00158,Amit Verma,HNI,Email,2026-02-06,Account Closure,Pending,Dissatisfied,5,Insurance,Yes,2,High Risk,Yes,No,Pending,2855557.68
+CRM00018,CUST00081,Rohit Sharma,HNI,Relationship Manager,2025-11-22,Card Block,Pending,Neutral,5,Home Loan,No,0,High Risk,No,Yes,Updated,1285085.21
+CRM00019,CUST00061,Kunal Mehta,Premium,Branch Visit,2025-12-02,Fraud Concern,Escalated,Neutral,3,Insurance,Yes,1,Low Risk,Yes,No,Pending,2783874.38
+CRM00020,CUST00119,Priya Nair,Premium,Call Center,2026-02-02,Service Request,Pending,Satisfied,4,Credit Card,No,0,Medium Risk,Yes,Yes,Updated,161436.41
+CRM00021,CUST00105,Priya Nair,Premium,Mobile App,2026-02-28,Loan Query,Resolved,Dissatisfied,0,Home Loan,No,0,Low Risk,No,Yes,Pending,1094088.63
+CRM00022,CUST00040,Kunal Mehta,Premium,Mobile App,2025-11-05,Loan Query,Escalated,Satisfied,0,Investment Product,No,0,Medium Risk,Yes,No,Pending,1864718.88
+CRM00023,CUST00190,Neha Kapoor,HNI,Branch Visit,2025-09-20,Service Request,In Progress,Satisfied,1,Insurance,Yes,1,High Risk,No,No,Verified,3488487.15
+CRM00024,CUST00058,Priya Nair,Premium,Call Center,2026-03-25,Transaction Issue,Pending,Satisfied,3,Home Loan,Yes,1,Medium Risk,No,Yes,Updated,1242889.58
+CRM00025,CUST00136,Digital Support,Retail,Mobile App,2025-06-07,Transaction Issue,Resolved,Neutral,3,Personal Loan,No,0,High Risk,Yes,No,Updated,773222.6
+CRM00026,CUST00073,Kunal Mehta,Premium,Call Center,2026-03-13,Loan Query,Resolved,Neutral,0,Home Loan,No,0,Medium Risk,No,No,Pending,1398635.22
+CRM00027,CUST00189,Kunal Mehta,Premium,Internet Banking,2026-03-03,KYC Update,In Progress,Satisfied,1,,Yes,1,Low Risk,Yes,No,Updated,1801909.42
+CRM00028,CUST00052,Neha Kapoor,HNI,Mobile App,2025-08-05,Fraud Concern,Resolved,Satisfied,5,Credit Card,Yes,1,Medium Risk,Yes,No,Verified,2899212.65
+CRM00029,CUST00098,Rohit Sharma,HNI,Branch Visit,2026-04-25,Loan Query,Escalated,Neutral,1,Personal Loan,Yes,1,Medium Risk,Yes,No,Verified,4945565.34
+CRM00030,CUST00061,Sneha Iyer,Premium,Mobile App,2026-04-02,KYC Update,In Progress,Satisfied,3,Home Loan,Yes,1,Low Risk,Yes,No,Pending,4592182.5
+CRM00031,CUST00021,Kunal Mehta,Premium,Relationship Manager,2026-02-22,Fraud Concern,Resolved,Dissatisfied,1,,Yes,2,Medium Risk,No,No,Verified,1166527.6
+CRM00032,CUST00082,Sneha Iyer,Premium,Call Center,2025-07-10,Card Block,In Progress,Satisfied,5,Personal Loan,No,0,Medium Risk,No,Yes,Updated,1549640.34
+CRM00033,CUST00183,Kunal Mehta,Premium,Call Center,2025-09-15,Account Closure,Escalated,Neutral,4,Home Loan,Yes,3,Medium Risk,No,No,Pending,3063205.0
+CRM00034,CUST00129,Priya Nair,Premium,Internet Banking,2026-04-23,Service Request,In Progress,Dissatisfied,3,Credit Card,Yes,1,High Risk,No,Yes,Pending,2947197.72
+CRM00035,CUST00149,Kunal Mehta,Premium,Call Center,2026-05-06,Service Request,In Progress,Neutral,5,Home Loan,Yes,1,Medium Risk,No,Yes,Pending,290360.27
+CRM00036,CUST00170,Neha Kapoor,HNI,Call Center,2025-08-18,KYC Update,In Progress,Dissatisfied,0,Home Loan,Yes,3,High Risk,Yes,No,Verified,2396460.15
+CRM00037,CUST00071,Priya Nair,Premium,Call Center,2025-10-20,Card Block,Escalated,Satisfied,5,Personal Loan,Yes,2,Medium Risk,No,Yes,Updated,813576.39
+CRM00038,CUST00149,Sneha Iyer,Premium,Internet Banking,2025-05-27,Card Block,Resolved,Neutral,5,Investment Product,Yes,1,High Risk,No,Yes,Pending,2104833.71
+CRM00039,CUST00016,Kunal Mehta,Premium,Branch Visit,2025-09-20,Fraud Concern,Resolved,Dissatisfied,3,Personal Loan,Yes,2,Medium Risk,No,Yes,Updated,110886.57
+CRM00040,CUST00084,Support Pool,Retail,Email,2025-10-21,Loan Query,In Progress,Neutral,2,Investment Product,No,0,Medium Risk,Yes,No,Updated,4011202.08
+CRM00041,CUST00108,Sneha Iyer,Premium,Mobile App,2025-11-06,Transaction Issue,Escalated,Neutral,3,Credit Card,No,0,Medium Risk,Yes,No,Pending,3508177.8
+CRM00042,CUST00109,Support Pool,Retail,Internet Banking,2026-04-14,Fraud Concern,Escalated,Dissatisfied,0,Personal Loan,Yes,1,Medium Risk,No,No,Pending,3544229.08
+CRM00043,CUST00142,Digital Support,Retail,Mobile App,2026-04-03,Service Request,In Progress,Neutral,0,Credit Card,Yes,1,High Risk,Yes,No,Verified,3616281.0
+CRM00044,CUST00027,Support Pool,Retail,Mobile App,2026-02-01,Account Closure,In Progress,Dissatisfied,0,Home Loan,Yes,2,Medium Risk,Yes,Yes,Pending,672347.05
+CRM00045,CUST00137,Sneha Iyer,Premium,Branch Visit,2025-06-17,Loan Query,Escalated,Dissatisfied,4,,No,0,Low Risk,Yes,Yes,Verified,2156843.66
+CRM00046,CUST00108,Priya Nair,Premium,Internet Banking,2026-02-10,Service Request,In Progress,Neutral,4,Personal Loan,No,0,Medium Risk,Yes,No,Pending,1916758.12
+CRM00047,CUST00113,Kunal Mehta,Premium,Email,2025-11-19,Loan Query,Pending,Dissatisfied,0,Home Loan,No,0,Medium Risk,No,No,Updated,379360.39
+CRM00048,CUST00126,Support Pool,Retail,Mobile App,2026-01-09,Fraud Concern,Escalated,Neutral,3,,No,0,Medium Risk,No,No,Updated,3147666.56
+CRM00049,CUST00148,Neha Kapoor,HNI,Email,2025-12-29,Loan Query,In Progress,Satisfied,5,,Yes,1,High Risk,Yes,No,Updated,3987785.8
+CRM00050,CUST00113,Kunal Mehta,Premium,Email,2026-05-08,Service Request,In Progress,Satisfied,1,Home Loan,No,0,Medium Risk,No,No,Updated,4940479.09
+CRM00051,CUST00169,Amit Verma,HNI,Branch Visit,2026-02-03,Transaction Issue,Resolved,Dissatisfied,2,Home Loan,No,0,Medium Risk,Yes,No,Updated,709688.29
+CRM00052,CUST00156,Support Pool,Retail,Email,2026-03-25,Service Request,Pending,Neutral,3,Credit Card,Yes,1,High Risk,Yes,No,Updated,3163999.61
+CRM00053,CUST00082,Kunal Mehta,Premium,Email,2025-10-16,KYC Update,Escalated,Neutral,0,Insurance,No,0,Medium Risk,No,Yes,Updated,4571945.37
+CRM00054,CUST00198,Amit Verma,HNI,Relationship Manager,2025-09-25,Fraud Concern,Escalated,Satisfied,5,Investment Product,Yes,1,High Risk,Yes,Yes,Verified,3377414.7
+CRM00055,CUST00198,Neha Kapoor,HNI,Branch Visit,2025-12-26,Fraud Concern,Resolved,Dissatisfied,3,Investment Product,Yes,1,High Risk,Yes,Yes,Verified,235649.07
+CRM00056,CUST00170,Rohit Sharma,HNI,Internet Banking,2025-08-09,Service Request,Escalated,Dissatisfied,4,Credit Card,Yes,3,High Risk,Yes,No,Verified,4283443.43
+CRM00057,CUST00027,Digital Support,Retail,Mobile App,2026-01-24,Transaction Issue,Pending,Neutral,4,,Yes,2,Medium Risk,Yes,Yes,Pending,2586316.96
+CRM00058,CUST00069,Amit Verma,HNI,Branch Visit,2026-02-19,Transaction Issue,In Progress,Satisfied,1,Credit Card,Yes,2,Medium Risk,Yes,Yes,Verified,1001810.76
+CRM00059,CUST00164,Kunal Mehta,Premium,Relationship Manager,2025-05-16,Loan Query,Escalated,Dissatisfied,5,Credit Card,Yes,1,High Risk,Yes,No,Updated,4026950.59
+CRM00060,CUST00099,Rohit Sharma,HNI,Relationship Manager,2025-05-23,Card Block,In Progress,Dissatisfied,1,Insurance,Yes,1,Medium Risk,Yes,Yes,Updated,1460642.27
+CRM00061,CUST00097,Amit Verma,HNI,Call Center,2025-09-28,Loan Query,Resolved,Neutral,2,Credit Card,No,0,Low Risk,Yes,Yes,Pending,1653911.74
+CRM00062,CUST00145,Amit Verma,HNI,Internet Banking,2025-09-01,Fraud Concern,In Progress,Neutral,0,Credit Card,No,0,High Risk,Yes,Yes,Verified,3212108.09
+CRM00063,CUST00009,Kunal Mehta,Premium,Relationship Manager,2025-10-20,Service Request,Escalated,Dissatisfied,3,Investment Product,Yes,2,Medium Risk,Yes,No,Updated,1481928.53
+CRM00064,CUST00059,Digital Support,Retail,Mobile App,2025-06-22,Loan Query,Pending,Satisfied,5,Insurance,No,0,Low Risk,No,Yes,Pending,1302359.75
+CRM00065,CUST00007,Support Pool,Retail,Internet Banking,2026-02-07,KYC Update,Resolved,Neutral,3,Home Loan,No,0,Medium Risk,No,No,Updated,4403417.46
+CRM00066,CUST00106,Digital Support,Retail,Internet Banking,2026-04-05,Fraud Concern,Pending,Satisfied,1,Credit Card,Yes,2,Medium Risk,No,Yes,Verified,528877.24
+CRM00067,CUST00089,Sneha Iyer,Premium,Internet Banking,2025-08-26,Fraud Concern,Resolved,Dissatisfied,2,,No,0,Medium Risk,No,Yes,Verified,3423677.82
+CRM00068,CUST00156,Digital Support,Retail,Mobile App,2025-07-16,Account Closure,Escalated,Neutral,3,Insurance,Yes,1,High Risk,Yes,No,Updated,2079733.91
+CRM00069,CUST00144,Support Pool,Retail,Relationship Manager,2025-07-31,Fraud Concern,Pending,Satisfied,1,Personal Loan,No,0,High Risk,No,No,Updated,2362657.07
+CRM00070,CUST00021,Priya Nair,Premium,Relationship Manager,2025-11-28,KYC Update,Escalated,Satisfied,4,Personal Loan,Yes,2,Medium Risk,No,No,Verified,1101612.06
+CRM00071,CUST00170,Rohit Sharma,HNI,Internet Banking,2025-06-07,Card Block,Escalated,Neutral,1,,Yes,3,High Risk,Yes,No,Verified,4415978.36
+CRM00072,CUST00084,Digital Support,Retail,Call Center,2025-06-30,Card Block,Resolved,Satisfied,4,Personal Loan,No,0,Medium Risk,Yes,No,Updated,4241760.53
+CRM00073,CUST00130,Support Pool,Retail,Relationship Manager,2025-07-16,Service Request,Pending,Dissatisfied,0,Credit Card,Yes,1,Medium Risk,No,Yes,Verified,205150.61
+CRM00074,CUST00038,Amit Verma,HNI,Relationship Manager,2026-02-26,Fraud Concern,Pending,Satisfied,4,,Yes,2,Medium Risk,No,No,Updated,3266479.54
+CRM00075,CUST00157,Rohit Sharma,HNI,Mobile App,2025-07-29,Account Closure,Resolved,Neutral,5,Insurance,No,0,Low Risk,Yes,No,Pending,3848036.22
+CRM00076,CUST00042,Neha Kapoor,HNI,Internet Banking,2026-04-06,Account Closure,Pending,Dissatisfied,4,Home Loan,Yes,1,Medium Risk,Yes,Yes,Pending,4214768.53
+CRM00077,CUST00168,Rohit Sharma,HNI,Relationship Manager,2025-08-30,KYC Update,Pending,Dissatisfied,3,Home Loan,Yes,1,Medium Risk,Yes,Yes,Verified,470646.57
+CRM00078,CUST00073,Sneha Iyer,Premium,Mobile App,2026-04-24,Loan Query,Pending,Neutral,2,Investment Product,No,0,Medium Risk,No,No,Pending,4321387.93
+CRM00079,CUST00172,Amit Verma,HNI,Internet Banking,2025-12-30,KYC Update,In Progress,Satisfied,5,Home Loan,No,0,High Risk,No,Yes,Pending,2682100.29
+CRM00080,CUST00098,Neha Kapoor,HNI,Branch Visit,2026-02-15,Service Request,Pending,Satisfied,1,Personal Loan,Yes,1,Medium Risk,Yes,No,Verified,4104842.14
+CRM00081,CUST00088,Neha Kapoor,HNI,Branch Visit,2026-03-23,Fraud Concern,In Progress,Neutral,4,Credit Card,Yes,1,Medium Risk,Yes,No,Pending,3340236.19
+CRM00082,CUST00081,Rohit Sharma,HNI,Relationship Manager,2025-06-08,Fraud Concern,Escalated,Neutral,3,,No,0,High Risk,No,Yes,Updated,2811521.53
+CRM00083,CUST00081,Neha Kapoor,HNI,Relationship Manager,2025-10-12,KYC Update,Pending,Satisfied,1,Home Loan,No,0,High Risk,No,Yes,Updated,2881955.36
+CRM00084,CUST00033,Sneha Iyer,Premium,Call Center,2025-09-20,Fraud Concern,Pending,Neutral,5,Insurance,No,0,High Risk,Yes,No,Updated,3841422.65
+CRM00085,CUST00156,Support Pool,Retail,Mobile App,2025-05-23,Service Request,Pending,Dissatisfied,4,,Yes,1,High Risk,Yes,No,Updated,4948159.14
+CRM00086,CUST00144,Digital Support,Retail,Internet Banking,2025-07-28,Card Block,Escalated,Dissatisfied,3,Home Loan,No,0,High Risk,No,No,Updated,1495399.17
+CRM00087,CUST00148,Neha Kapoor,HNI,Mobile App,2025-09-29,Transaction Issue,In Progress,Satisfied,0,Credit Card,Yes,1,High Risk,Yes,No,Updated,1150649.37
+CRM00088,CUST00180,Neha Kapoor,HNI,Internet Banking,2025-07-21,Account Closure,Escalated,Dissatisfied,2,,No,0,Medium Risk,Yes,Yes,Verified,1720353.31
+CRM00089,CUST00103,Rohit Sharma,HNI,Email,2025-07-26,Transaction Issue,Escalated,Dissatisfied,3,Home Loan,No,0,Medium Risk,No,No,Updated,2477154.35
+CRM00090,CUST00187,Support Pool,Retail,Mobile App,2025-11-16,Account Closure,In Progress,Dissatisfied,4,,Yes,1,Medium Risk,No,No,Verified,508475.18
+CRM00091,CUST00014,Support Pool,Retail,Branch Visit,2025-08-24,Card Block,Pending,Dissatisfied,1,Credit Card,Yes,1,Medium Risk,No,Yes,Pending,81094.97
+CRM00092,CUST00089,Kunal Mehta,Premium,Call Center,2026-01-19,Loan Query,Resolved,Satisfied,0,Home Loan,No,0,Medium Risk,No,Yes,Verified,4262444.58
+CRM00093,CUST00200,Support Pool,Retail,Internet Banking,2026-02-09,Loan Query,Escalated,Neutral,2,Personal Loan,Yes,1,Medium Risk,Yes,No,Verified,1097334.87
+CRM00094,CUST00073,Priya Nair,Premium,Call Center,2026-04-01,Transaction Issue,Escalated,Satisfied,3,Personal Loan,No,0,Medium Risk,No,No,Pending,1443260.84
+CRM00095,CUST00143,Sneha Iyer,Premium,Branch Visit,2026-04-23,Transaction Issue,In Progress,Neutral,2,Personal Loan,Yes,1,Low Risk,No,Yes,Updated,2864627.1
+CRM00096,CUST00033,Kunal Mehta,Premium,Relationship Manager,2025-06-10,Transaction Issue,In Progress,Satisfied,3,Personal Loan,No,0,High Risk,Yes,No,Updated,2663058.57
+CRM00097,CUST00129,Kunal Mehta,Premium,Branch Visit,2026-03-12,Account Closure,Escalated,Neutral,0,Insurance,Yes,1,High Risk,No,Yes,Pending,2742260.93
+CRM00098,CUST00112,Amit Verma,HNI,Branch Visit,2025-10-20,Card Block,In Progress,Dissatisfied,2,Investment Product,Yes,1,Low Risk,No,No,Pending,1000861.68
+CRM00099,CUST00155,Support Pool,Retail,Branch Visit,2025-07-27,KYC Update,Escalated,Dissatisfied,1,,No,0,Medium Risk,No,No,Updated,1196647.44
+CRM00100,CUST00057,Amit Verma,HNI,Branch Visit,2025-06-18,Loan Query,Resolved,Dissatisfied,1,Home Loan,Yes,1,Medium Risk,No,No,Pending,248787.07
+CRM00101,CUST00069,Amit Verma,HNI,Internet Banking,2026-01-28,Loan Query,Pending,Dissatisfied,4,Personal Loan,Yes,2,High Risk,Yes,Yes,Verified,3009001.25
+CRM00102,CUST00134,Rohit Sharma,HNI,Branch Visit,2025-05-31,Card Block,In Progress,Dissatisfied,3,Insurance,Yes,1,Low Risk,Yes,Yes,Updated,4718503.47
+CRM00103,CUST00147,Priya Nair,Premium,Email,2025-09-26,Card Block,Pending,Neutral,1,Insurance,No,0,Medium Risk,No,Yes,Verified,1657557.42
+CRM00104,CUST00121,Sneha Iyer,Premium,Internet Banking,2026-01-04,Account Closure,Escalated,Dissatisfied,4,Home Loan,No,0,Low Risk,Yes,Yes,Updated,4215312.87
+CRM00105,CUST00185,Priya Nair,Premium,Email,2025-08-31,Card Block,In Progress,Satisfied,4,Credit Card,Yes,2,Medium Risk,No,Yes,Updated,567243.52
+CRM00106,CUST00156,Digital Support,Retail,Internet Banking,2025-07-27,Loan Query,In Progress,Neutral,4,,Yes,1,High Risk,Yes,No,Updated,136377.71
+CRM00107,CUST00021,Priya Nair,Premium,Branch Visit,2025-07-12,KYC Update,In Progress,Dissatisfied,2,Home Loan,Yes,2,Medium Risk,No,No,Verified,2248738.87
+CRM00108,CUST00022,Support Pool,Retail,Call Center,2025-07-11,KYC Update,Resolved,Dissatisfied,4,Insurance,Yes,1,Medium Risk,No,No,Verified,4729585.16
+CRM00109,CUST00129,Kunal Mehta,Premium,Email,2026-02-09,Loan Query,In Progress,Satisfied,5,Investment Product,Yes,1,High Risk,No,Yes,Pending,3657959.5
+CRM00110,CUST00073,Sneha Iyer,Premium,Call Center,2025-11-27,Card Block,In Progress,Dissatisfied,1,Credit Card,No,0,Medium Risk,No,No,Pending,1611814.27
+CRM00111,CUST00030,Digital Support,Retail,Mobile App,2025-12-16,Loan Query,Resolved,Neutral,4,,No,0,High Risk,Yes,No,Pending,628903.14
+CRM00112,CUST00067,Amit Verma,HNI,Branch Visit,2026-01-24,Transaction Issue,Pending,Satisfied,0,Insurance,No,0,Medium Risk,Yes,Yes,Updated,4444194.7
+CRM00113,CUST00047,Amit Verma,HNI,Relationship Manager,2026-04-16,Account Closure,Escalated,Dissatisfied,4,Personal Loan,No,0,Low Risk,No,No,Pending,4857923.72
+CRM00114,CUST00086,Rohit Sharma,HNI,Branch Visit,2026-04-08,Card Block,In Progress,Dissatisfied,1,Credit Card,No,0,Medium Risk,Yes,No,Verified,1431453.65
+CRM00115,CUST00073,Priya Nair,Premium,Branch Visit,2026-04-01,Card Block,Resolved,Neutral,0,,No,0,Medium Risk,No,No,Pending,3425299.4
+CRM00116,CUST00188,Neha Kapoor,HNI,Call Center,2025-07-18,Transaction Issue,In Progress,Neutral,2,Personal Loan,Yes,1,Medium Risk,No,Yes,Pending,3190870.96
+CRM00117,CUST00008,Sneha Iyer,Premium,Internet Banking,2026-03-06,Loan Query,Escalated,Dissatisfied,2,Investment Product,No,0,High Risk,No,Yes,Verified,2494341.9
+CRM00118,CUST00026,Neha Kapoor,HNI,Email,2025-11-01,Service Request,Escalated,Neutral,5,,No,0,High Risk,No,Yes,Updated,455838.85
+CRM00119,CUST00009,Sneha Iyer,Premium,Internet Banking,2025-06-03,Loan Query,Escalated,Satisfied,0,Insurance,Yes,2,Medium Risk,Yes,No,Updated,906502.96
+CRM00120,CUST00108,Sneha Iyer,Premium,Call Center,2025-06-30,Card Block,Resolved,Satisfied,4,,No,0,Medium Risk,Yes,No,Pending,2750043.98
+CRM00121,CUST00092,Amit Verma,HNI,Branch Visit,2025-06-05,Transaction Issue,Resolved,Satisfied,5,Personal Loan,Yes,1,Low Risk,Yes,No,Updated,1453691.86
+CRM00122,CUST00074,Kunal Mehta,Premium,Email,2026-03-02,Fraud Concern,In Progress,Neutral,5,Home Loan,Yes,4,Medium Risk,Yes,Yes,Verified,4563702.68
+CRM00123,CUST00186,Kunal Mehta,Premium,Internet Banking,2025-08-09,Transaction Issue,Resolved,Neutral,4,Home Loan,Yes,1,Medium Risk,Yes,Yes,Pending,1085076.52
+CRM00124,CUST00179,Sneha Iyer,Premium,Email,2026-01-22,Card Block,Escalated,Satisfied,2,Credit Card,Yes,1,High Risk,Yes,Yes,Pending,4255308.01
+CRM00125,CUST00106,Digital Support,Retail,Mobile App,2026-04-27,Fraud Concern,Escalated,Neutral,2,Home Loan,Yes,2,Medium Risk,No,Yes,Verified,475376.21
+CRM00126,CUST00106,Support Pool,Retail,Email,2026-03-22,Transaction Issue,Escalated,Satisfied,5,Insurance,Yes,2,Medium Risk,No,Yes,Verified,4350299.99
+CRM00127,CUST00173,Neha Kapoor,HNI,Branch Visit,2025-08-27,Transaction Issue,Pending,Satisfied,1,Credit Card,Yes,2,Medium Risk,Yes,No,Verified,332328.31
+CRM00128,CUST00006,Support Pool,Retail,Email,2025-10-11,Loan Query,Resolved,Dissatisfied,2,Home Loan,No,0,High Risk,No,Yes,Verified,114529.68
+CRM00129,CUST00133,Kunal Mehta,Premium,Internet Banking,2025-10-25,Fraud Concern,Resolved,Neutral,4,Home Loan,Yes,2,Low Risk,No,Yes,Verified,4213895.63
+CRM00130,CUST00138,Rohit Sharma,HNI,Branch Visit,2025-12-08,Transaction Issue,In Progress,Dissatisfied,2,Credit Card,Yes,2,Medium Risk,Yes,Yes,Verified,1357497.39
+CRM00131,CUST00100,Support Pool,Retail,Call Center,2025-06-18,Account Closure,In Progress,Dissatisfied,5,Credit Card,Yes,1,Medium Risk,Yes,Yes,Pending,3861826.81
+CRM00132,CUST00080,Kunal Mehta,Premium,Branch Visit,2025-06-10,Card Block,In Progress,Dissatisfied,1,Insurance,No,0,Low Risk,Yes,Yes,Verified,191979.71
+CRM00133,CUST00169,Rohit Sharma,HNI,Branch Visit,2026-02-18,Loan Query,Resolved,Satisfied,0,Credit Card,No,0,Medium Risk,Yes,No,Updated,3595276.25
+CRM00134,CUST00174,Rohit Sharma,HNI,Call Center,2025-06-26,Fraud Concern,Resolved,Dissatisfied,4,Insurance,No,0,Medium Risk,No,No,Pending,1558678.06
+CRM00135,CUST00128,Neha Kapoor,HNI,Internet Banking,2025-12-17,Fraud Concern,Escalated,Neutral,5,Credit Card,No,0,Medium Risk,No,Yes,Updated,95844.34
+CRM00136,CUST00192,Neha Kapoor,HNI,Mobile App,2025-08-21,Fraud Concern,Pending,Satisfied,0,Investment Product,Yes,1,High Risk,No,Yes,Updated,1354247.4
+CRM00137,CUST00189,Priya Nair,Premium,Call Center,2025-07-25,Service Request,Resolved,Satisfied,1,Insurance,Yes,1,Low Risk,Yes,No,Updated,2293671.43
+CRM00138,CUST00198,Amit Verma,HNI,Branch Visit,2026-04-16,Fraud Concern,Resolved,Dissatisfied,4,,Yes,1,High Risk,Yes,Yes,Verified,3708871.91
+CRM00139,CUST00035,Amit Verma,HNI,Branch Visit,2025-07-26,Card Block,Pending,Satisfied,0,,No,0,Medium Risk,Yes,Yes,Updated,3592404.15
+CRM00140,CUST00118,Rohit Sharma,HNI,Branch Visit,2025-10-12,KYC Update,Escalated,Neutral,4,Credit Card,No,0,Medium Risk,Yes,No,Updated,4751324.14
+CRM00141,CUST00012,Rohit Sharma,HNI,Relationship Manager,2026-05-07,Service Request,Pending,Neutral,0,,Yes,1,Medium Risk,No,Yes,Pending,2114594.35
+CRM00142,CUST00072,Rohit Sharma,HNI,Internet Banking,2026-02-16,KYC Update,In Progress,Neutral,5,Home Loan,No,0,Medium Risk,Yes,No,Updated,2475988.46
+CRM00143,CUST00022,Digital Support,Retail,Email,2026-05-02,Card Block,Pending,Neutral,4,Home Loan,Yes,1,Medium Risk,No,No,Verified,1309168.13
+CRM00144,CUST00171,Support Pool,Retail,Email,2025-10-29,KYC Update,Escalated,Neutral,2,Personal Loan,Yes,1,High Risk,Yes,No,Updated,1117985.68
+CRM00145,CUST00074,Sneha Iyer,Premium,Email,2026-02-20,Fraud Concern,Pending,Satisfied,3,,Yes,4,Medium Risk,Yes,Yes,Verified,4220429.23
+CRM00146,CUST00012,Neha Kapoor,HNI,Email,2025-11-01,Transaction Issue,Escalated,Satisfied,5,Credit Card,Yes,1,Medium Risk,No,Yes,Pending,2475552.11
+CRM00147,CUST00020,Priya Nair,Premium,Email,2026-03-23,Fraud Concern,Resolved,Dissatisfied,1,,Yes,1,Medium Risk,No,No,Verified,4702223.53
+CRM00148,CUST00021,Kunal Mehta,Premium,Mobile App,2025-07-03,Fraud Concern,Pending,Dissatisfied,5,Credit Card,Yes,2,Medium Risk,No,No,Verified,1319915.93
+CRM00149,CUST00044,Digital Support,Retail,Branch Visit,2025-11-06,Card Block,In Progress,Neutral,1,Insurance,No,0,Medium Risk,No,Yes,Updated,4098767.56
+CRM00150,CUST00175,Priya Nair,Premium,Email,2025-06-09,Service Request,Pending,Dissatisfied,0,Investment Product,No,0,Low Risk,Yes,Yes,Pending,810687.22
+CRM00151,CUST00010,Amit Verma,HNI,Relationship Manager,2025-08-31,Card Block,Pending,Satisfied,1,Home Loan,No,0,Medium Risk,Yes,Yes,Updated,4329965.57
+CRM00152,CUST00049,Kunal Mehta,Premium,Mobile App,2026-04-06,Account Closure,Escalated,Satisfied,3,Personal Loan,No,0,High Risk,Yes,No,Pending,4383897.04
+CRM00153,CUST00200,Digital Support,Retail,Internet Banking,2026-01-12,Account Closure,Escalated,Satisfied,4,Investment Product,Yes,1,Medium Risk,Yes,No,Verified,3954726.15
+CRM00154,CUST00170,Neha Kapoor,HNI,Email,2026-03-29,Transaction Issue,Pending,Satisfied,2,Credit Card,Yes,3,High Risk,Yes,No,Verified,2297230.54
+CRM00155,CUST00104,Kunal Mehta,Premium,Call Center,2025-09-05,KYC Update,Resolved,Neutral,2,,No,0,High Risk,No,No,Verified,3433426.82
+CRM00156,CUST00149,Priya Nair,Premium,Internet Banking,2025-10-26,Loan Query,Escalated,Satisfied,0,Home Loan,Yes,1,High Risk,No,Yes,Pending,2961405.9
+CRM00157,CUST00170,Neha Kapoor,HNI,Relationship Manager,2026-01-06,Card Block,Escalated,Dissatisfied,3,Insurance,Yes,3,High Risk,Yes,No,Verified,1997812.61
+CRM00158,CUST00034,Digital Support,Retail,Branch Visit,2025-06-10,Account Closure,Pending,Dissatisfied,5,Personal Loan,Yes,1,High Risk,No,No,Verified,2954684.55
+CRM00159,CUST00140,Sneha Iyer,Premium,Email,2026-01-11,Loan Query,Escalated,Satisfied,0,Credit Card,No,0,Low Risk,Yes,No,Updated,2324030.26
+CRM00160,CUST00122,Digital Support,Retail,Relationship Manager,2025-06-02,Service Request,In Progress,Neutral,1,Investment Product,Yes,1,Low Risk,Yes,No,Verified,4503588.48
+CRM00161,CUST00141,Digital Support,Retail,Internet Banking,2025-09-03,Service Request,In Progress,Satisfied,4,Investment Product,Yes,2,Low Risk,Yes,No,Verified,4617207.21
+CRM00162,CUST00096,Rohit Sharma,HNI,Call Center,2025-07-24,KYC Update,Escalated,Satisfied,3,Investment Product,No,0,Medium Risk,No,No,Updated,1428151.35
+CRM00163,CUST00039,Priya Nair,Premium,Internet Banking,2026-03-23,Account Closure,Escalated,Satisfied,5,Personal Loan,Yes,2,High Risk,No,No,Updated,1889596.44
+CRM00164,CUST00184,Priya Nair,Premium,Email,2026-04-07,Account Closure,In Progress,Dissatisfied,1,Insurance,No,0,High Risk,Yes,Yes,Pending,3061711.33
+CRM00165,CUST00192,Amit Verma,HNI,Internet Banking,2025-10-14,Account Closure,Pending,Satisfied,0,Credit Card,Yes,1,High Risk,No,Yes,Updated,4420847.85
+CRM00166,CUST00050,Amit Verma,HNI,Mobile App,2026-01-31,Service Request,Pending,Satisfied,3,Investment Product,No,0,Medium Risk,Yes,No,Verified,1492944.39
+CRM00167,CUST00101,Neha Kapoor,HNI,Branch Visit,2025-07-20,Loan Query,Pending,Satisfied,5,Personal Loan,Yes,1,Medium Risk,Yes,No,Verified,1726261.06
+CRM00168,CUST00170,Amit Verma,HNI,Email,2026-02-16,Loan Query,Escalated,Satisfied,4,Credit Card,Yes,3,High Risk,Yes,No,Verified,3738887.21
+CRM00169,CUST00055,Sneha Iyer,Premium,Branch Visit,2026-03-07,Transaction Issue,In Progress,Satisfied,1,Home Loan,Yes,1,Medium Risk,No,No,Verified,969654.0
+CRM00170,CUST00101,Rohit Sharma,HNI,Branch Visit,2025-06-01,KYC Update,Resolved,Neutral,3,Insurance,Yes,1,Medium Risk,Yes,No,Verified,4579138.77
+CRM00171,CUST00174,Rohit Sharma,HNI,Mobile App,2025-08-15,Account Closure,Escalated,Neutral,5,Investment Product,No,0,Medium Risk,No,No,Pending,1032352.34
+CRM00172,CUST00025,Sneha Iyer,Premium,Internet Banking,2026-02-14,Transaction Issue,Escalated,Neutral,5,Credit Card,Yes,1,High Risk,No,No,Updated,3774334.44
+CRM00173,CUST00101,Neha Kapoor,HNI,Relationship Manager,2026-04-24,Transaction Issue,Pending,Satisfied,4,Personal Loan,Yes,1,Medium Risk,Yes,No,Verified,4671603.07
+CRM00174,CUST00078,Amit Verma,HNI,Relationship Manager,2025-08-06,Account Closure,Resolved,Satisfied,4,Insurance,Yes,2,Medium Risk,No,No,Updated,3281609.3
+CRM00175,CUST00064,Support Pool,Retail,Relationship Manager,2025-06-04,Account Closure,Escalated,Neutral,4,Personal Loan,Yes,2,High Risk,Yes,Yes,Verified,2048403.91
+CRM00176,CUST00158,Neha Kapoor,HNI,Email,2026-04-03,Account Closure,In Progress,Neutral,2,Personal Loan,Yes,2,High Risk,Yes,No,Pending,2295611.72
+CRM00177,CUST00029,Sneha Iyer,Premium,Internet Banking,2026-05-07,Card Block,Escalated,Dissatisfied,3,Investment Product,Yes,1,Low Risk,Yes,No,Updated,2599990.18
+CRM00178,CUST00020,Sneha Iyer,Premium,Email,2026-01-04,Loan Query,Resolved,Satisfied,1,Insurance,Yes,1,Medium Risk,No,No,Verified,4881202.37
+CRM00179,CUST00194,Digital Support,Retail,Branch Visit,2025-12-23,KYC Update,Pending,Dissatisfied,5,Personal Loan,Yes,1,Medium Risk,No,No,Pending,1033818.11
+CRM00180,CUST00041,Support Pool,Retail,Email,2025-09-16,Account Closure,Escalated,Satisfied,2,Credit Card,No,0,High Risk,No,No,Verified,3475413.59
+CRM00181,CUST00007,Digital Support,Retail,Internet Banking,2025-10-15,Transaction Issue,In Progress,Dissatisfied,2,Personal Loan,No,0,Medium Risk,No,No,Updated,1217063.69
+CRM00182,CUST00027,Support Pool,Retail,Mobile App,2025-05-25,Account Closure,In Progress,Neutral,5,,Yes,2,Medium Risk,Yes,Yes,Pending,382244.15
+CRM00183,CUST00012,Amit Verma,HNI,Branch Visit,2025-12-30,Account Closure,Escalated,Neutral,3,Insurance,Yes,1,Medium Risk,No,Yes,Pending,679568.5
+CRM00184,CUST00147,Sneha Iyer,Premium,Mobile App,2025-08-30,Account Closure,Escalated,Dissatisfied,3,Investment Product,No,0,Medium Risk,No,Yes,Verified,3567700.4
+CRM00185,CUST00099,Amit Verma,HNI,Email,2025-06-03,Account Closure,Escalated,Neutral,5,Insurance,Yes,1,Medium Risk,Yes,Yes,Updated,3555112.44
+CRM00186,CUST00020,Sneha Iyer,Premium,Branch Visit,2026-03-25,Service Request,Resolved,Neutral,4,Personal Loan,Yes,1,Medium Risk,No,No,Verified,3310380.01
+CRM00187,CUST00127,Digital Support,Retail,Relationship Manager,2025-09-15,KYC Update,In Progress,Dissatisfied,1,Credit Card,Yes,2,High Risk,Yes,No,Updated,4963049.95
+CRM00188,CUST00075,Amit Verma,HNI,Call Center,2025-05-31,KYC Update,In Progress,Neutral,1,Home Loan,Yes,1,Medium Risk,No,Yes,Updated,1655385.47
+CRM00189,CUST00119,Kunal Mehta,Premium,Mobile App,2026-04-30,Account Closure,Escalated,Neutral,0,Credit Card,No,0,High Risk,Yes,Yes,Updated,2276344.55
+CRM00190,CUST00167,Digital Support,Retail,Mobile App,2026-04-15,Transaction Issue,In Progress,Satisfied,2,Home Loan,Yes,1,Low Risk,Yes,Yes,Pending,2860937.02
+CRM00191,CUST00054,Support Pool,Retail,Call Center,2025-05-23,Service Request,Pending,Dissatisfied,5,,No,0,Medium Risk,Yes,Yes,Updated,3175577.06
+CRM00192,CUST00014,Digital Support,Retail,Email,2025-11-29,Transaction Issue,Pending,Dissatisfied,1,Credit Card,Yes,1,Medium Risk,No,Yes,Pending,2133790.66
+CRM00193,CUST00173,Amit Verma,HNI,Call Center,2025-11-30,KYC Update,Resolved,Satisfied,3,Personal Loan,Yes,2,Medium Risk,Yes,No,Verified,446074.38
+CRM00194,CUST00056,Priya Nair,Premium,Mobile App,2025-09-17,Account Closure,In Progress,Dissatisfied,0,Home Loan,Yes,1,High Risk,No,No,Pending,2716051.66
+CRM00195,CUST00064,Digital Support,Retail,Internet Banking,2026-04-03,Card Block,In Progress,Neutral,1,Personal Loan,Yes,2,High Risk,Yes,Yes,Verified,347036.3
+CRM00196,CUST00075,Rohit Sharma,HNI,Call Center,2025-09-08,Fraud Concern,Pending,Dissatisfied,5,Insurance,Yes,1,Medium Risk,No,Yes,Updated,3869838.71
+CRM00197,CUST00057,Neha Kapoor,HNI,Internet Banking,2025-10-16,Account Closure,Escalated,Satisfied,5,Home Loan,Yes,1,Medium Risk,No,No,Pending,1911059.08
+CRM00198,CUST00034,Support Pool,Retail,Mobile App,2025-06-21,Loan Query,In Progress,Neutral,0,Home Loan,Yes,1,High Risk,No,No,Verified,1236803.52
+CRM00199,CUST00088,Amit Verma,HNI,Call Center,2026-02-27,Fraud Concern,In Progress,Neutral,3,,Yes,1,Medium Risk,Yes,No,Pending,2068173.98
+CRM00200,CUST00193,Neha Kapoor,HNI,Email,2026-02-11,Loan Query,Pending,Satisfied,5,Personal Loan,Yes,2,High Risk,No,Yes,Verified,1543000.5
+CRM00201,CUST00089,Sneha Iyer,Premium,Relationship Manager,2025-10-15,Card Block,Resolved,Neutral,5,Home Loan,No,0,Medium Risk,No,Yes,Verified,3476253.62
+CRM00202,CUST00089,Kunal Mehta,Premium,Internet Banking,2026-04-04,Card Block,Escalated,Neutral,4,Credit Card,No,0,Medium Risk,No,Yes,Verified,3930283.29
+CRM00203,CUST00195,Rohit Sharma,HNI,Relationship Manager,2025-09-30,Account Closure,Escalated,Satisfied,1,,Yes,1,High Risk,Yes,Yes,Updated,3024542.62
+CRM00204,CUST00118,Neha Kapoor,HNI,Internet Banking,2025-07-22,Account Closure,Escalated,Dissatisfied,1,Insurance,No,0,Medium Risk,Yes,No,Updated,2451590.28
+CRM00205,CUST00077,Kunal Mehta,Premium,Mobile App,2026-01-18,Transaction Issue,In Progress,Dissatisfied,3,Home Loan,No,0,Medium Risk,Yes,Yes,Updated,4259041.5
+CRM00206,CUST00063,Amit Verma,HNI,Relationship Manager,2026-01-19,Card Block,Pending,Neutral,0,Credit Card,Yes,1,Medium Risk,No,Yes,Verified,299114.81
+CRM00207,CUST00159,Rohit Sharma,HNI,Branch Visit,2026-04-01,KYC Update,Escalated,Dissatisfied,3,,No,0,Medium Risk,No,Yes,Verified,2133651.76
+CRM00208,CUST00043,Rohit Sharma,HNI,Branch Visit,2025-05-16,Card Block,Resolved,Satisfied,5,Home Loan,No,0,Medium Risk,Yes,Yes,Updated,4024519.16
+CRM00209,CUST00156,Support Pool,Retail,Internet Banking,2025-12-14,KYC Update,Escalated,Neutral,1,Investment Product,Yes,1,High Risk,Yes,No,Updated,146877.19
+CRM00210,CUST00121,Kunal Mehta,Premium,Call Center,2025-12-15,Transaction Issue,Pending,Satisfied,2,Insurance,No,0,Low Risk,Yes,Yes,Updated,2292124.23
+CRM00211,CUST00047,Amit Verma,HNI,Email,2026-02-06,Loan Query,In Progress,Dissatisfied,1,Credit Card,No,0,Low Risk,No,No,Pending,1751097.58
+CRM00212,CUST00032,Amit Verma,HNI,Call Center,2026-04-12,Loan Query,In Progress,Satisfied,0,,Yes,1,Medium Risk,Yes,No,Updated,4783791.27
+CRM00213,CUST00188,Amit Verma,HNI,Mobile App,2026-01-16,Card Block,Resolved,Satisfied,0,Home Loan,Yes,1,Medium Risk,No,Yes,Pending,105915.22
+CRM00214,CUST00016,Priya Nair,Premium,Email,2026-03-07,Card Block,In Progress,Neutral,5,Insurance,Yes,2,Medium Risk,No,Yes,Updated,2077662.01
+CRM00215,CUST00175,Priya Nair,Premium,Internet Banking,2026-04-21,Card Block,Resolved,Neutral,2,Home Loan,No,0,Low Risk,Yes,Yes,Pending,4398356.0
+CRM00216,CUST00154,Kunal Mehta,Premium,Call Center,2025-08-08,Loan Query,In Progress,Satisfied,5,Credit Card,Yes,1,Medium Risk,No,Yes,Verified,3597706.12
+CRM00217,CUST00113,Kunal Mehta,Premium,Call Center,2025-09-06,KYC Update,In Progress,Satisfied,2,Personal Loan,No,0,Medium Risk,No,No,Updated,52898.42
+CRM00218,CUST00068,Sneha Iyer,Premium,Branch Visit,2025-06-06,Service Request,Pending,Dissatisfied,5,Credit Card,No,0,High Risk,Yes,No,Updated,3802625.15
+CRM00219,CUST00139,Kunal Mehta,Premium,Internet Banking,2025-11-23,KYC Update,Resolved,Dissatisfied,1,Credit Card,No,0,Low Risk,No,No,Pending,3022898.8
+CRM00220,CUST00002,Sneha Iyer,Premium,Internet Banking,2025-09-28,Transaction Issue,Escalated,Dissatisfied,4,Personal Loan,Yes,2,High Risk,Yes,No,Verified,2021391.89
+CRM00221,CUST00137,Priya Nair,Premium,Call Center,2026-02-17,Account Closure,Resolved,Satisfied,1,Personal Loan,No,0,Low Risk,Yes,Yes,Verified,53149.25
+CRM00222,CUST00093,Rohit Sharma,HNI,Email,2026-05-13,Loan Query,In Progress,Satisfied,2,Investment Product,No,0,High Risk,No,No,Pending,4677131.17
+CRM00223,CUST00097,Neha Kapoor,HNI,Relationship Manager,2026-02-03,Account Closure,Pending,Dissatisfied,3,Insurance,No,0,Low Risk,Yes,Yes,Pending,938187.97
+CRM00224,CUST00163,Neha Kapoor,HNI,Relationship Manager,2025-11-04,Account Closure,Pending,Satisfied,4,Insurance,No,0,Low Risk,No,Yes,Verified,4764318.35
+CRM00225,CUST00018,Amit Verma,HNI,Email,2025-09-15,Card Block,In Progress,Dissatisfied,0,,Yes,1,Medium Risk,Yes,Yes,Pending,1248381.78
+CRM00226,CUST00124,Support Pool,Retail,Branch Visit,2026-02-16,Fraud Concern,Resolved,Neutral,3,Insurance,No,0,Medium Risk,Yes,No,Updated,634952.82
+CRM00227,CUST00197,Neha Kapoor,HNI,Branch Visit,2025-05-15,Account Closure,Pending,Satisfied,5,,No,0,Medium Risk,Yes,No,Updated,2890266.96
+CRM00228,CUST00118,Neha Kapoor,HNI,Branch Visit,2025-11-11,Loan Query,Pending,Dissatisfied,3,Investment Product,No,0,Medium Risk,Yes,No,Updated,1897807.53
+CRM00229,CUST00143,Kunal Mehta,Premium,Branch Visit,2026-03-21,KYC Update,Resolved,Neutral,3,Credit Card,Yes,1,Low Risk,No,Yes,Updated,3440763.15
+CRM00230,CUST00027,Support Pool,Retail,Email,2025-06-14,Fraud Concern,In Progress,Dissatisfied,2,Investment Product,Yes,2,Medium Risk,Yes,Yes,Pending,2938651.88
+CRM00231,CUST00098,Neha Kapoor,HNI,Mobile App,2026-01-13,Account Closure,Resolved,Neutral,2,,Yes,1,Medium Risk,Yes,No,Verified,4911963.29
+CRM00232,CUST00177,Rohit Sharma,HNI,Mobile App,2025-11-21,KYC Update,Resolved,Dissatisfied,1,Home Loan,No,0,High Risk,Yes,No,Pending,2007016.47
+CRM00233,CUST00184,Sneha Iyer,Premium,Mobile App,2025-10-13,KYC Update,In Progress,Satisfied,2,,No,0,High Risk,Yes,Yes,Pending,3835080.7
+CRM00234,CUST00017,Neha Kapoor,HNI,Relationship Manager,2025-10-23,Account Closure,In Progress,Neutral,4,Personal Loan,Yes,2,High Risk,Yes,Yes,Verified,1174371.78
+CRM00235,CUST00048,Support Pool,Retail,Internet Banking,2026-04-14,Card Block,Escalated,Neutral,2,Home Loan,No,0,Medium Risk,Yes,No,Pending,4603801.87
+CRM00236,CUST00121,Sneha Iyer,Premium,Email,2025-05-17,Account Closure,In Progress,Neutral,1,,No,0,Low Risk,Yes,Yes,Updated,4418287.76
+CRM00237,CUST00152,Neha Kapoor,HNI,Branch Visit,2025-09-11,Fraud Concern,Escalated,Neutral,4,Credit Card,No,0,Medium Risk,No,No,Updated,1043371.36
+CRM00238,CUST00132,Kunal Mehta,Premium,Email,2025-07-15,Service Request,Resolved,Satisfied,3,,Yes,1,High Risk,No,No,Updated,4889187.03
+CRM00239,CUST00156,Support Pool,Retail,Call Center,2025-07-29,Loan Query,Pending,Neutral,3,Investment Product,Yes,1,High Risk,Yes,No,Updated,271827.1
+CRM00240,CUST00066,Neha Kapoor,HNI,Relationship Manager,2025-06-23,Card Block,Escalated,Dissatisfied,1,,Yes,2,Low Risk,No,Yes,Pending,1544092.24
+CRM00241,CUST00014,Digital Support,Retail,Call Center,2026-02-04,Transaction Issue,Escalated,Neutral,4,Personal Loan,Yes,1,Medium Risk,No,Yes,Pending,3289220.24
+CRM00242,CUST00198,Rohit Sharma,HNI,Internet Banking,2026-01-27,Account Closure,Escalated,Neutral,4,Home Loan,Yes,1,High Risk,Yes,Yes,Verified,2956919.33
+CRM00243,CUST00027,Support Pool,Retail,Branch Visit,2025-06-22,KYC Update,Resolved,Dissatisfied,4,Credit Card,Yes,2,Medium Risk,Yes,Yes,Pending,3128552.03
+CRM00244,CUST00187,Support Pool,Retail,Relationship Manager,2025-08-30,Service Request,Resolved,Dissatisfied,1,Home Loan,Yes,1,Medium Risk,No,No,Verified,4759211.79
+CRM00245,CUST00055,Sneha Iyer,Premium,Relationship Manager,2025-09-13,Card Block,Escalated,Dissatisfied,1,Personal Loan,Yes,1,Medium Risk,No,No,Verified,1209785.95
+CRM00246,CUST00166,Amit Verma,HNI,Internet Banking,2025-08-20,Loan Query,In Progress,Satisfied,3,Insurance,Yes,1,Medium Risk,Yes,Yes,Pending,1352001.82
+CRM00247,CUST00095,Amit Verma,HNI,Mobile App,2025-08-10,Transaction Issue,Escalated,Neutral,1,Credit Card,Yes,1,High Risk,No,Yes,Updated,1814743.34
+CRM00248,CUST00109,Support Pool,Retail,Call Center,2025-10-05,Account Closure,Resolved,Neutral,1,,Yes,1,Medium Risk,No,No,Pending,2074945.3
+CRM00249,CUST00184,Kunal Mehta,Premium,Internet Banking,2026-03-19,Loan Query,Resolved,Dissatisfied,0,,No,0,High Risk,Yes,Yes,Pending,505971.63
+CRM00250,CUST00010,Amit Verma,HNI,Mobile App,2026-04-30,Fraud Concern,Pending,Satisfied,1,Credit Card,No,0,Medium Risk,Yes,Yes,Updated,4078380.36
+CRM00251,CUST00165,Neha Kapoor,HNI,Internet Banking,2025-11-24,Card Block,Pending,Dissatisfied,0,,Yes,1,Low Risk,Yes,No,Updated,3974078.01
+CRM00252,CUST00128,Rohit Sharma,HNI,Mobile App,2025-10-25,Service Request,In Progress,Dissatisfied,5,Insurance,No,0,Medium Risk,No,Yes,Updated,4397349.04
+CRM00253,CUST00028,Rohit Sharma,HNI,Internet Banking,2025-12-03,Card Block,In Progress,Satisfied,4,Personal Loan,No,0,High Risk,No,No,Updated,665446.29
+CRM00254,CUST00055,Priya Nair,Premium,Branch Visit,2025-05-14,Account Closure,Escalated,Dissatisfied,2,,Yes,1,Medium Risk,No,No,Verified,4671946.34
+CRM00255,CUST00068,Sneha Iyer,Premium,Relationship Manager,2025-09-22,Card Block,Pending,Neutral,5,Insurance,No,0,Low Risk,Yes,No,Updated,4802799.0
+CRM00256,CUST00031,Sneha Iyer,Premium,Call Center,2025-07-07,Account Closure,Resolved,Satisfied,5,Insurance,No,0,Low Risk,No,No,Verified,148432.63
+CRM00257,CUST00116,Priya Nair,Premium,Call Center,2026-02-02,Fraud Concern,Pending,Satisfied,1,Insurance,Yes,2,Medium Risk,Yes,No,Pending,1622893.14
+CRM00258,CUST00165,Rohit Sharma,HNI,Email,2025-12-20,Transaction Issue,Pending,Dissatisfied,3,Home Loan,Yes,1,Low Risk,Yes,No,Updated,4187053.31
+CRM00259,CUST00199,Rohit Sharma,HNI,Email,2025-05-23,Loan Query,Resolved,Satisfied,2,Insurance,Yes,1,Medium Risk,No,Yes,Pending,643230.19
+CRM00260,CUST00130,Digital Support,Retail,Internet Banking,2025-09-09,Transaction Issue,Pending,Dissatisfied,1,Home Loan,Yes,1,Medium Risk,No,Yes,Verified,3037925.5
+CRM00261,CUST00075,Neha Kapoor,HNI,Call Center,2025-08-19,Service Request,Resolved,Satisfied,2,Insurance,Yes,1,Medium Risk,No,Yes,Updated,4598093.9
+CRM00262,CUST00087,Neha Kapoor,HNI,Branch Visit,2025-07-14,Loan Query,Pending,Satisfied,0,Investment Product,No,0,High Risk,No,Yes,Pending,3859088.97
+CRM00263,CUST00059,Digital Support,Retail,Branch Visit,2026-03-15,Transaction Issue,Resolved,Satisfied,5,Credit Card,No,0,Low Risk,No,Yes,Pending,4056453.19
+CRM00264,CUST00094,Amit Verma,HNI,Call Center,2026-02-09,KYC Update,Escalated,Dissatisfied,3,Insurance,Yes,1,Low Risk,Yes,No,Verified,3676077.68
+CRM00265,CUST00137,Priya Nair,Premium,Mobile App,2026-03-29,Card Block,Resolved,Neutral,2,Investment Product,No,0,Low Risk,Yes,Yes,Verified,2597711.31
+CRM00266,CUST00100,Digital Support,Retail,Email,2025-12-26,Card Block,Pending,Neutral,0,Personal Loan,Yes,1,Medium Risk,Yes,Yes,Pending,283693.05
+CRM00267,CUST00126,Support Pool,Retail,Call Center,2025-08-15,Loan Query,In Progress,Neutral,1,Personal Loan,No,0,Medium Risk,No,No,Updated,4895593.12
+CRM00268,CUST00020,Kunal Mehta,Premium,Call Center,2026-01-08,Transaction Issue,In Progress,Dissatisfied,5,Credit Card,Yes,1,Medium Risk,No,No,Verified,3668576.58
+CRM00269,CUST00163,Amit Verma,HNI,Mobile App,2026-05-13,Service Request,Escalated,Satisfied,1,Credit Card,No,0,High Risk,No,Yes,Verified,1937478.62
+CRM00270,CUST00054,Support Pool,Retail,Call Center,2025-09-19,Account Closure,Pending,Neutral,4,,No,0,Medium Risk,Yes,Yes,Updated,3044751.25
+CRM00271,CUST00126,Digital Support,Retail,Call Center,2025-12-10,Service Request,Resolved,Neutral,0,Credit Card,No,0,Medium Risk,No,No,Updated,2538540.32
+CRM00272,CUST00080,Priya Nair,Premium,Mobile App,2026-01-29,Transaction Issue,Pending,Satisfied,3,Credit Card,No,0,Low Risk,Yes,Yes,Verified,3422797.15
+CRM00273,CUST00123,Rohit Sharma,HNI,Internet Banking,2025-07-22,Service Request,Escalated,Satisfied,2,Investment Product,No,0,Medium Risk,Yes,Yes,Updated,2111765.28
+CRM00274,CUST00151,Sneha Iyer,Premium,Relationship Manager,2025-06-17,Service Request,Resolved,Neutral,1,Insurance,Yes,1,Low Risk,No,No,Verified,2124278.17
+CRM00275,CUST00165,Amit Verma,HNI,Call Center,2026-01-08,Fraud Concern,In Progress,Neutral,2,Home Loan,Yes,1,Low Risk,Yes,No,Updated,211065.87
+CRM00276,CUST00113,Sneha Iyer,Premium,Relationship Manager,2026-04-15,Account Closure,Resolved,Satisfied,1,Investment Product,No,0,Medium Risk,No,No,Updated,4534467.58
+CRM00277,CUST00147,Priya Nair,Premium,Email,2025-07-02,Loan Query,Escalated,Dissatisfied,0,Home Loan,No,0,Medium Risk,No,Yes,Verified,1528658.85
+CRM00278,CUST00068,Sneha Iyer,Premium,Internet Banking,2025-09-01,Service Request,Escalated,Satisfied,3,Investment Product,No,0,High Risk,Yes,No,Updated,2279279.57
+CRM00279,CUST00144,Support Pool,Retail,Email,2025-12-07,Transaction Issue,Escalated,Dissatisfied,5,Insurance,No,0,High Risk,No,No,Updated,3564350.87
+CRM00280,CUST00073,Kunal Mehta,Premium,Mobile App,2025-05-31,Loan Query,Pending,Neutral,0,Personal Loan,No,0,Medium Risk,No,No,Pending,981662.66
+CRM00281,CUST00195,Neha Kapoor,HNI,Relationship Manager,2025-06-21,KYC Update,Escalated,Satisfied,2,Investment Product,Yes,1,Medium Risk,Yes,Yes,Updated,3812286.86
+CRM00282,CUST00169,Rohit Sharma,HNI,Call Center,2026-04-23,Account Closure,In Progress,Neutral,1,Home Loan,No,0,Medium Risk,Yes,No,Updated,3414190.76
+CRM00283,CUST00147,Sneha Iyer,Premium,Relationship Manager,2025-09-13,Account Closure,In Progress,Neutral,0,Credit Card,No,0,Medium Risk,No,Yes,Verified,3741834.7
+CRM00284,CUST00091,Support Pool,Retail,Call Center,2026-01-02,Card Block,Resolved,Dissatisfied,1,Insurance,Yes,1,Medium Risk,No,Yes,Updated,1091426.11
+CRM00285,CUST00049,Sneha Iyer,Premium,Internet Banking,2026-04-07,KYC Update,Resolved,Neutral,1,Home Loan,No,0,High Risk,Yes,No,Pending,3995337.77
+CRM00286,CUST00099,Neha Kapoor,HNI,Mobile App,2025-09-25,Transaction Issue,Escalated,Dissatisfied,3,Personal Loan,Yes,1,Medium Risk,Yes,Yes,Updated,4179391.66
+CRM00287,CUST00171,Digital Support,Retail,Internet Banking,2026-03-31,KYC Update,Pending,Dissatisfied,3,Home Loan,Yes,1,High Risk,Yes,No,Updated,4123097.01
+CRM00288,CUST00025,Sneha Iyer,Premium,Relationship Manager,2025-07-28,Fraud Concern,Pending,Dissatisfied,3,Investment Product,Yes,1,Medium Risk,No,No,Updated,2251664.72
+CRM00289,CUST00154,Kunal Mehta,Premium,Call Center,2025-07-08,Card Block,Resolved,Neutral,5,Personal Loan,Yes,1,Medium Risk,No,Yes,Verified,2616773.72
+CRM00290,CUST00125,Priya Nair,Premium,Branch Visit,2026-01-25,KYC Update,Escalated,Neutral,4,Personal Loan,No,0,Medium Risk,No,No,Verified,4519846.48
+CRM00291,CUST00173,Neha Kapoor,HNI,Relationship Manager,2025-08-02,Account Closure,Escalated,Satisfied,5,Credit Card,Yes,2,Medium Risk,Yes,No,Verified,647701.12
+CRM00292,CUST00083,Sneha Iyer,Premium,Internet Banking,2025-05-27,Service Request,In Progress,Neutral,4,Personal Loan,Yes,1,Low Risk,No,No,Pending,2104754.49
+CRM00293,CUST00143,Priya Nair,Premium,Mobile App,2026-01-26,Card Block,Pending,Neutral,0,,Yes,1,Medium Risk,No,Yes,Updated,442302.66
+CRM00294,CUST00161,Rohit Sharma,HNI,Call Center,2025-07-10,Transaction Issue,Resolved,Dissatisfied,5,Home Loan,No,0,Low Risk,Yes,No,Updated,81175.47
+CRM00295,CUST00148,Rohit Sharma,HNI,Email,2025-06-21,Fraud Concern,Resolved,Dissatisfied,0,Personal Loan,Yes,1,High Risk,Yes,No,Updated,3257072.73
+CRM00296,CUST00175,Priya Nair,Premium,Internet Banking,2026-02-23,Fraud Concern,Resolved,Dissatisfied,1,Insurance,No,0,Low Risk,Yes,Yes,Pending,4668133.56
+CRM00297,CUST00045,Kunal Mehta,Premium,Mobile App,2025-05-20,KYC Update,Pending,Neutral,5,Insurance,Yes,1,High Risk,No,No,Pending,3541554.43
+CRM00298,CUST00014,Digital Support,Retail,Mobile App,2025-07-02,Service Request,In Progress,Dissatisfied,5,Investment Product,Yes,1,Medium Risk,No,Yes,Pending,554497.8
+CRM00299,CUST00184,Priya Nair,Premium,Branch Visit,2026-01-15,Transaction Issue,Resolved,Satisfied,4,Investment Product,No,0,High Risk,Yes,Yes,Pending,1819815.61
+CRM00300,CUST00164,Priya Nair,Premium,Internet Banking,2025-08-18,KYC Update,Pending,Dissatisfied,0,,Yes,1,High Risk,Yes,No,Updated,4543292.64
