@@ -38,11 +38,6 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
   const [dropHighlight, setDropHighlight] = useState(false);
   const [activeSuggestions, setActiveSuggestions] = useState(suggestedQuestions);
 
-  // API key state — persisted in localStorage
-  const [apiKey, setApiKey] = useState(() => localStorage.getItem(LS_KEY) || '');
-  const [keyInput, setKeyInput] = useState('');
-  const [showKeySetup, setShowKeySetup] = useState(false);
-
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
@@ -72,7 +67,7 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
     setMessages(prev => [...prev, { role: 'user', content: msg }]);
     setLoading(true);
 
-    const key = localStorage.getItem(LS_KEY) || apiKey;
+    const key = "";
 
     try {
       const res = await fetch('/api/chat', {
@@ -100,17 +95,8 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
       setMessages(prev => [...prev, { role: 'assistant', content: `⚠️ Backend Error: ${err.message}` }]);
     }
     setLoading(false);
-  }, [input, messages, context, data, apiKey]);
+  }, [input, messages, context, data]);
 
-  const saveKey = () => {
-    const trimmed = keyInput.trim();
-    if (!trimmed) return;
-    localStorage.setItem(LS_KEY, trimmed);
-    setApiKey(trimmed);
-    setKeyInput('');
-    setShowKeySetup(false);
-    setMessages(prev => [...prev, { role: 'assistant', content: '✅ API key saved! You can now ask me anything about your banking data.' }]);
-  };
 
   const P = {
     bg: theme.bgCard, border: theme.border, text: theme.text,
@@ -159,57 +145,17 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
               <div style={{ fontWeight: 700, fontSize: 13, color: P.text }}>AI Copilot</div>
               <div style={{ fontSize: 10, color: P.muted }}>{context} · Drop any card to analyze</div>
             </div>
-            {/* Key setup button */}
-            <button
-              onClick={() => setShowKeySetup(s => !s)}
-              title={apiKey ? 'API key set ✓ (click to change)' : 'Set API key'}
-              style={{ background: apiKey ? theme.green + '20' : theme.rose + '20', border: `1px solid ${apiKey ? theme.green : theme.rose}40`, borderRadius: 6, padding: '4px 8px', cursor: 'pointer', fontSize: 12 }}>
-              {apiKey ? '🔑✓' : '🔑'}
-            </button>
             {dropHighlight && <span style={{ fontSize: 11, color: theme.green, fontWeight: 600 }}>Drop!</span>}
           </div>
 
-          {/* Key Setup Panel */}
-          {showKeySetup && (
-            <div style={{ padding: 14, background: theme.bgPanel, borderBottom: `1px solid ${P.border}` }}>
-              <div style={{ fontSize: 12, fontWeight: 600, color: P.text, marginBottom: 8 }}>
-                {apiKey ? '🔄 Update Anthropic API Key' : '🔑 Enter Anthropic API Key'}
-              </div>
-              <div style={{ fontSize: 11, color: P.muted, marginBottom: 10 }}>
-                Get your key from <span style={{ color: theme.accent }}>console.anthropic.com</span>. Stored locally in your browser only.
-              </div>
-              <div style={{ display: 'flex', gap: 6 }}>
-                <input
-                  type="password"
-                  value={keyInput}
-                  onChange={e => setKeyInput(e.target.value)}
-                  onKeyDown={e => e.key === 'Enter' && saveKey()}
-                  placeholder="sk-ant-..."
-                  style={{ flex: 1, padding: '7px 10px', borderRadius: 8, border: `1px solid ${P.border}`, background: P.bg, color: P.text, fontSize: 12, outline: 'none' }}
-                />
-                <button onClick={saveKey}
-                  style={{ padding: '7px 14px', borderRadius: 8, background: theme.accent, border: 'none', color: '#fff', cursor: 'pointer', fontSize: 12, fontWeight: 600 }}>
-                  Save
-                </button>
-              </div>
-              {apiKey && (
-                <button onClick={() => { localStorage.removeItem(LS_KEY); setApiKey(''); setShowKeySetup(false); }}
-                  style={{ marginTop: 8, background: 'none', border: 'none', color: theme.rose, fontSize: 11, cursor: 'pointer', padding: 0 }}>
-                  Remove saved key
-                </button>
-              )}
-            </div>
-          )}
 
           {/* Messages */}
           <div style={{ flex: 1, overflowY: 'auto', padding: 12, display: 'flex', flexDirection: 'column', gap: 10 }}>
-            {messages.length === 0 && !showKeySetup && (
+            {messages.length === 0 && (
               <div style={{ textAlign: 'center', padding: '24px 12px' }}>
                 <div style={{ fontSize: 32, marginBottom: 10 }}>🤖</div>
                 <div style={{ fontSize: 12, color: P.muted, lineHeight: 1.6 }}>
-                  {apiKey
-                    ? 'Ask anything about your banking data, or drag any card here for instant analysis.'
-                    : 'Click the 🔑 button above to add your Anthropic API key, then ask anything about your data.'}
+                  Ask anything about your banking data, or drag any card here for instant analysis.
                 </div>
               </div>
             )}
@@ -266,7 +212,7 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
           </div>
 
           {/* Suggested questions */}
-          {activeSuggestions.length > 0 && messages.length < 2 && !showKeySetup && (
+          {activeSuggestions.length > 0 && messages.length < 2 && (
             <div style={{ padding: '0 12px 8px', display: 'flex', flexDirection: 'column', gap: 4 }}>
               {activeSuggestions.slice(0, 3).map(q => (
                 <button key={q} onClick={() => sendMessage(q)}
@@ -285,7 +231,7 @@ export default function AICopilot({ context = 'Dashboard', suggestedQuestions = 
               value={input}
               onChange={e => setInput(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && !e.shiftKey && sendMessage()}
-              placeholder={apiKey ? 'Ask about your data…' : 'Set API key first →'}
+              placeholder="Ask about your data…"
               style={{ flex: 1, padding: '8px 12px', borderRadius: 10, border: `1px solid ${P.border}`, background: P.panel, color: P.text, fontSize: 12, outline: 'none' }}
             />
             <button onClick={() => sendMessage()}

@@ -5,13 +5,10 @@ import pandas as pd
 from pydantic import BaseModel
 from autogen import AssistantAgent, UserProxyAgent, GroupChat, GroupChatManager
 
-# Load environment variable for OpenAI API key
-# Expects OPENAI_API_KEY to be set dynamically
-dummy_key = "sk-dummy-key"
-api_key = os.environ.get("OPENAI_API_KEY", dummy_key)
+from constants import OPENAI_API_KEY
 
 llm_config = {
-    "config_list": [{"model": "gpt-4o", "api_key": api_key}],
+    "config_list": [{"model": "gpt-4o", "api_key": OPENAI_API_KEY}],
     "cache_seed": None, # Disable caching for live data
 }
 
@@ -34,20 +31,16 @@ sql_agent = AssistantAgent(
     name="SQL_Agent",
     system_message='''You are an expert SQL engineer. Your task is to convert natural language into VALID SQL queries for a SQLite database.
 Available Tables:
-- core (Customer_ID, Customer_Name, Account_Type, City, Credit_Score, Available_Balance_INR, ...)
-- demo (Customer_ID, Gender, Age, Occupation, Customer_Segment, Risk_Profile, Annual_Income_INR, ...)
-- loan (Loan_ID, Customer_ID, Loan_Type, Loan_Amount_INR, Interest_Rate, Loan_Status, ...)
-- crm (Customer_ID, Customer_Segment, Customer_Sentiment, Cross_Sell_Opportunity, Estimated_Customer_Lifetime_Value, ...)
-- credit (Customer_ID, Current_CIBIL_Score, Missed_Payments_Last_12M, Fraud_Flag, Risk_Category, Payment_Behavior, ...)
+- customer_360 (Customer_ID, Customer_Name, Account_Type, Available_Balance_INR, Age, Gender, Occupation, Customer_Segment, Annual_Income_INR, Risk_Profile, Customer_Sentiment, Number_Of_Open_Tickets, Cross_Sell_Opportunity, Estimated_Customer_Lifetime_Value, Current_CIBIL_Score, Missed_Payments_Last_12M, Fraud_Flag, Payment_Behavior, Digital_Banking_User, Estimated_Portfolio_Value_INR)
 - txn (Customer_ID, Transaction_Type, Transaction_Channel, Transaction_Amount_INR, Transaction_Date_Time, Fraud_Alert, Operational_Risk_Flag)
-- products (Customer_ID, Product_Name, Product_Balance_INR, Cross_Sell_Eligible)
-- bankdem (Customer_ID, City, Customer_Category, Region, Digital_Banking_User, Estimated_Portfolio_Value_INR)
+- loan (Loan_ID, Customer_ID, Loan_Type, Loan_Amount_INR, Interest_Rate, Loan_Status)
 
 Instructions:
 1. When asked to query data, write the SQL query.
-2. Use the `execute_sql` tool to run the query and get the results.
-3. Return the exact JSON results to the group so the Analytics Agent can interpret them.
-4. ONLY write read-only SELECT queries.
+2. The `customer_360` table contains all merged customer profile data, which is perfect for queries about segments, demographics, risk profiles, etc.
+3. Use the `execute_sql` tool to run the query and get the results.
+4. Return the exact JSON results to the group so the Analytics Agent can interpret them.
+5. ONLY write read-only SELECT queries.
 ''',
     llm_config=llm_config,
 )
@@ -56,9 +49,10 @@ analytics_agent = AssistantAgent(
     name="Analytics_Agent",
     system_message='''You are an expert Business Analyst. 
 You interpret data returned by the SQL_Agent.
-You must provide a clear, concise, and business-focused answer to the user's question.
-If the SQL_Agent returns data, summarize it and highlight key insights or trends.
+You MUST provide a clear, natural language, and business-focused answer to the user's question based on the SQL results.
+Never just return raw data or JSON. Always summarize the findings elegantly in plain English.
 Keep your answer under 100 words unless necessary.
+Always ensure you are the final speaker to provide the answer to the user.
 ''',
     llm_config=llm_config,
 )
@@ -124,9 +118,16 @@ Instructions:
         summary_method="last_msg"
     )
     
-    # We want to extract the final text, and if there is raw SQL data, we could potentially pass it back to UI.
+    # We want to extract the final text which should ideally be from the Analytics_Agent or Risk_Agent
     # The summary from AutoGen is usually the last message content.
     reply = chat_result.summary
+    
+    # If the summary is empty or just contains raw data, fallback to the last actual message that isn't a tool message
+    if not reply or "{" in reply:
+        for msg in reversed(groupchat.messages):
+            if msg.get('role') != 'tool' and msg.get('name') != 'SQL_Agent' and 'content' in msg:
+                reply = msg['content']
+                break
     
     # Attempt to extract any JSON data returned by the tool to pass to the UI
     sql_data = None
